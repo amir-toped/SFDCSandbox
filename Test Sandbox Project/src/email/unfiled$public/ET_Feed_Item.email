@@ -1,0 +1,17 @@
+Banner : {!FeedItem.BannerStyle}
+
+Client Outh : {!FeedItem.ClientOauthLink}
+
+Comment Count : {!FeedItem.CommentCount}
+
+Storage Type : {!FeedItem.StorageType}
+
+Type : {!FeedItem.Type}
+
+Intention : {!FeedItem.Intention}
+
+Revision : {!FeedItem.Revision}
+
+Status : {!FeedItem.Status}
+
+Id : {!FeedItem.Id}

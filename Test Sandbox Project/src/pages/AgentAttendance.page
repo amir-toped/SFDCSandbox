@@ -1,0 +1,56 @@
+<apex:page id="pageId" standardController="User" extensions="AgentAttendance" docType="html-5.0" sidebar="false" showChat="false" showHeader="false">
+    <style>    
+    #map {
+        font-family: Arial;
+        font-size:12px;
+        line-height:normal !important;
+        height:200px;        
+        padding: 20px;
+    }       
+    .roundCornerCss{ 
+        /* outer shadows  (note the rgba is red, green, blue, alpha) */
+        -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+        -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+        
+        /* rounded corners */
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 7px; 
+        border-radius: 7px;
+        
+        /* gradients */
+        background: -webkit-gradient(linear, left top, left bottom, 
+        color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+        background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%); 
+    }   
+    .requiredLoaderBG{
+        background-color: rgb(71,71,71);
+        opacity:0.7;
+        filter:alpha(opacity=70);
+        
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100%;
+        left: 0;
+        position: fixed;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    </style> 
+    <apex:form id="mainFormId">
+        <apex:pageMessages id="msgId"/>
+        <apex:pageBlock id="pgBId" mode="inlineEdit">
+            
+                <!-- apex:commandButton value="Log in" action="{!btnlogin}" reRender="mainFormId,msgId" status="ajaxStatus" onComplete="top.location='/{!idprospect}';"/ -->
+                <apex:commandButton value="Log Out" action="{!btnlogoff}" reRender="mainFormId,msgId" status="ajaxStatus" onComplete="top.location='/{!idprospect}';"/>
+
+                <apex:pageBlockSection columns="1">
+                    <apex:outputTEXT value="Login : {!LoginTime}"/>
+                    <apex:outputText value="Last Logout : {!LogoutTime}"/>
+                </apex:pageBlockSection>
+
+        </apex:pageBlock>
+        <apex:actionstatus startStyleClass="requiredLoaderBG" id="ajaxStatus" />          
+    </apex:form>
+</apex:page>

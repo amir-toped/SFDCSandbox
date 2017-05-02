@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inbox Tokopedia</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inbox Tokopedia</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Inbox Tokopedia --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

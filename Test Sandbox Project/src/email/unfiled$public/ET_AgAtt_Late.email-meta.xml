@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET - AgAtt - Late</name>
+    <style>none</style>
+    <subject>[SFDC] - Attendance Late - {!Agent_Attendance__c.OwnerFullName}</subject>
+    <textOnly>Dear Agent {!Agent_Attendance__c.OwnerFullName}
+
+Your Late to Attendance
+please check
+
+{!Agent_Attendance__c.Link}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

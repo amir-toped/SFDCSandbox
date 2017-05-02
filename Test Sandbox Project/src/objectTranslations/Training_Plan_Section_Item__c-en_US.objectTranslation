@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Training Plan Section Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Training Plan Section Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Duration (minutes) --></label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration (hours) --></label>
+        <name>Duration_hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Learning --></label>
+        <lookupFilter>
+            <errorMessage><!-- Only published learnings can be added to a training plan --></errorMessage>
+            <informationalMessage><!-- NOTE: Only published learnings can be associated to a training plan --></informationalMessage>
+        </lookupFilter>
+        <name>Learning__c</name>
+        <relationshipLabel><!-- Training Plan Section Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Optional --></label>
+        <name>Optional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Plan Section --></label>
+        <name>Training_Plan_Section__c</name>
+        <relationshipLabel><!-- Training Plan Section Items --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Training Plan Section Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Delete_Assignments --></label>
+        <name>Delete_Assignments</name>
+    </webLinks>
+</CustomObjectTranslation>

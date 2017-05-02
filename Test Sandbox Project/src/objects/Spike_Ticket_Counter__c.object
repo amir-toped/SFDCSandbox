@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Category_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Category 1</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Category_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Category 2</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Category_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Category 3</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Composite_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM(BLANKVALUE(Category_1__c,&apos;&apos;) &amp; &apos;-&apos; &amp; BLANKVALUE(Category_2__c,&apos;&apos;) &amp; &apos;-&apos; &amp; BLANKVALUE(Category_3__c,&apos;&apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Composite Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Notified_Last_Hour_Same_Day__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Notified: Last Hour Same Day</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Notified_Same_Hour_Previous_Day__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Notified: Same Hour Previous Day</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Hour_Count__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Last Hour Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Hour_Same_Day_Threshold_Crossed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Last Hour Same Day Threshold Crossed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Same_Hour_Previous_Day_Count__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Same Hour Previous Day Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Same_Hour_Previous_Day_Growth__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISNULL(Same_Hour_Previous_Day_Count__c), Same_Hour_Previous_Day_Count__c == 0), 0, ((NULLVALUE(This_Hour_Count__c, 0) - NULLVALUE(Same_Hour_Previous_Day_Count__c, 0)) / NULLVALUE(Same_Hour_Previous_Day_Count__c, 0))*100)</formula>
+        <label>Same Hour Previous Day Growth</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Same_Hour_Previous_Day_Threshold_Crossed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Same Hour Previous Day Threshold Crossed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>This_Hour_Count__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>This Hour Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>This_Hour_Growth__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISNULL(Last_Hour_Count__c), Last_Hour_Count__c == 0), 0, ((NULLVALUE(This_Hour_Count__c, 0) - NULLVALUE(Last_Hour_Count__c, 0)) / NULLVALUE(Last_Hour_Count__c, 0))*100)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>This Hour Growth</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Spike Ticket Counter</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Category_1__c</columns>
+        <columns>Category_2__c</columns>
+        <columns>Category_3__c</columns>
+        <columns>Composite_Category__c</columns>
+        <columns>Is_Notified_Last_Hour_Same_Day__c</columns>
+        <columns>Is_Notified_Same_Hour_Previous_Day__c</columns>
+        <columns>Last_Hour_Count__c</columns>
+        <columns>Last_Hour_Same_Day_Threshold_Crossed__c</columns>
+        <columns>Same_Hour_Previous_Day_Count__c</columns>
+        <columns>Same_Hour_Previous_Day_Growth__c</columns>
+        <columns>Same_Hour_Previous_Day_Threshold_Crossed__c</columns>
+        <columns>This_Hour_Count__c</columns>
+        <columns>This_Hour_Growth__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>STC-{0000}</displayFormat>
+        <label>Spike Ticket Counter Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Spike Ticket Counters</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

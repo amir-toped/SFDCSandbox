@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <businessHours>Default</businessHours>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <milestoneName>L1 First Response</milestoneName>
+        <minutesToComplete>15</minutesToComplete>
+        <timeTriggers>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Escalated_Status__c</field>
+            <operation>equals</operation>
+            <value>Escalated to L2</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>L2 Investigation</milestoneName>
+        <minutesToComplete>15</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Escalated_Status__c</field>
+            <operation>equals</operation>
+            <value>Escalated to L3</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>L3 Investigation</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneName>Case Closed</milestoneName>
+        <minutesToComplete>360</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>

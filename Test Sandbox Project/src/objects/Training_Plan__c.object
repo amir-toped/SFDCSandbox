@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Background_Color__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>HEX Color code for the header background color (e.g. #dcdcdc, more examples in : http://www.color-hex.com/)</inlineHelpText>
+        <label>Background Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Background_Image_URL__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>URL for the image displayed in the training plan detail header</inlineHelpText>
+        <label>Background Image URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chatter_Notifications_Enabled__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable this option if you don&apos;t want users to receive chatter notifications when they are assigned to this training plan.</inlineHelpText>
+        <label>Chatter Notifications Enabled</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Custom_Notification_Message__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Custom message used for chatter notifications</inlineHelpText>
+        <label>Custom Notification Message</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Self_Registration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this box if you&apos;d like to make this training plan available to all your company and allow users to create assignments on-the-fly.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you&apos;d like to make this training plan available to all your company and allow users to create assignments on-the-fly.</inlineHelpText>
+        <label>Enable Self-Registration</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Enforce_Sequence__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this option to require users to complete the learning activities in the specified order</inlineHelpText>
+        <label>Enforce Sequence</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hide_After_End_Date__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Hide this training plan for end-users if the current date is outside of the Start/End Date range</inlineHelpText>
+        <label>Hide After End Date</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hide_Chatter_Photos__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this option to hide chatter photos for the last users that have acquired the training plan achievement</inlineHelpText>
+        <label>Hide Chatter Photos</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Intro_Video_URL__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>URL for the embedded intro video shown in the training plan detail page</inlineHelpText>
+        <label>Intro Video URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_Until__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Display a New ribbon in the training plan until the specified date</inlineHelpText>
+        <label>New Until</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Optional_Feedback_Comments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this option to make feedback comments not required</inlineHelpText>
+        <label>Optional Feedback Comments</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Self_Registration_Access__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>&quot;Public&quot; or blank allows users to create assignments &quot;on the fly&quot;. &quot;Requires Approval&quot; logs an approval request that is later handled by the Training Plan owner.&quot;External&quot; exposes this training plan to all users.</inlineHelpText>
+        <label>Self-Registration Access</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Enable_Self_Registration__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Public</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>External</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Requires Approval</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Public</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>External</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Requires Approval</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Only Active training plans will be visible to learners, Draft plans will be visible for Learning Admins</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Archived</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Text_Color__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>HEX Color code for the header text color (e.g. #333333, more examples in : http://www.color-hex.com/)</inlineHelpText>
+        <label>Text Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Ratings_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Ratings Count</label>
+        <summaryFilterItems>
+            <field>Training_Plan_Feedback__c.Rating__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Training_Plan_Feedback__c.Training_Plan__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Ratings_Sum__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Ratings Sum</label>
+        <summarizedField>Training_Plan_Feedback__c.Rating__c</summarizedField>
+        <summaryFilterItems>
+            <field>Training_Plan_Feedback__c.Rating__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Training_Plan_Feedback__c.Training_Plan__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Section_Items__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Section Items</label>
+        <summarizedField>Training_Plan_Section__c.Total_Section_Items__c</summarizedField>
+        <summaryForeignKey>Training_Plan_Section__c.Training_Plan__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Training_Plan_Rating__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Total_Ratings_Count__c &gt; 0 , Total_Ratings_Sum__c/Total_Ratings_Count__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Training Plan Rating</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Training_Plan_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Training Plan Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Training Plan</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Training Plan Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Training Plans</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Start_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>End_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <sharingReasons>
+        <fullName>LMS_Sharing__c</fullName>
+        <label>LMS Sharing</label>
+    </sharingReasons>
+    <validationRules>
+        <fullName>Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>Start_Date__c &gt;  End_Date__c</errorConditionFormula>
+        <errorMessage>Start Date cannot be greater than End Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Empty_Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>(!ISBLANK(Start_Date__c) &amp;&amp; ISBLANK(End_Date__c)) || (ISBLANK(Start_Date__c) &amp;&amp; !ISBLANK(End_Date__c))</errorConditionFormula>
+        <errorMessage>You must set a value for Start and End date or leave both empty</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Export_Training_Plan</fullName>
+        <availability>online</availability>
+        <description>Display VF page for exporting a training plan</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Export</masterLabel>
+        <openType>noSidebar</openType>
+        <page>TrainingPlanExport</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Manage_Achievements</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Manage Achievements</masterLabel>
+        <openType>noSidebar</openType>
+        <page>TrainingPlanAchievementManagement</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Manage_Assignments</fullName>
+        <availability>online</availability>
+        <description>Display VF page for managing training plan assigments</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Manage Assignments</masterLabel>
+        <openType>noSidebar</openType>
+        <page>TrainingPlanAssignment</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

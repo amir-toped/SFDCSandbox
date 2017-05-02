@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agent Achievement Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agent Achievement Detail</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent Achievement --></label>
+        <name>Agent_Achievement__c</name>
+        <relationshipLabel><!-- Agent Achievement Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agent Scheduling --></label>
+        <name>Agent_Scheduling__c</name>
+        <relationshipLabel><!-- Agent Achievement Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attendance_Late --></label>
+        <name>Attendance_Late__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attendance UL --></label>
+        <name>Attendance_UL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Chat --></label>
+        <name>Case_Chat__c</name>
+        <relationshipLabel><!-- Agent Achievement Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Productivity_Count --></label>
+        <name>Productivity_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Data --></label>
+        <name>Type_Data__c</name>
+        <picklistValues>
+            <masterLabel>Attendance</masterLabel>
+            <translation><!-- Attendance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSAT</masterLabel>
+            <translation><!-- CSAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold Time</masterLabel>
+            <translation><!-- Hold Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Productivity</masterLabel>
+            <translation><!-- Productivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Score</masterLabel>
+            <translation><!-- QA Score --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved Time</masterLabel>
+            <translation><!-- Resolved Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Time</masterLabel>
+            <translation><!-- Response Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Score</masterLabel>
+            <translation><!-- Training Score --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

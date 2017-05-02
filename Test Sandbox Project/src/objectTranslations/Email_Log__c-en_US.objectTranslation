@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Email Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Email Log</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Email Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- All Message2 --></label>
+        <name>All_Message2__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Message3 --></label>
+        <name>All_Message3__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Message --></label>
+        <name>All_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Email Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Email Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready To Send --></label>
+        <name>Ready_To_Send__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send</masterLabel>
+            <translation><!-- Send --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Survey Question --></label>
+        <name>Survey_Question__c</name>
+        <relationshipLabel><!-- Email Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>Survey__c</name>
+        <relationshipLabel><!-- Email Log --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

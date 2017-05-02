@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Invoices</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice No --></label>
+        <name>Invoice_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Status --></label>
+        <name>Invoice_Status__c</name>
+        <picklistValues>
+            <masterLabel>Dalam Pengiriman</masterLabel>
+            <translation><!-- Dalam Pengiriman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dalam Proses</masterLabel>
+            <translation><!-- Dalam Proses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Konfirmasi Pembayaran</masterLabel>
+            <translation><!-- Konfirmasi Pembayaran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaksi Dibatalkan</masterLabel>
+            <translation><!-- Transaksi Dibatalkan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaksi Selesai</masterLabel>
+            <translation><!-- Transaksi Selesai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaksi Terkirim</masterLabel>
+            <translation><!-- Transaksi Terkirim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verifikasi Pembayaran</masterLabel>
+            <translation><!-- Verifikasi Pembayaran --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment ID --></label>
+        <name>Payment_ID__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Progress --></label>
+        <name>Progress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Order --></label>
+        <name>Total_Order__c</name>
+    </fields>
+    <layouts>
+        <layout>Invoice Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

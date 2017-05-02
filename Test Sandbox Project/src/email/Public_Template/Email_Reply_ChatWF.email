@@ -1,0 +1,11 @@
+<div style="color: rgb(181, 181, 181);">##- Tolong balas pesan diatas baris ini -##</div><p></p><p><img alt="Tokopedia" dfsrc="https://ecs1.tokopedia.net/img/microsite/logo-microsite.png" src="https://ecs1.tokopedia.net/img/microsite/logo-microsite.png" saveddisplaymode=""></p>
+<div class="m_5183442081873062116zd-comment" style="color: rgb(43, 46, 47); font-family: &quot;lucida sans unicode&quot;, &quot;lucida grande&quot;, tahoma, verdana, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0px;">
+
+<p>{!Case_Chat__c.Messages2__c}</p>
+<!--
+<div class="m_5183442081873062116signature"><p style="color: rgb(43, 46, 47); font-family: &quot;lucida sans unicode&quot;, &quot;lucida grande&quot;, tahoma, verdana, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0px;" dir="auto">Salam,<br>Customer Care<br><span class="Object" role="link" id="OBJ_PREFIX_DWT60_com_zimbra_url"><a href="http://www.tokopedia.com" rel="noreferrer" target="_blank">www.tokopedia.com</a></span></p></div></div>-->
+{!$Label.Signature}
+<br/>
+<hr/>
+<br/><br/>
+{!Case_Chat__c.Previous_Message__c}

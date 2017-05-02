@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agent Shift</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agent Shifts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Add Day --></label>
+        <name>Add_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Date --></label>
+        <name>Document_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Hour --></label>
+        <name>End_Hour__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Logout --></label>
+        <name>End_Logout__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Minute --></label>
+        <name>End_Minute__c</name>
+    </fields>
+    <fields>
+        <help><!-- if Checked then H+1 --></help>
+        <label><!-- End Next Day --></label>
+        <name>End_Next_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ext Id --></label>
+        <name>Ext_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Login --></label>
+        <name>Last_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Hour --></label>
+        <name>Start_Hour__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Login --></label>
+        <name>Start_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Minute --></label>
+        <name>Start_Minute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Shift --></label>
+        <name>Type_Shift__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Agent Shift Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- End Time --></label>
+            <section>End Time</section>
+        </sections>
+        <sections>
+            <label><!-- Login Time --></label>
+            <section>Login Time</section>
+        </sections>
+        <sections>
+            <label><!-- Start Time --></label>
+            <section>Start Time</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- &quot;End Hour&quot; Must Greater than &quot;Start Hour&quot;.
+or Check &quot;End Next Day&quot; --></errorMessage>
+        <name>End_Hour_Must_Greater_than_Start_Hour</name>
+    </validationRules>
+</CustomObjectTranslation>

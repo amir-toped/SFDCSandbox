@@ -1,0 +1,453 @@
+<apex:page controller="scss.SocialLookUpSetupCtr" showHeader="true" standardStylesheets="false" sidebar="false" applyHtmlTag="true" applyBodyTag="false" docType="html-5.0">
+
+<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<head>
+	<title>Setup Page for SCS - Social Lookup Component</title>
+	<apex:stylesheet value="{!URLFOR($Resource.scss__SCS_SocialLookUp, 'SLDS103/assets/styles/salesforce-lightning-design-system-vf.css')}" />
+	<apex:stylesheet value="{!URLFOR($Resource.scss__SCS_SocialLookUp, 'css/jquery-ui.1.11.4.css')}" />
+	<style>
+		.ui-datepicker-current.ui-state-default.ui-priority-secondary{
+			opacity: 1 !important;
+			font-weight: bold !important;
+		}
+
+		.slds .slds-wizard__progress{
+			z-index: 0 !important;
+		}
+	</style>
+	<script id="tplSPWizard" type="text/x-jsrender">
+	{{if completed}}
+		<li class="slds-wizard__item  slds-is-active">
+	{{else}}
+		<li class="slds-wizard__item">
+	{{/if}}
+		<span class="slds-wizard__marker"></span>
+		<span class="slds-wizard__label  slds-wrap">
+			<p class="slds-text-heading--label">
+				{{:label}}
+			</p>
+			<div class="slds-comment__content slds-text-body--small slds-m-horizontal--large">
+				<p>{{:detail}}</p>
+			</div>
+		</span>
+	</li>
+	</script>
+
+	<script id="tplSPStats" type="text/x-jsrender">
+	<tr class="slds-hint-parent">
+		<td class="slds-size--1-of-4" data-label="Provider">
+			<span class="providerWrp">{{:provider}}</span
+		</td>
+		<td class="slds-size--1-of-4" data-label="MessageType">
+			<span class="messageTypeWrp">{{:messageType}}</span
+		</td>
+		<td class="slds-size--1-of-4" data-label="TotalRecords">
+			<span class="totalRecordsWrp">{{:totalPosts}}</span
+		</td>
+		<td class="slds-size--1-of-4" data-label="TotalProcessed">
+			<span class="totalProcessedWrp">
+
+				{{if messageType =='Comment' || messageType =='Reply' }}
+					{{if  totalPosts > totalUpdated }}
+					 	{{:totalNotUpdated}} records not updated
+						{{else}}
+						All processed correctly
+					{{/if}}
+				{{else}}
+					{{if  totalUpdated > 0}}
+						{{:totalUpdated}} records incorrectly updated
+					{{else}}
+						All processed correctly
+					{{/if}}
+				{{/if}}
+			</span>
+		</td>
+
+	</tr>
+	<tr class="slds-hint-parent"></tr>
+	</script>
+
+	<script id=	"tplSPLogs" type="text/x-jsrender">
+	<tr class="slds-text-body--small">
+		<th  scope="col">
+			<div class="slds-truncate">{{:~formatDateTime({!$ObjectType.Root_Post_Generation_Log__c.fields.Date_Started__c.Name})}}</div>
+		</th>
+		<th  scope="col">
+			<div class="slds-truncate">
+				{{if {!$ObjectType.Root_Post_Generation_Log__c.fields.Date_Completed__c.Name} != undefined}} {{:~formatDateTime({!$ObjectType.Root_Post_Generation_Log__c.fields.Date_Completed__c.Name})}}{{/if}}
+			</div>
+		</th>
+		<th  scope="col">
+			<div class="slds-truncate">{{:~formatDate({!$ObjectType.Root_Post_Generation_Log__c.fields.Process_Posts_Since__c.Name})}}</div>
+		</th>
+		<th  scope="col">
+			<div class="slds-truncate">{{:{!$ObjectType.Root_Post_Generation_Log__c.fields.Progress_Status__c.Name}}}</div>
+		</th>
+		<th scope="col">
+			<div class="slds-truncate"><a href="/{{:OwnerId}}" target="_blank">{{:Owner.Name}}</a></div>
+		</th>
+
+		<th scope="col">
+			<div class="slds-truncate">
+			<a href="/{{:Id}}" target="_blank">
+				<span class="slds-icon_container" title="description of icon when needed">
+					<svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default">
+					<use xlink:href="{!URLFOR($Resource.SCS_SocialLookUp, 'SLDS103/assets/icons/utility-sprite/svg/symbols.svg#open')}"></use>
+					</svg>
+					<span class="slds-assistive-text">Open details</span>
+				</span>
+			</a>
+
+			</div>
+		</th>
+
+
+		</tr>
+		</script>
+
+			<apex:includeScript value="{!URLFOR($Resource.scss__SCS_SocialLookUp, 'javascript/jquery-1.11.3.min.js')}"/>
+			<apex:includeScript value="{!URLFOR($Resource.scss__SCS_SocialLookUp, 'javascript/jquery-ui1.11.4.js')}"/>
+			<apex:includeScript value="{!URLFOR($Resource.scss__SCS_SocialLookUp, 'javascript/jsrender.js')}"/>
+			<apex:includeScript value="{!URLFOR($Resource.scss__SCS_SocialLookUp, 'javascript/moment.js')}"/>
+			<apex:includeScript value="{!URLFOR($Resource.scss__SCS_SocialLookUp, 'javascript/moment-timezone.js')}"/>
+			<apex:includeScript value="{!URLFOR($Resource.scss__SCS_SocialLookUp, 'javascript/svg4everybody.js')}" />
+			<apex:includeScript value="{!URLFOR($Resource.scss__SCS_SocialLookUp, 'javascript/svg4everybody.legacy.js')}" />
+
+			<script type="text/javascript">
+				var tplSPStats = $.templates("#tplSPStats");
+				var tplSPWizard = $.templates("#tplSPWizard");
+				var tplSPLogs = $.templates("#tplSPLogs");
+
+				function formatDate (mili){
+					//return moment(mili).utcOffset('{!offset}').format('MM/DD/YYYY')
+					return moment.utc(mili).format('MM/DD/YYYY');
+				}
+				function formatDateTime (mili){
+											//6/8/2015 8:22 AM
+											//.format('YYYY-MM-DD h:mm A')
+					return moment(mili).utcOffset('{!offset}').format('MM/DD/YYYY h:mm A')
+				}
+
+				var $j = jQuery.noConflict();
+
+				function loadStatsData(){
+					console.log('loadStatsData -- Social Posts Update status');
+					//reset list
+					closeNotifications();
+					Visualforce.remoting.Manager.invokeAction(
+						'{!$RemoteAction.SocialLookUpSetupCtr.loadStatsData}',
+						function(records, event){
+							if (event.status) {
+								$j("tbody#spStats tr").remove();
+								$j(records.stats).each(function (i,e){
+									var htmlOutput = tplSPStats.render(e);
+									$j("tbody#spStats").append(htmlOutput);
+								});
+
+							} else if (event.type === 'exception') {
+								showNotifications(event.message + '--' + event.where);
+							} else {
+								showNotifications(event.message + '--' + event.where);
+							}
+						},
+						{escape: true}
+					);
+				}
+
+				function loadExecutionData(){
+
+					console.log('loadExecutionData');
+					closeNotifications();
+					Visualforce.remoting.Manager.invokeAction(
+						'{!$RemoteAction.SocialLookUpSetupCtr.loadExecutionData}',
+						function(records, event){
+							if (event.status) {
+								// execution logs
+								$j("tbody#spLogs tr").remove();
+								$j(records.results).each(function (i,e){
+									var htmlOutput = tplSPLogs.render(e,{
+										formatDate: function(mili) {
+											return formatDate(mili);
+										},
+										formatDateTime: function(mili) {
+											return formatDateTime(mili);
+										}
+									});
+									$j("tbody#spLogs").append(htmlOutput);
+								});
+
+								svg4everybody();
+
+								$j('#totalLogs').text(records.results.length);
+
+
+								//batch actions
+								console.log('batch actions ');
+								$j('#launchBtn').attr('disabled',!records.canLaunch);
+								$j('#stopBtn').attr('disabled',!records.canStop);
+
+								//datepicker field
+								if (	 records.log == undefined ||
+										records.canLaunch){
+									$j( "#processPostsSince" ).datepicker({
+										minDate: new Date(2000,0,0),
+										maxDate : new Date() ,
+										defaultDate: new Date(),
+										showButtonPanel: true,
+										dateFormat: "mm/dd/yy"
+									});
+								}else{
+									$j( "#processPostsSince").datepicker({
+										disabled : true
+										});
+								}
+								if ( records != undefined &&
+                                     records.log != undefined &&
+                                     records.log['{!$ObjectType.Root_Post_Generation_Log__c.fields.Process_Posts_Since__c.Name}'] != undefined){
+                                    $j( "#processPostsSince" ).val(formatDate(records.log['{!$ObjectType.Root_Post_Generation_Log__c.fields.Process_Posts_Since__c.Name}']));
+                                }
+
+								//processes wizardList
+								$j("ol#wizardList li").remove();
+
+								$j(records.executionWizard).each(function (i,e){
+									var htmlOutput = tplSPWizard.render(e);
+									$j("ol#wizardList").append(htmlOutput);
+								});
+								console.log(records.executionWizard);
+								//update process bar
+								if (records.levelAsInt <= 0){
+									percentage = 0;
+								}else{
+									var percentage = ($j("ol#wizardList li.slds-is-active").size()/$j("ol#wizardList li").size())*100;
+								}
+								$j('.slds-wizard__progress-bar').css('width',percentage+'%');
+
+
+							} else if (event.type === 'exception') {
+								showNotifications(event.message + '--' + event.where);
+							} else {
+								showNotifications(event.message + '--' + event.where);
+							}
+						},
+						{escape: true}
+					);
+				}
+
+				function launchBatch(){
+					closeNotifications();
+					var selectedDate = $j( "#processPostsSince").val();
+					if (selectedDate == ""){
+						showNotifications(" You must select a date for processing ");
+						return;
+					}
+					Visualforce.remoting.Manager.invokeAction(
+						'{!$RemoteAction.SocialLookUpSetupCtr.launchBatchProcess}',
+						selectedDate,
+						function(result, event){
+							if (event.status) {
+								if (result){
+									console.log(result);
+									loadStatsData();
+									loadExecutionData();
+								}else{
+									showNotifications('Batch could not run.');
+								}
+							} else if (event.type === 'exception') {
+								showNotifications('Calendar: ' + event.message + '--' + event.where);
+							} else {
+								showNotifications('Calendar: ' + event.message + '--' + event.where);
+							}
+						},
+						{escape: true}
+					);
+				}
+
+				function stopProcess(){
+					closeNotifications();
+					Visualforce.remoting.Manager.invokeAction(
+						'{!$RemoteAction.SocialLookUpSetupCtr.stopBatchProcess}',
+						function(result, event){
+							if (event.status) {
+								if (result != undefined){
+									loadStatsData();
+									loadExecutionData();
+								}
+							} else if (event.type === 'exception') {
+								showNotifications(event.message + '--' + event.where);
+							} else {
+								showNotifications(event.message + '--' + event.where);
+							}
+						},
+						{escape: true}
+					);
+				}
+				function showNotifications(text){
+					var breakTag =   '<br>';
+					text =  (text + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1'+ breakTag +'$2');
+					$j("#notificationCnt p").html(text);
+					$j("#notificationCnt").show();
+
+				}
+
+				function closeNotifications(){
+					$j("#notificationCnt").hide();
+					$j("#notificationCnt p").text('');
+
+				}
+
+				$j(document).ready(function() {
+					loadStatsData();
+					loadExecutionData();
+				});
+		</script>
+
+	</head>
+
+<body>
+	<apex:outputPanel rendered="{!!canAccess}" layout="block" styleclass="slds">
+
+	<div class="slds-modal__header slds-theme--error slds-theme--alert-texture">
+		<h3 class="slds-text-heading--small" id="prompt-heading-id">Page not Accessible</h3>
+	</div>
+	<div class="slds-modal__content slds-p-around--medium">
+		<div>
+			<p>In order to access this page you need CRUD permissions on {!$ObjectType.SocialPost.Label} and {!$ObjectType.scss__Root_Post_Generation_Log__c.Label}</p>
+		</div>
+	</div>
+
+	</apex:outputPanel>
+	<!-- REQUIRED SLDS WRAPPER -->
+	<apex:outputPanel rendered="{!canAccess}" layout="block" styleclass="slds">
+	<!-- MASTHEAD -->
+	<div class="slds-page-header" role="banner">
+		<div class="slds-grid">
+			<div class="slds-col slds-has-flexi-truncate">
+				<div class="slds-media slds-media--center slds-no-space slds-grow">
+					<div class="slds-media__body">
+						<p class="slds-text-heading--label">Social Lookup Component</p>
+						<h1 class="slds-page-header__title slds-m-right--small slds-truncate slds-align-middle" title="Record Title">
+						SCS Conversations Processing</h1>
+						<p>Total log records : <span id="totalLogs"> </span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- notifications -->
+	<div id="notificationCnt" class="slds-m-around--x-small slds-notify slds-notify--alert slds-theme--inverse-text slds-theme--alert-texture" style="display:none;" role="alert">
+		<span class="slds-assistive-text">Info</span>
+		<button class="slds-button slds-button--icon-inverse slds-notify__close" onclick="closeNotifications();">
+			Close
+			<span class="slds-assistive-text">Close</span>
+		</button>
+		<p class="slds-text-align--left"> Notification detail</p>
+	</div>
+	<!-- /notifications -->
+
+	<!-- batch status-->
+	<div  class="slds-card__body ">
+		<div class="slds-card">
+			<div class="slds-card__body slds-text-align--center">
+
+			<div class="slds-grid  slds-m-around--small">
+				<!-- Date picker field -->
+				<div class="slds-grid slds-col  ">
+					<label class="slds-form-element__label" for="processPostsSince">Process from date :</label>
+					<input type="text" id="processPostsSince" readonly="true" />
+				</div>
+				<!-- button group -->
+				<div class="slds-col slds-no-flex slds-grid slds-align-top">
+					<div class="slds-button-group" role="group">
+						<button id="launchBtn" onclick="launchBatch()" class="slds-button slds-button--neutral slds-button--small">Launch process</button>
+						<button id="stopBtn" onclick="stopProcess()"  class="slds-button slds-button--neutral slds-button--small">Stop process</button>
+						<div class="slds-button--last">
+							<button  onclick="loadExecutionData();" class="slds-button slds-button--neutral slds-button--small">Reload</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class=" slds-wizard slds-m-horizontal--xx-large" role="navigation">
+				<ol class="slds-wizard__list" id="wizardList">
+				</ol>
+				<span class="slds-wizard__progress">
+					<span class="slds-wizard__progress-bar"></span>
+				</span>
+			</div>
+			<!--  Execution logs list-->
+			<table class="slds-table slds-table--bordered slds-no-row-hover">
+			<thead>
+				<tr class="slds-text-heading--label">
+					<th  scope="col">
+						<div class="slds-truncate">
+							{!$ObjectType.Root_Post_Generation_Log__c.fields.Date_Started__c.Label}
+						</div>
+					</th>
+					<th  scope="col">
+						<div class="slds-truncate">
+							{!$ObjectType.Root_Post_Generation_Log__c.fields.Date_Completed__c.Label}
+						</div>
+					</th>
+					<th  scope="col">
+						<div class="slds-truncate">
+							{!$ObjectType.Root_Post_Generation_Log__c.fields.Process_Posts_Since__c.Label}
+						</div>
+					</th>
+					<th  scope="col">
+						<div class="slds-truncate">
+							{!$ObjectType.Root_Post_Generation_Log__c.fields.Progress_Status__c.Label}
+						</div>
+					</th>
+					<th scope="col">
+						<div class="slds-truncate">Owner</div>
+					</th>
+					<th scope="col">
+						<div class="slds-truncate">Details</div>
+					</th>
+				</tr>
+			</thead>
+				<tbody id="spLogs">
+				</tbody>
+			</table>
+			<!--  /Execution logs list-->
+		</div>
+		</div>
+	</div>
+
+	<!-- stats on socialPosts-->
+	<div class="slds-card slds-text-body--medium">
+		<div class="slds-card__header slds-grid">
+			<div class="slds-col slds-has-flexi-truncate">
+				<div class="slds-media slds-media--center slds-no-space slds-grow">
+					<div class="slds-media__body">
+						<h2 class="slds-text-heading--small slds-truncate">Social Posts Update status</h2>
+					</div>
+				</div>
+			</div>
+			<div class="slds-col slds-no-flex slds-grid slds-align-bottom">
+				<button class="refreshBtn slds-button slds-button--neutral slds-button--small" onclick="loadStatsData();">Reload</button>
+			</div>
+		</div>
+		<div class="slds-card__body">
+			<table class="slds-table slds-table--bordered slds-max-medium-table--stacked-horizontal slds-no-row-hover">
+				<thead>
+					<tr>
+						<th class="slds-text-heading--label slds-size--1-of-4" scope="col">Provider</th>
+						<th class="slds-text-heading--label slds-size--1-of-4" scope="col">MessageType</th>
+						<th class="slds-text-heading--label slds-size--1-of-4" scope="col">Number of Records</th>
+						<th class="slds-text-heading--label slds-size--1-of-4" scope="col">Processing results</th>
+					</tr>
+				</thead>
+				<tbody id="spStats">
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<!--/ stats on socialPosts-->
+	</apex:outputPanel>
+<!-- / REQUIRED SLDS WRAPPER -->
+</body>
+</html>
+</apex:page>

@@ -1,0 +1,142 @@
+<apex:page standardcontroller="Account" extensions="Wootric.AccountNPSFeedbackController">
+    <apex:form >
+    
+    	<apex:pageblock mode="maindetail" title="Account-Level NPS Program Data from Wootric">
+    	<apex:pageBlockSection collapsible="false" showHeader="false" columns="2" id="nps">
+    	
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Current account-level NPS (this month)" for="lbl1" />
+        		<apex:outputtext value="{0, number, 0}" Id="lbl1">
+        			<apex:param value="{!npsScoreNow}" />
+        		</apex:outputtext>
+        	</apex:pageBlockSectionItem>
+        	<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Promoter count" for="lbl6" />
+        		<apex:outputtext value="{!npsPromoter}" Id="lbl6"/>
+        	</apex:pageBlockSectionItem>
+        	<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Last month account NPS" for="lbl2" />
+        		<apex:outputtext value="{0, number, 0}" Id="lbl2">
+        			<apex:param value="{!npsScorePast}" />
+        		</apex:outputtext>
+        	</apex:pageBlockSectionItem>
+        	<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Passive count" for="lbl5" />
+        		<apex:outputtext value="{!npsPassive}" Id="lbl5"/>
+        	</apex:pageBlockSectionItem>
+        	<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Account-level NPS % change" for="lbl3" />
+        		<apex:outputtext value="{0, number, 0.00}%" Id="lbl3">
+        			<apex:param value="{!npsScoreChange}" />
+        		</apex:outputtext>
+        	</apex:pageBlockSectionItem>
+        	<apex:pageBlockSectionItem >
+				<apex:outputLabel value="Detractor count" for="lbl4" />
+        		<apex:outputtext value="{!npsDetractor}" Id="lbl4"/>
+        	</apex:pageBlockSectionItem>
+
+    	</apex:pageBlockSection>
+    	</apex:pageblock>
+    	
+        <apex:pagemessages id="msg" />
+        <apex:outputtext value="No records found" id="txtReview" rendered="{!listOfFeedbacks.size == 0}" />
+        <apex:pageblock title="Net Promoter Score Feedback">
+
+            <apex:pageblocktable value="{!listOfFeedbacks}" var="f" id="feedbackList">
+                <apex:column rendered="{!isVisibleDate}">
+                    <apex:facet name="header">
+                        <apex:commandlink action="{!sortByResponseDate}" rerender="feedbackList,otpNav">Date</apex:commandlink>
+                    </apex:facet>
+                    <apex:outputtext value="{0,date,MM'/'dd'/'yyyy HH':'mm}">
+                        <apex:param value="{!f.ResponseDate}" />
+                    </apex:outputtext>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header"><apex:commandlink action="{!sortByLastName}" rerender="feedbackList,otpNav">Contact</apex:commandlink></apex:facet>
+                    <apex:outputlink value="/{!f.ContactId}" id="theContact" target="_top">{!f.ContactName} {!f.ContactLastName}</apex:outputlink>
+                </apex:column>
+                <apex:column rendered="{!isVisibleType}">
+                    <apex:facet name="header"><apex:commandlink action="{!sortByType}" rerender="feedbackList,otpNav">Type</apex:commandlink></apex:facet>
+                    <apex:outputtext value="{!f.Type}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleID}">
+                    <apex:facet name="header">ID</apex:facet>
+                    <apex:outputtext value="{!f.RecordId}" />
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header"><apex:commandlink action="{!sortByScore}" rerender="feedbackList,otpNav">Score</apex:commandlink></apex:facet>
+                    <apex:outputtext value="{!f.Score}" />
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header"><apex:commandlink action="{!sortByPromoterLevel}" rerender="feedbackList,otpNav">Promoter Level</apex:commandlink></apex:facet>
+                    <apex:outputtext value="{!f.PromoterLevel}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleFeedback}">
+                    <apex:facet name="header">Feedback</apex:facet>
+                    <apex:outputtext value="{!f.Feedback}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleChannel}">
+                    <apex:facet name="header"><apex:commandlink action="{!sortByChannel}" rerender="feedbackList,otpNav">Channel</apex:commandlink></apex:facet>
+                    <apex:outputtext value="{!f.Channel}" />
+                </apex:column>
+
+                <apex:column rendered="{!isVisibleProperty1}">
+                    <apex:facet name="header">{!LabelProperty1}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp1}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleProperty2}">
+                    <apex:facet name="header">{!LabelProperty2}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp2}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleProperty3}">
+                    <apex:facet name="header">{!LabelProperty3}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp3}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleProperty4}">
+                    <apex:facet name="header">{!LabelProperty4}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp4}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleProperty5}">
+                    <apex:facet name="header">{!LabelProperty5}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp5}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleProperty6}">
+                    <apex:facet name="header">{!LabelProperty6}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp6}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleProperty7}">
+                    <apex:facet name="header">{!LabelProperty7}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp7}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleProperty8}">
+                    <apex:facet name="header">{!LabelProperty8}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp8}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleProperty9}">
+                    <apex:facet name="header">{!LabelProperty9}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp9}" />
+                </apex:column>
+                <apex:column rendered="{!isVisibleProperty10}">
+                    <apex:facet name="header">{!LabelProperty10}</apex:facet>
+                    <apex:outputtext value="{!f.CustomProp10}" />
+                </apex:column>
+            </apex:pageblocktable>
+
+            <apex:outputpanel layout="block" styleclass="pSearchShowMore" id="otpNav">
+                Total Records Found: <apex:outputtext rendered="{!IF(rawOfFeedbacks.size==10000,true,false)}">10000 +</apex:outputtext><apex:outputtext rendered="{!IF(rawOfFeedbacks.size < 10000,true,false)}">{!rawOfFeedbacks.size};</apex:outputtext>
+                &nbsp;&nbsp;
+                <apex:image url="/img/search_prevarrow_disabled.gif" styleclass="prevArrow" rendered="{!NOT(hasPrevious)}" />
+                <apex:image url="/img/search_prevarrow.gif" title="Previous Page" styleclass="prevArrow" rendered="{!hasPrevious}" />
+                <apex:commandlink action="{!previous}" title="Previous Page" value="Previous Page" rendered="{!hasPrevious}" />
+                <apex:outputpanel styleclass="pShowLess noLink" style="color:grey" rendered="{!NOT(hasPrevious)}">Previous Page</apex:outputpanel>
+                &nbsp;&nbsp;
+                <apex:outputpanel styleclass="pShowLess noLink" style="color:grey" rendered="{!NOT(hasNext)}">Next Page</apex:outputpanel>
+                <apex:commandlink title="Next Page" value="Next Page" rendered="{!hasNext}" action="{!next}" />&nbsp;
+                <apex:image url="/img/search_nextarrow.gif" title="Next Page" styleclass="nextArrow" rendered="{!hasNext}" />
+                <apex:image url="/img/search_nextarrow_disabled.gif" rendered="{!NOT(hasNext)}" />
+            </apex:outputpanel>
+
+        </apex:pageblock>
+
+    </apex:form>
+</apex:page>

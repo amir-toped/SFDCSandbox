@@ -1,0 +1,17 @@
+<div style="color: rgb(181, 181, 181);">##- Tolong balas pesan diatas baris ini -##</div><p></p><p><img alt="Tokopedia" dfsrc="https://ecs1.tokopedia.net/img/microsite/logo-microsite.png" src="https://ecs1.tokopedia.net/img/microsite/logo-microsite.png" saveddisplaymode=""></p>
+<div class="m_5183442081873062116zd-comment" style="color: rgb(43, 46, 47); font-family: &quot;lucida sans unicode&quot;, &quot;lucida grande&quot;, tahoma, verdana, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0px;">
+
+<table>
+<tr><td valign="top" style="width:100%;margin:0;padding:0;"><div style="margin-top:0;margin-bottom:0;padding:0;"><font face="Lucida Grande,Lucida Sans Unicode,Lucida Sans,Verdana,Tahoma,sans-serif" size="2" color="#1B1D1E"><span style="font-size:15px;"><b>Hai {!Case.Account},</b></span></font></div></td></tr>
+
+<tr><td><div style="margin:15px 0;"><font face="Lucida Sans Unicode,Lucida Grande,Tahoma,Verdana,sans-serif" size="2" color="#2B2E2F"><span style="font-size:14px;">{!Case.Description}</span></font></div></td></tr>
+
+<tr><td>{!Case.Image_1__c}</td></tr>
+<tr><td>{!Case.Image_2__c}</td></tr>
+<tr><td>{!Case.Image_3__c}</td></tr>
+<tr><td>{!Case.Image_4__c}</td></tr>
+<tr><td>{!Case.Image_5__c}</td></tr>
+<tr><td>
+{!$Label.Signature}
+</td></tr>
+</table>

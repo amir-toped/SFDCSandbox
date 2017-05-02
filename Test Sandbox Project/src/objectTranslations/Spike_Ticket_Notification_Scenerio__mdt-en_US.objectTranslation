@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Spike Ticket Notification Scenerio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Spike Ticket Notification Scenerios</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category 1 --></label>
+        <name>Category_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category 2 --></label>
+        <name>Category_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category 3 --></label>
+        <name>Category_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threshold % --></label>
+        <name>Threshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Last Hour Same Day</masterLabel>
+            <translation><!-- Last Hour Same Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Hour Previous Day</masterLabel>
+            <translation><!-- Same Hour Previous Day --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Spike Ticket Notification Scenerio Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

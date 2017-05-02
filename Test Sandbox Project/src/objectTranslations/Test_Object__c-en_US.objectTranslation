@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Test Object</value>
+    </caseValues>
+    <fields>
+        <label><!-- Pilih satu --></label>
+        <name>Pilih_satu__c</name>
+        <picklistValues>
+            <masterLabel>Izin</masterLabel>
+            <translation><!-- Izin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pulang kampung</masterLabel>
+            <translation><!-- Pulang kampung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sakit</masterLabel>
+            <translation><!-- Sakit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+        <picklistValues>
+            <masterLabel>Mudik</masterLabel>
+            <translation><!-- Mudik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sakit</masterLabel>
+            <translation><!-- Sakit --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Ga boleh sakit!! --></errorMessage>
+        <name>Pilih_satu_tidak_boleh_sakit</name>
+    </validationRules>
+</CustomObjectTranslation>

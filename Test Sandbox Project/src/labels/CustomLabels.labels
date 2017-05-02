@@ -1,0 +1,4278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ALMS_Achievement_Back</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back to achievement link</shortDescription>
+        <value>Back to Achievement</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Achievement_In_Review</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Achievement In Review</shortDescription>
+        <value>In Review</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Achievements</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Achievements</shortDescription>
+        <value>Achievements</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Action</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Activities</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Activities</shortDescription>
+        <value>Activities</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Add_Answer_Sequence_Item</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add Answer Sequence Item Button</shortDescription>
+        <value>Add Answer Sequence Item</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Additional_Information</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Additional Information</shortDescription>
+        <value>Additional Information</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Additional_Options</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Additional Options</shortDescription>
+        <value>Additional Options</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Additional_Report_Options</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Additional Report Options title</shortDescription>
+        <value>Additional Options</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Additional_Report_Options_Msg</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Additional Report Options message</shortDescription>
+        <value>By default, the import process will try to find the column index with the USER_ID key. If you&apos;d like to to change this behavior, please provide the column index that has users ids in your report.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Approve</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approve</shortDescription>
+        <value>Approve</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Approver_Not_Authorized</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unauthorized approver error message</shortDescription>
+        <value>You are not authorized to approve this task.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Approver_Notes_Field</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver Notes Field</shortDescription>
+        <value>Approver Notes</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Approver_Notes_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver Notes Message</shortDescription>
+        <value>Approver notes will be visibile to the assignment user</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Assign</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assign</shortDescription>
+        <value>Assign</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Assignment_Approve_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Learning Assignment approve message</shortDescription>
+        <value>Click the Approve button to give your approval for this assignment</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Assignments_Batch_Operations</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignments Batch Operations</shortDescription>
+        <value>Batch Operations</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Assignments_Deleted_Success</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment delete success message</shortDescription>
+        <value>Assignments were deleted successfully</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Assignments_No_External_Results_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment No External Results Message</shortDescription>
+        <value>To assign Community/Portal users you must enable Self-Registration in the Training Plan and set the Access Level to &quot;External&quot;, add the corresponding Accounts to the &quot;Training Plan Accounts&quot; related list or create single assignments for external users in the next tab.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Assignments_No_Results_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment No Results Message</shortDescription>
+        <value>No results. Please make sure the users you&apos;re looking for have the LMS Admin or LMS User permission set.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Assignments_Results</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment Results</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Assignments_Updated_Success</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment update success message</shortDescription>
+        <value>Assignments were updated successfully</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Back_To_Previous_Page</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back to previous page</shortDescription>
+        <value>Back to previous page</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Badge_Info</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badge Information section</shortDescription>
+        <value>Badge Information</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Badge_Selection</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badge Selection section</shortDescription>
+        <value>Badge Selection</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Batch_Delete_Queued_Success</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success message for batch deletion</shortDescription>
+        <value>Batch delete process has been queued successfully</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Batch_Updated_Queued_Success</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Batch update process queued successfully</shortDescription>
+        <value>Batch update process has been queued successfully</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Boolean_False</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Boolean false value</shortDescription>
+        <value>False</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Boolean_Question</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Boolean Question</shortDescription>
+        <value>Boolean (Correct Answer)</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Boolean_True</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Boolean true value</shortDescription>
+        <value>True</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_CRUD_FLS_Create</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRUD/FLS Create</shortDescription>
+        <value>Create</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_CRUD_FLS_Delete</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRUD/FLS Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_CRUD_FLS_Update</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRUD/FLS Update</shortDescription>
+        <value>Update</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_CRUD_FLS_View</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRUD/FLS View</shortDescription>
+        <value>View</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Cancel</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Category</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ALMOND_Category</shortDescription>
+        <value>Category</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Chatter_Notification_Greeting</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment chatter notification greeting</shortDescription>
+        <value>Hi</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Chatter_Notification_Message_1</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter assignment notification message part 1</shortDescription>
+        <value>You&apos;ve been assigned to the following Training Plan</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Chatter_Notification_Message_2</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter assignment notification message part 2</shortDescription>
+        <value>Click on the attached link to launch it</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Click</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Click</shortDescription>
+        <value>Click</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Close</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Community_Id</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Community Id</shortDescription>
+        <value>Community Id</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Complete_Previous</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Complete Previous</shortDescription>
+        <value>You must complete all previous activities in order to continue.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Completed</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ALMOND_Completed</shortDescription>
+        <value>Completed</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Confirm_Alert</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirmation Alert</shortDescription>
+        <value>Are you sure?</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Content_Previewed</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Content Preview</shortDescription>
+        <value>Select content to be previewed:</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Continue</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Continue</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Continue_Old_Version</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Continue Old Version</shortDescription>
+        <value>Continue with old version</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Create_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Assignments</shortDescription>
+        <value>Create Multiple Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Default_Achievement_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default chatter message for acquired achievements</shortDescription>
+        <value>Congratulations! You&apos;ve earned a new Training Badge!</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Default_Error_Inserting_Badge</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for inserting badge records</shortDescription>
+        <value>Unable to insert work badge record</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Default_Error_Inserting_Feed</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for inserting feed item</shortDescription>
+        <value>Unable to insert feed item record</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Default_Error_Inserting_Thanks</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for inserting thanks records</shortDescription>
+        <value>Unable to insert work thanks record</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Delete</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Delete_All_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete all Assignments</shortDescription>
+        <value>Delete all Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Detail</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail</shortDescription>
+        <value>Detail</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Duration</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Duration</shortDescription>
+        <value>Duration</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Email</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment Page Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Export_Training_Plan</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Export Training Plan</shortDescription>
+        <value>Export Training Plan</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Export_Training_Track</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Export Training Track</shortDescription>
+        <value>Export Training Track</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Feedback</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Feedback</shortDescription>
+        <value>Feedback</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Feedback_Comments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Feedback Comments</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Feedback_Existing_Rating</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Feedback with existing rating error message</shortDescription>
+        <value>You&apos;ve already given a rating to this training plan</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Feedback_Missing_Comments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing feedback comments error message</shortDescription>
+        <value>You must provide comments to submit feedback</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Feedback_No_Data</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Feedback with no comments or rating</shortDescription>
+        <value>You must provide a Rating or Comments to submit feedback</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Feedback_Rating</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Feedback Rating</shortDescription>
+        <value>Rating</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Feedback_Submit</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Feedback Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Feedback_Submitted</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Feedback submitted message</shortDescription>
+        <value>Your feedback has been successfully submitted</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Filter_Existing_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Checkbox for filtering existing assignments</shortDescription>
+        <value>Filter Assigned Users</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Filters</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filters</shortDescription>
+        <value>Filters</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_First_Name</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment Page First Name</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Generic_Error_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generic Error message</shortDescription>
+        <value>An unknown error has occurred, please contact your support team and show the following information</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Hours_Abbreviation</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hours Abbreviation</shortDescription>
+        <value>hr(s)</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Import_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Import Assignments</shortDescription>
+        <value>Import Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Import_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Import Assignments from Report Button</shortDescription>
+        <value>Import</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Import_From_Report</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Import from Report</shortDescription>
+        <value>Import from Report</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Import_Report_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Import Assignments from Report Message</shortDescription>
+        <value>Select a report from the list below and click Import. Please note that only tabular reports are available for data import</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_InProgress</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ALMOND_InProgress</shortDescription>
+        <value>In Progress</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Insufficient_CRUD_FLS</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Insufficient CRUD/FLS permissions</shortDescription>
+        <value>Insufficent CRUD/FLS permissions, please contact your system administrator.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Intro_Video</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Intro Video</shortDescription>
+        <value>Intro Video</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Invalid_Assignment_Id</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for invalid assignment id</shortDescription>
+        <value>Invalid Assignment Id</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Invalid_Category_Id</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for invalid category id</shortDescription>
+        <value>Invalid Category Id</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Invalid_Import_Data</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Import Data</shortDescription>
+        <value>Invalid Import Data</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Invalid_Parameters_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Parameters error message</shortDescription>
+        <value>Invalid parameters</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Invalid_Single_User</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid user for single assignment</shortDescription>
+        <value>Please select a valid user</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Item_Assignments_Delete_Warning</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete TPlan Section Item Assignments Warning</shortDescription>
+        <value>The following operation will delete all Section Item Assignments for users under the following Section Item</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Item_Delete_Assignments_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Section Item Delete Assignments Button</shortDescription>
+        <value>Delete all Section Item Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Last_Name</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment Page Last Name</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Launch</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Launch</shortDescription>
+        <value>Launch</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Launch_New_Version</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Launch New Version</shortDescription>
+        <value>Click &quot;Continue&quot; to launch the new version</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Learning</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Learning</shortDescription>
+        <value>Learning</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Learning_Assignment</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Learning Assignment</shortDescription>
+        <value>Learning Assignment</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Learning_Assignment_Back</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back to learning assignment link</shortDescription>
+        <value>Back to Learning Assignment</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Learning_Back</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back to learning link</shortDescription>
+        <value>Back to Learning</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Learning_Home</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Learning Home</shortDescription>
+        <value>Learning Home</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Linked_Work_Badge_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Linked Work.com badge message</shortDescription>
+        <value>This achievement is now linked to a Work.com Badge. Your Custom Badge images will no longer be displayed.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Load_JSON</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Load JSON</shortDescription>
+        <value>Load JSON</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Manage_Achievements</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manage Achievements</shortDescription>
+        <value>Manage Achievements</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Manage_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manage Assignments</shortDescription>
+        <value>Manage Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Manager</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment Page Manager</shortDescription>
+        <value>Manager</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Max_Approver_Notes_Error</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Max chars reached for approver notes message</shortDescription>
+        <value>Only 255 characters are allowed for approver notes</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Message_Achievements_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update Achievements Assignments Message</shortDescription>
+        <value>The following operations will affect all Achievement Assignments related to Training Plan Achievements under the following Training Plan</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Minutes_Abbreviation</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Minutes abbreviation</shortDescription>
+        <value>mins</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Missing_Report_Folder</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing folder selection error message</shortDescription>
+        <value>Please select a valid folder from the list</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Missing_Report_Item</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing report selection error message</shortDescription>
+        <value>Please select a report from the report list</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Missing_Work_Badge_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing Work.com badge message</shortDescription>
+        <value>No Work.com Badge is associated to this achievement. Click the Add Work.com Badge button to associate a Work.com Badge.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_MyProfile</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ALMOND_MyProfile</shortDescription>
+        <value>Achievements</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_My_Training</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My Training</shortDescription>
+        <value>My Training</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_New_Question</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Question</shortDescription>
+        <value>New Question</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_New_Training_Plan</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New training plan ribbon</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_New_Version_available</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Version available</shortDescription>
+        <value>New version available!</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Next</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_No_Remaining_Question_Lines</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No remaining question lines found error message</shortDescription>
+        <value>No remaining question lines found</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_No_Reports_Found</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No reports found message</shortDescription>
+        <value>No tabular reports found under the selected folder.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_NotStarted</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ALMOND_NotStarted</shortDescription>
+        <value>Not Started</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Note_From_Approver</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task note from approver</shortDescription>
+        <value>Note from approver :</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Nothing_to_see</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Nothing to see</shortDescription>
+        <value>Nothing to see here!</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Number_Question</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Number Question</shortDescription>
+        <value>Number (Correct Answer)</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Open_New_Window</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Open New Window</shortDescription>
+        <value>Open in new window</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Optional_Section_Error_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for opt section with required items</shortDescription>
+        <value>Sections with required items cannot be made optional</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Overall_Rating</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Feedback Overall Rating</shortDescription>
+        <value>Overall Rating</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Preview</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>Preview</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Previous</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Profile</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment Page Profile</shortDescription>
+        <value>Profile</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_PublicCatalog</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ALMOND_PublicCatalog</shortDescription>
+        <value>Catalog</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Public_Plan_Assignment_Error</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for public training plan assignment</shortDescription>
+        <value>Oops! We were unable to assign this training plan, please contact support</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Public_Plan_Request_Submitted</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request submitted for training plan message</shortDescription>
+        <value>Your request has been submitted</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Publish</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Publish</shortDescription>
+        <value>Publish</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Publish_New_Learning_Version</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Publish new version</shortDescription>
+        <value>Publish a new version</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Question</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Question</shortDescription>
+        <value>Question</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Question_Additional</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Question (Additional Information)</shortDescription>
+        <value>Question (Additional Information)</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Question_Line</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Question Line</shortDescription>
+        <value>Question Line</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Question_Order</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Question Order</shortDescription>
+        <value>Order</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Question_Type</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Question Type</shortDescription>
+        <value>Question Type</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Back</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Back_Warning</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Back Warning</shortDescription>
+        <value>Are you sure? Responses made for this page will be lost</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Back_Warning_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Back Message</shortDescription>
+        <value>if you&apos;d like to go back without saving changes for this page</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Cancel</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Failed</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Failed</shortDescription>
+        <value>Failed</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Max_Attempts_Reached</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Max num of attempts reached</shortDescription>
+        <value>You&apos;ve reached the max number of attempts allowed by this quiz</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Missing_Answers</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for missing answers in quiz</shortDescription>
+        <value>You must answer all of the questions to continue</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Next</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Passed</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Passed</shortDescription>
+        <value>Passed</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Reset</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Reset</shortDescription>
+        <value>Reset</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Reset_Warning</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Reset Warning</shortDescription>
+        <value>Are you sure? Responses made for this page will be lost</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Results</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Results</shortDescription>
+        <value>Quiz Results</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Results_Eval_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Results Evaluation Message</shortDescription>
+        <value>The result for your evaluation is</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Score</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Score</shortDescription>
+        <value>Score</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Submit</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quiz Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Quiz_Success_Pre_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Positive message for quiz success result</shortDescription>
+        <value>Yes!</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Recalculate_All_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recalculate all Assignments</shortDescription>
+        <value>Re-calculate all Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Register_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Register Button</shortDescription>
+        <value>Register!</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Report</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Report Label</shortDescription>
+        <value>Report</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Report_Custom_Column_Index</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Report custom column index</shortDescription>
+        <value>Custom Column Index</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Report_Folder</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Report Folder</shortDescription>
+        <value>Folder</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Report_Information</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Report Information</shortDescription>
+        <value>Report Information</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Report_No_Records_Error</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Report with no records error message</shortDescription>
+        <value>Report did not return any records or we were unable to retrieve valid users ids from the specified column</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Required</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Plan detail required label</shortDescription>
+        <value>Required</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Resource_Redirect</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Resource Redirect</shortDescription>
+        <value>You&apos;re being redirected, please wait...</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Resource_Redirect_Title</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Resource Redirect Title</shortDescription>
+        <value>Redirection</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Role</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment Page Role</shortDescription>
+        <value>Role</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Sample_Data_Error</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sample Data Created Error message</shortDescription>
+        <value>Oops, something went wrong and we were not able to create sample data.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Sample_Data_Success</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sample Data Created Success message</shortDescription>
+        <value>Sample data has been successfully created!</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Save</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Save_And_New</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save &amp; New</shortDescription>
+        <value>Save &amp; New</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Button</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search_Catalog</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Catalog</shortDescription>
+        <value>Search Catalog</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search_Field_Name</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignment Search Field Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search_Minimum_Characters</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search minimum characters error message</shortDescription>
+        <value>You must provide a search term of at least 3 characters.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search_No_Results</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search No Results</shortDescription>
+        <value>No Results</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search_No_Results_Found</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search No Results</shortDescription>
+        <value>No Results Found</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search_Page</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search page</shortDescription>
+        <value>page</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search_Page_Separator</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search page separator</shortDescription>
+        <value>of</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Search_Users</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Users</shortDescription>
+        <value>Search Users</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Section_Assignments_Delete_Warning</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete TPlan Section Assignments Warning</shortDescription>
+        <value>The following operation will delete all Section Assignments for users under the following Section</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Section_Delete_Assignments_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Section Delete Assignments Button</shortDescription>
+        <value>Delete all Section Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Select_All</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select All</shortDescription>
+        <value>Select All</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Select_Published_Content</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select published content</shortDescription>
+        <value>Select content to be published</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Select_Report_Default_Option</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default option for report selection</shortDescription>
+        <value>-- Select Folder --</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Select_Work_Badge</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing badge selection error message</shortDescription>
+        <value>You must select a Badge from the list below.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Selection_Error</fullName>
+        <categories>ALMOND Error, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badge Selection error</shortDescription>
+        <value>Unable to register selection.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Shared_Assignments_Delete_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete Unused Shared Assignments Button</shortDescription>
+        <value>Delete all unused shared assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Shared_Assignments_Delete_Unused</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete Unused Shared Assignments</shortDescription>
+        <value>Delete Unused Shared Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Shared_Assignments_Delete_Warning</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete Unused Shared Assignments Warning</shortDescription>
+        <value>The following operation will delete all unused shared assignments for users under the Learning</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Single_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Single Assignments</shortDescription>
+        <value>Create Single Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Single_Assignments_Info_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Single Assignments Info Message</shortDescription>
+        <value>Specify the community for which this user will launch the training plan from, for non-community users you can leave this blank.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Single_User_Assignment_Success</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User has been successfully assigned to the training plan</shortDescription>
+        <value>User has been successfully assigned to the training plan</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Standard_User_Profile</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard User Profile</shortDescription>
+        <value>Standard User</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Start_Here_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start Here Sample Data Message</shortDescription>
+        <value>Click the &apos;Create Sample Data&apos; button to load some data to get you started. Once you&apos;ve loaded data, go to the training plan tab and assign the created plan to your users.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Start_Here_SubTitle</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start Here title</shortDescription>
+        <value>Start Here</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Start_Here_Title</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start Here title</shortDescription>
+        <value>LMS</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Start_Sample_Data_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start Here Sample Data Button</shortDescription>
+        <value>Create Sample Data</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Start_Sample_Data_Section</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start Here Sample Data Section</shortDescription>
+        <value>Sample Data</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Sys_Admin_Profile</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Administrator Profile</shortDescription>
+        <value>System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlanItem_Delete_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Section Item Delete Assignments</shortDescription>
+        <value>Delete Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlanSection_Delete_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Section Delete Assignments</shortDescription>
+        <value>Delete Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlan_Access_Request_Status</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Access Request Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlan_Archived</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Archived Training Plan Label</shortDescription>
+        <value>Archived</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlan_Expired</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Expired Training Plan Label</shortDescription>
+        <value>Expired</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlan_Not_Registered</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Not Registered</shortDescription>
+        <value>Not Registered</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlan_Request_Access_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Request Access Button</shortDescription>
+        <value>Request Access</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlan_Request_Comments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Access Comments</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlan_Request_Submitted_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access request submitted message</shortDescription>
+        <value>Your request has already been submitted</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TPlan_Requires_Assignment</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Requires Assignment</shortDescription>
+        <value>Requires Assignment</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Take_New_Version</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Take New Version</shortDescription>
+        <value>Take new version</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Task_Back_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task back button</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Task_Comments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Comments</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Task_Comments_Max_Length</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Comments Max Length Message</shortDescription>
+        <value>Comments cannot be longer than 32,000 characters</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Task_Done_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Done button</shortDescription>
+        <value>Done!</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Task_In_Review_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task In Review message</shortDescription>
+        <value>You&apos;ve marked this task as completed and it&apos;s currently being reviewed</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Task_Missing_Image</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing image on task error message</shortDescription>
+        <value>You must upload an image to complete this task.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Task_Undo_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Undo button</shortDescription>
+        <value>Undo</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Task_Undo_Error_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Undo error message</shortDescription>
+        <value>Only completed tasks that don&apos;t require review can be updated to Not Started</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Task_Working_Button</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Working on it</shortDescription>
+        <value>Still working on it</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Total_Acquired_Achievements</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Acquired Achievements</shortDescription>
+        <value>Total Acquired Achievements</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Total_Plans</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Plan Items</shortDescription>
+        <value>Total Items</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_TrainingTracks</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ALMOND_TrainingTracks</shortDescription>
+        <value>Tracks</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Catalog</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Catalog</shortDescription>
+        <value>Catalog</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Plan_Assignment_Status</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Assignment Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Plan_Back</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back to training plan link</shortDescription>
+        <value>Back to Training Plan</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Plan_Back_Section</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back to training plan section link</shortDescription>
+        <value>Back to Training Plan Section</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Plan_Back_Section_Item</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back to training plan section item link</shortDescription>
+        <value>Back to Training Plan Section Item</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Plan_Completed_Date</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Completed Date</shortDescription>
+        <value>Completed</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Plan_Due</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Plan Available Until</shortDescription>
+        <value>Available Until</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Plan_No_Access_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing training plan access error message</shortDescription>
+        <value>You don&apos;t have access to view this training plan.</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Status_Completed</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Completed Status picklist value</shortDescription>
+        <value>Completed</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Status_In_Progress</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>In Progress Status picklist value</shortDescription>
+        <value>In Progress</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Status_Not_Started</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not Started Status picklist value</shortDescription>
+        <value>Not Started</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Track_Back</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back to training track link</shortDescription>
+        <value>Back to Training Track</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Track_No_Access</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing access for training track error message</shortDescription>
+        <value>Sorry, you&apos;re not allowed to view this training track</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Training_Tracks</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Tracks</shortDescription>
+        <value>Training Tracks</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Unable_Retrieve_Assignment_Info</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unable to retrieve assignment info error message</shortDescription>
+        <value>Unable to retrieve assignment information</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Unselect_All</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unselect All</shortDescription>
+        <value>Unselect All</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Update</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update</shortDescription>
+        <value>Update</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Update_Achievements</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update Achievements</shortDescription>
+        <value>Update Achievements</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Update_Achievements_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update Achievements Assignments button</shortDescription>
+        <value>Update all Achievement Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Update_All_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update all Assignments</shortDescription>
+        <value>Update all Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Update_All_Assignments_Message</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update all Assignments message</shortDescription>
+        <value>The following operations will affect all Learning Assignments under the following Training Plan</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Update_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update Assignments</shortDescription>
+        <value>Update Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Update_Delete_Assignments</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update/Delete Assignments</shortDescription>
+        <value>Update/Delete Assignments</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Upload_Image</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Viewer Upload Image Title</shortDescription>
+        <value>Upload Image</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_User_Missing_Perms</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing LMS Perm set error</shortDescription>
+        <value>The selected user needs to be active and assigned to one of the LMS Permission sets (LMS_Admin, LMS User or LMS External User)</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_User_Report_Id</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Report id specified by the user</shortDescription>
+        <value>Report Id</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_Work_Badges</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Work.com Badges</shortDescription>
+        <value>Work.com Badges</value>
+    </labels>
+    <labels>
+        <fullName>ALMS_here</fullName>
+        <categories>ALMOND General, ALMOND UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>here</shortDescription>
+        <value>here</value>
+    </labels>
+    <labels>
+        <fullName>AgShift01</fullName>
+        <categories>Agent Shift</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AgShift01</shortDescription>
+        <value>a0vN0000002sSst</value>
+    </labels>
+    <labels>
+        <fullName>AgShift02</fullName>
+        <categories>Agent Shift</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AgShift02</shortDescription>
+        <value>a0vN0000002sSsy</value>
+    </labels>
+    <labels>
+        <fullName>AgShift03</fullName>
+        <categories>Agent Shift</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AgShift03</shortDescription>
+        <value>a0vN0000002sSt3</value>
+    </labels>
+    <labels>
+        <fullName>AgShift04</fullName>
+        <categories>Agent Shift</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AgShift04</shortDescription>
+        <value>a0vN0000002sSt8</value>
+    </labels>
+    <labels>
+        <fullName>AgShiftOH</fullName>
+        <categories>Agent Shift</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AgShiftOH</shortDescription>
+        <value>a0vN0000002sStD</value>
+    </labels>
+    <labels>
+        <fullName>Available</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Available</shortDescription>
+        <value>0N528000000PCYN</value>
+    </labels>
+    <labels>
+        <fullName>Away</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Away</shortDescription>
+        <value>0N528000000PCYS</value>
+    </labels>
+    <labels>
+        <fullName>BS_Activity_1_Dewa</fullName>
+        <categories>Onboarding-Activity</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Activity_1_Dewa</shortDescription>
+        <value>900</value>
+    </labels>
+    <labels>
+        <fullName>BS_Activity_2_Keren</fullName>
+        <categories>Onboarding-Activity</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Activity_2_Keren</shortDescription>
+        <value>700</value>
+    </labels>
+    <labels>
+        <fullName>BS_Activity_3_Oleh</fullName>
+        <categories>Onboarding-Activity</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Activity_3_Oleh</shortDescription>
+        <value>550</value>
+    </labels>
+    <labels>
+        <fullName>BS_Activity_4_Mayan</fullName>
+        <categories>Onboarding-Activity</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Activity_4_Mayan</shortDescription>
+        <value>500</value>
+    </labels>
+    <labels>
+        <fullName>BS_Activity_5_Cupu</fullName>
+        <categories>Onboarding-Activity</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Activity_5_Cupu</shortDescription>
+        <value>150</value>
+    </labels>
+    <labels>
+        <fullName>BS_Att_1_Dewa</fullName>
+        <categories>Onboarding-Attendance</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Att_1_Dewa</shortDescription>
+        <value>0</value>
+    </labels>
+    <labels>
+        <fullName>BS_Att_2_Keren</fullName>
+        <categories>Onboarding-Attendance</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Att_2_Keren</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>BS_Att_3_Oleh</fullName>
+        <categories>Onboarding-Attendance</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Att_3_Oleh</shortDescription>
+        <value>3</value>
+    </labels>
+    <labels>
+        <fullName>BS_Att_4_Mayan</fullName>
+        <categories>Onboarding-Attendance</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Att_4_Mayan</shortDescription>
+        <value>4</value>
+    </labels>
+    <labels>
+        <fullName>BS_Att_5_Cupu</fullName>
+        <categories>Onboarding-Attendance</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Att_5_Cupu</shortDescription>
+        <value>6</value>
+    </labels>
+    <labels>
+        <fullName>BS_Att_UL_Cupu</fullName>
+        <categories>Onboarding-Attendance</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Att_UL_Cupu</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>BS_Att_UL_Dewa</fullName>
+        <categories>Onboarding-Attendance</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Att_UL_Dewa</shortDescription>
+        <value>0</value>
+    </labels>
+    <labels>
+        <fullName>BS_CSAT_1_Dewa</fullName>
+        <categories>Onboarding-CSAT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_CSAT_1_Dewa</shortDescription>
+        <value>90</value>
+    </labels>
+    <labels>
+        <fullName>BS_CSAT_2_Keren</fullName>
+        <categories>Onboarding-CSAT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_CSAT_2_Keren</shortDescription>
+        <value>85</value>
+    </labels>
+    <labels>
+        <fullName>BS_CSAT_3_Oleh</fullName>
+        <categories>Onboarding-CSAT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_CSAT_3_Oleh</shortDescription>
+        <value>80</value>
+    </labels>
+    <labels>
+        <fullName>BS_CSAT_4_Mayan</fullName>
+        <categories>Onboarding-CSAT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_CSAT_4_Mayan</shortDescription>
+        <value>75</value>
+    </labels>
+    <labels>
+        <fullName>BS_CSAT_5_Cupu</fullName>
+        <categories>Onboarding-CSAT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_CSAT_5_Cupu</shortDescription>
+        <value>0</value>
+    </labels>
+    <labels>
+        <fullName>BS_HoldTime_1_Dewa</fullName>
+        <categories>Onboarding-HoldTime</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_HoldTime_1_Dewa</shortDescription>
+        <value>100</value>
+    </labels>
+    <labels>
+        <fullName>BS_HoldTime_2_Keren</fullName>
+        <categories>Onboarding-HoldTime</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_HoldTime_2_Keren</shortDescription>
+        <value>150</value>
+    </labels>
+    <labels>
+        <fullName>BS_HoldTime_3_Oleh</fullName>
+        <categories>Onboarding-HoldTime</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_HoldTime_3_Oleh</shortDescription>
+        <value>300</value>
+    </labels>
+    <labels>
+        <fullName>BS_HoldTime_4_Mayan</fullName>
+        <categories>Onboarding-HoldTime</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_HoldTime_4_Mayan</shortDescription>
+        <value>450</value>
+    </labels>
+    <labels>
+        <fullName>BS_HoldTime_5_Cupu</fullName>
+        <categories>Onboarding-HoldTime</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_HoldTime_5_Cupu</shortDescription>
+        <value>99999</value>
+    </labels>
+    <labels>
+        <fullName>BS_QA_1_Dewa</fullName>
+        <categories>Onboarding-QA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_QA_1_Dewa</shortDescription>
+        <value>100</value>
+    </labels>
+    <labels>
+        <fullName>BS_QA_2_Keren</fullName>
+        <categories>Onboarding-QA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_QA_2_Keren</shortDescription>
+        <value>95</value>
+    </labels>
+    <labels>
+        <fullName>BS_QA_3_Oleh</fullName>
+        <categories>Onboarding-QA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_QA_3_Oleh</shortDescription>
+        <value>85</value>
+    </labels>
+    <labels>
+        <fullName>BS_QA_4_Mayan</fullName>
+        <categories>Onboarding-QA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_QA_4_Mayan</shortDescription>
+        <value>75</value>
+    </labels>
+    <labels>
+        <fullName>BS_QA_5_Cupu</fullName>
+        <categories>Onboarding-QA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_QA_5_Cupu</shortDescription>
+        <value>0</value>
+    </labels>
+    <labels>
+        <fullName>BS_Resolved_1_Dewa</fullName>
+        <categories>Onboarding-Resolved</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Resolved_1_Dewa</shortDescription>
+        <value>60</value>
+    </labels>
+    <labels>
+        <fullName>BS_Resolved_2_Keren</fullName>
+        <categories>Onboarding-Resolved</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Resolved_2_Keren</shortDescription>
+        <value>180</value>
+    </labels>
+    <labels>
+        <fullName>BS_Resolved_3_Oleh</fullName>
+        <categories>Onboarding-Resolved</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Resolved_3_Oleh</shortDescription>
+        <value>360</value>
+    </labels>
+    <labels>
+        <fullName>BS_Resolved_4_Mayan</fullName>
+        <categories>Onboarding-Resolved</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Resolved_4_Mayan</shortDescription>
+        <value>1440</value>
+    </labels>
+    <labels>
+        <fullName>BS_Resolved_5_Cupu</fullName>
+        <categories>Onboarding-Resolved</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Resolved_5_Cupu</shortDescription>
+        <value>99999</value>
+    </labels>
+    <labels>
+        <fullName>BS_Response_1_Dewa</fullName>
+        <categories>Onboarding-Response</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Response_1_Dewa</shortDescription>
+        <value>15</value>
+    </labels>
+    <labels>
+        <fullName>BS_Response_2_Keren</fullName>
+        <categories>Onboarding-Response</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Response_2_Keren</shortDescription>
+        <value>30</value>
+    </labels>
+    <labels>
+        <fullName>BS_Response_3_Oleh</fullName>
+        <categories>Onboarding-Response</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Response_3_Oleh</shortDescription>
+        <value>60</value>
+    </labels>
+    <labels>
+        <fullName>BS_Response_4_Mayan</fullName>
+        <categories>Onboarding-Response</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Response_4_Mayan</shortDescription>
+        <value>120</value>
+    </labels>
+    <labels>
+        <fullName>BS_Response_5_Cupu</fullName>
+        <categories>Onboarding-Response</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Response_5_Cupu</shortDescription>
+        <value>999999</value>
+    </labels>
+    <labels>
+        <fullName>BS_Train_1_Dewa</fullName>
+        <categories>Onboarding-Training</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Train_1_Dewa</shortDescription>
+        <value>100</value>
+    </labels>
+    <labels>
+        <fullName>BS_Train_2_Keren</fullName>
+        <categories>Onboarding-Training</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Train_2_Keren</shortDescription>
+        <value>90</value>
+    </labels>
+    <labels>
+        <fullName>BS_Train_3_Oleh</fullName>
+        <categories>Onboarding-Training</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Train_3_Oleh</shortDescription>
+        <value>80</value>
+    </labels>
+    <labels>
+        <fullName>BS_Train_4_Mayan</fullName>
+        <categories>Onboarding-Training</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Train_4_Mayan</shortDescription>
+        <value>70</value>
+    </labels>
+    <labels>
+        <fullName>BS_Train_5_Cupu</fullName>
+        <categories>Onboarding-Training</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BS_Train_5_Cupu</shortDescription>
+        <value>60</value>
+    </labels>
+    <labels>
+        <fullName>Busy_Dinner</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Busy_Dinner</shortDescription>
+        <value>0N5N00000008OOI</value>
+    </labels>
+    <labels>
+        <fullName>Busy_Followup</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Busy_Followup</shortDescription>
+        <value>0N5N00000008OON</value>
+    </labels>
+    <labels>
+        <fullName>Busy_Lunch</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Busy_Lunch</shortDescription>
+        <value>0N528000000PCYi</value>
+    </labels>
+    <labels>
+        <fullName>Busy_No_Response</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Busy_No_Response</shortDescription>
+        <value>0N5N00000008OOS</value>
+    </labels>
+    <labels>
+        <fullName>Busy_Sholat</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Busy_Sholat</shortDescription>
+        <value>0N5N00000008OOD</value>
+    </labels>
+    <labels>
+        <fullName>Busy_Toilet</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Busy_Toilet</shortDescription>
+        <value>0N5N00000008OOX</value>
+    </labels>
+    <labels>
+        <fullName>Busy_Training</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Busy_Training</shortDescription>
+        <value>0N528000000PCYd</value>
+    </labels>
+    <labels>
+        <fullName>ColorTest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ColorTest</shortDescription>
+        <value>#00000</value>
+    </labels>
+    <labels>
+        <fullName>Company_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company ID</shortDescription>
+        <value>00DN0000000B0GM</value>
+    </labels>
+    <labels>
+        <fullName>Email_Service</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Service</shortDescription>
+        <value>tokopedia@2n472ddbe8kcraq4g6fw3sh6v5w5d288bosghrp5ok91w3ai9e.n-b0gmma0.cs6.apex.sandbox.salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>ID_Reply_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID Reply 2</shortDescription>
+        <value>00GN00000022PjeMAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_User_Guest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID User Guest</shortDescription>
+        <value>005N0000003FAU4</value>
+    </labels>
+    <labels>
+        <fullName>L3_Available</fullName>
+        <categories>UserStatusPresence</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>L3_Available</shortDescription>
+        <value>0N5N00000008OOc</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_AddQuestion</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Question</shortDescription>
+        <value>Add Question</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Anonymous</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Anonymous</shortDescription>
+        <value>Anonymous</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Answer_as</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Answer as</shortDescription>
+        <value>Answer as</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Chatter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter</shortDescription>
+        <value>Chatter</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Chatter_Link</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter Link</shortDescription>
+        <value>Chatter Link</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Community</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Community</shortDescription>
+        <value>Community</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Edit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Email_Link_Anonymous</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link, Anonymous</shortDescription>
+        <value>Email Link, Anonymous</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Email_Link_w_Contact_Case_Merge</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link w/ Contact &amp; Case Merge</shortDescription>
+        <value>Email Link w/ Contact &amp; Case Merge</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Email_Link_w_Contact_Merge</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link w/ Contact Merge</shortDescription>
+        <value>Email Link w/ Contact Merge</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_External_Please_Create_Site</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For external facing surveys, please create a site first.  You may still create i</shortDescription>
+        <value>For external facing surveys, please create a site first.  You may still create internal surveys without creating a site.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_For_community_assistance_with_Survey_Force</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For community assistance with Survey Force</shortDescription>
+        <value>For community assistance with Survey Force</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Getting_Help</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Help</shortDescription>
+        <value>Getting Help</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_HeaderAndThankYou</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header and Thank You</shortDescription>
+        <value>Header, Thank You &amp; CSS</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Installation_Guide</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Installation Guide</shortDescription>
+        <value>Installation Guide</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Learn_More</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Learn More</shortDescription>
+        <value>Learn More</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_MakeANewSurvey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make A New Survey</shortDescription>
+        <value>Make A New Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_MakeNewSurvey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make New Survey</shortDescription>
+        <value>Make New Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Make_a_Sample_Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make a Sample Survey</shortDescription>
+        <value>Make a Sample Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Next_Steps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Next Steps</shortDescription>
+        <value>Next Steps</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_PleaseEnterTheList</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please enter the list</shortDescription>
+        <value>Please enter the list of answers/responses in the field below. Each value should be separated by a new line.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Question</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Question</shortDescription>
+        <value>Question</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required</shortDescription>
+        <value>required</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_RequiredQuestion</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required Question</shortDescription>
+        <value>Required Question</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Resources</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resources</shortDescription>
+        <value>Resources</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Results</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Results</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SELECTTYPE</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>--SELECT--</shortDescription>
+        <value>--SELECT--</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Salesforce_Answers</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Salesforce Answers</shortDescription>
+        <value>Salesforce Answers</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SaveOrder</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Order</shortDescription>
+        <value>Save Order</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SelectQuestionType</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Question Type</shortDescription>
+        <value>Select Question Type</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Share</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Share</shortDescription>
+        <value>Share</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Share_My_Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Share My Survey</shortDescription>
+        <value>Share My Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Sharing_Options</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sharing Options</shortDescription>
+        <value>Sharing Options</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SubmitSurvey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Submit Survey</shortDescription>
+        <value>Submit Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SurveyForceIsOpenSource</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SurveyForceIsOpenSource</shortDescription>
+        <value>Survey Force is Open Source software.  We welcome your issue reports, ideas, documentation, code tweaks and all other participation.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Survey_Force_is_unsupported</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Force is unsupported</shortDescription>
+        <value>Survey Force is unsupported.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Survey_Force_on_Github</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Force on Github</shortDescription>
+        <value>Survey Force on Github</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Survey_Submitted_Thank_you</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your survey has been submitted. Thank you for taking our survey.</shortDescription>
+        <value>Your survey has been submitted. Thank you for taking our survey.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_To_submit_ideas_or_issues</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To submit ideas or issues</shortDescription>
+        <value>To submit ideas or issues</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_User_Guide</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>User Guide</shortDescription>
+        <value>User Guide</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_View_Results_In_New_Window</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Results In New Window</shortDescription>
+        <value>View Results In New Window</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_View_Sample_Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Sample Survey</shortDescription>
+        <value>View Sample Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Welcome_to_Survey_Force</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome to Survey Force</shortDescription>
+        <value>Welcome to Survey Force</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_X1_Create_a_sample_survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>1. Create a sample survey by clicking the button below.</shortDescription>
+        <value>1. Create a sample survey by clicking the button below.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_X2_External_Setup_Site</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>2. Set up a site if you would like to have external-facing surveys.</shortDescription>
+        <value>2. Set up a site if you would like to have external-facing surveys.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_X3_Start_creating_your_first_survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>3. Start creating your first survey.</shortDescription>
+        <value>3. Start creating your first survey.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_You_have_already_taken_this_survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You have already taken this survey!</shortDescription>
+        <value>You have already taken this survey!</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Your_next_few_steps_are_easy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your next few steps are easy.</shortDescription>
+        <value>Your next few steps are easy.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_please_visit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>please visit</shortDescription>
+        <value>please visit</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_aTypeConfig</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Article Type configuration</shortDescription>
+        <value>Article Type configuration</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_about_you</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please fill out these fields:</shortDescription>
+        <value>Please fill out these fields:</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_alreadyExist</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Knowledge Article type selected already exist.</shortDescription>
+        <value>Knowledge Article type selected already exist.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_availableKas</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Available KAs</shortDescription>
+        <value>Available KAs</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_clickToAddMoreItems</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Click &quot;Add Knowledge Article&quot; to add items.</shortDescription>
+        <value>Click &quot;Add Knowledge Article&quot; to add items.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_config_add_kav</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: Add Knowledge Article</shortDescription>
+        <value>Add Knowledge Article</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_config_critical_error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Critical error</shortDescription>
+        <value>Critical error found in custom settings.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_config_cti_pause</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: cti pause</shortDescription>
+        <value>Pause</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_config_cti_wait</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: cti wait</shortDescription>
+        <value>Wait</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_config_current_kav</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: Current Knowledge Article</shortDescription>
+        <value>Current Knowledge Articles</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_config_data_categories</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: Data Categories</shortDescription>
+        <value>Data Categories</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_config_general_setup</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: general setup</shortDescription>
+        <value>General Setup</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_config_live_agent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M : live agent</shortDescription>
+        <value>Live Agent</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_config_phone_call</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: phone calls</shortDescription>
+        <value>Phone calls</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_fileUploadProgress</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Uploading the selected file</shortDescription>
+        <value>Uploading the selected file.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_i_am</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>I am</shortDescription>
+        <value>I am</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_out_of_business_hours</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2 outside business hours</shortDescription>
+        <value>Unfortunately you are outside business hours but your request has been submitted.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_selectAtLeastOneField</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You must select at least one field.</shortDescription>
+        <value>You must select at least one field.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_selectedFields</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Selected fields</shortDescription>
+        <value>Selected fields</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_selectedKaFields</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Selected KA fields</shortDescription>
+        <value>Selected KA fields</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_toManyValues</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You have selected to many values, please remove some of them.</shortDescription>
+        <value>You have selected to many values, please remove some of them.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2M_uSure</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Are you sure?</shortDescription>
+        <value>Are you sure?</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_All_Fields_Required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: All Fields Required</shortDescription>
+        <value>All fields are required.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Answers_Might_Help</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Answers Might Help</shortDescription>
+        <value>These answers might help immediately</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Ask_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Ask Button</shortDescription>
+        <value>Ask</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Back_To_Results</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Back To Results</shortDescription>
+        <value>Back to search results</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Back_To_Search_Page</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Back To Search Page</shortDescription>
+        <value>Back to search page</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_CallNow</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Call Now</shortDescription>
+        <value>Call Now</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Call_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call</shortDescription>
+        <value>Call</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Case_Error_Admin_Notification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Case Error Admin Notification</shortDescription>
+        <value>The Public Knowledge Base 2 (PKB2) package that is installed in your org has encountered an issue. A Case record recently submitted by a customer was unable to be saved to the org&apos;s database. This can happen when a validation rule or some other constraint is introduced on the Case object.
+
+The creation of Case records is a core part of the PKB2 functionality, so this may be an indication of an ongoing problem.
+
+For troubleshooting purposes, below is the debug information from the Apex code that encountered the error.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Case_Submit_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Case Submit Error</shortDescription>
+        <value>There was a problem submitting your request. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Category_Group_Label_1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Category Group Label 1</shortDescription>
+        <value>&lt;Group 1 Label&gt;</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Category_Group_Label_2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Category Group Label 2</shortDescription>
+        <value>&lt;Group 2 Label&gt;</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Category_Group_Label_3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Category Group Label 3</shortDescription>
+        <value>&lt;Group 3 Label&gt;</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Category_MGroup_Label_1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Category Group Label 1</shortDescription>
+        <value>&lt;Group 1 Label&gt;</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Category_MGroup_Label_2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Category Group Label 2</shortDescription>
+        <value>&lt;Group 2 Label&gt;</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Category_MGroup_Label_3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Category Group Label 3</shortDescription>
+        <value>&lt;Group 3 Label&gt;</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_ChatNow</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chat Now</shortDescription>
+        <value>Chat Now</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_ChatOff</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Offline</shortDescription>
+        <value>Offline</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Chat_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chat</shortDescription>
+        <value>Chat</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Chat_Online</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pkb2 : Chat online</shortDescription>
+        <value>Chat Online</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Close</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2 Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Close_Window</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2 Close Window</shortDescription>
+        <value>close window</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Complete_Request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Complete Request</shortDescription>
+        <value>To complete your request, please fill out these fields.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Contact_Us</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Contact Us</shortDescription>
+        <value>Contact Us</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Contact_Us_Link_Prompt</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Contact Us Link Prompt</shortDescription>
+        <value>Can&apos;t find what you need?</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Contact_Us_Prompt</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Contact Us Prompt</shortDescription>
+        <value>Type your message here.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Create_Settings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Create Settings</shortDescription>
+        <value>Create New PKB Settings</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Done</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Done</shortDescription>
+        <value>Done</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Email_Article</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Email Article</shortDescription>
+        <value>Email a link to this article</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Email_Invalid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Email Invalid</shortDescription>
+        <value>The email address you entered is invalid.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Error_Admin_Notification_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Error Admin Notification Email</shortDescription>
+        <value>The Public Knowledge Base 2 (PKB2) package that is installed in your org has encountered an issue. The package was set to create an Account and Contact when a customer submits a question, but one of those transactions recently failed. This can happen when a validation rule or some other constraint is introduced on those objects.
+
+For troubleshooting purposes, below is the debug information from the Apex code that encountered the error.
+
+Also, the package has changed the setting to prevent the creation of Contacts and Accounts. When the issue is resolved, the setting can be changed back.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Featured_Articles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Featured Articles</shortDescription>
+        <value>Featured Articles</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Feedback</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Feedback</shortDescription>
+        <value>Feedback</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Feedback_Appreciated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Feedback Appreciated</shortDescription>
+        <value>Feedback</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Feedback_Characters_Remaining</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Feedback Characters Remaining</shortDescription>
+        <value>Characters Remaining</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Filter_Options</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Filter Options</shortDescription>
+        <value>Filter Options</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Filters</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Filters</shortDescription>
+        <value>Filters</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_First_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: First Name</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Get_Back_Soon</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: We will get back at you soon</shortDescription>
+        <value>We will get back at you soon.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_HelpUs_HelpYou</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help us, help you.</shortDescription>
+        <value>Help us, help you.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Languages</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Languages</shortDescription>
+        <value>Languages</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Last_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Last Name</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_More_Useful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: More Useful</shortDescription>
+        <value>Please tell us how we can make this article more useful.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2:  Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Narrow_Search</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Narrow Search</shortDescription>
+        <value>Narrow Search</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Next_Link</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Next Link</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_No</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_No_Filter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No Filter</shortDescription>
+        <value>No Filter</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_No_Found_Answer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No Found Answer</shortDescription>
+        <value>No, I found the answer</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_No_Results</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No Results</shortDescription>
+        <value>No luck, your search returned no results.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_No_Settings_Yet</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No Settings Yet</shortDescription>
+        <value>It appears that no PKB custom settings have been created yet.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_None</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: None</shortDescription>
+        <value>None</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Popular_Articles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Popular Articles</shortDescription>
+        <value>Popular Articles</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Previous_Link</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Previous Link</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Printable_View</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Printable View</shortDescription>
+        <value>Printable View (New Window)</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Recommended</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Recommended</shortDescription>
+        <value>Recommended</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Related_Articles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Related Articles</shortDescription>
+        <value>Related Articles</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Request_Submitted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Request Submitted</shortDescription>
+        <value>Your request has been submitted.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Request_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Request Type</shortDescription>
+        <value>Request Type</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Reset_Search</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Reset Search</shortDescription>
+        <value>Reset Search</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Search_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Search Button</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Search_Invalid_Characters</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Search Invalid Characters</shortDescription>
+        <value>Your search contains invalid characters.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Search_Prompt</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Search Prompt</shortDescription>
+        <value>What would you like to know?</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Search_Results</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Search Results</shortDescription>
+        <value>Search Results</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Select_Settings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Select Settings</shortDescription>
+        <value>Select Settings to Edit</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Send_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Send Button</shortDescription>
+        <value>Send</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Still_Have_Question</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Still Have Question</shortDescription>
+        <value>Still have a question?</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Submit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Subscribe_Article_Feed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Subscribe Article Feed</shortDescription>
+        <value>Subscribe to the RSS feed for this article</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Subscribe_Feed_Results</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Subscribe Feed Results</shortDescription>
+        <value>Subscribe to a feed of the results of your search</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Thanks_For_Feedback</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Thanks For Feedback</shortDescription>
+        <value>Thanks for your feedback!</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Topic</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2:Contact Us  Topic</shortDescription>
+        <value>Request Type</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Tweet_This</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Tweet This</shortDescription>
+        <value>Tweet this!</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Value_Must_Match_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Value Must Match Name</shortDescription>
+        <value>The value of Name must match exactly the API name of the Site you are configuring the settings for.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Was_Helpful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Was Helpful</shortDescription>
+        <value>Was this article helpful?</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Within_Category</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Within Category</shortDescription>
+        <value>Within the category or categories</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Yes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_Yes_Submit_Question</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Yes Submit Question</shortDescription>
+        <value>Yes, submit my question</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_You_Searched_For</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: You Searched For</shortDescription>
+        <value>You searched for</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_find_Helpful_and_you</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: find Helpful and you</shortDescription>
+        <value>There are NNN people that found this helpful. Do you?</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_help_please</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Contact Us Help Please</shortDescription>
+        <value>Help Please</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_help_please_call</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Call Us</shortDescription>
+        <value>Call Us</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_help_please_liveAgent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chat</shortDescription>
+        <value>Chat</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_how_can_we_help</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Contact Us placeholder</shortDescription>
+        <value>Please let us know how we can help you</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_cannot_read_file</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS cannot read File</shortDescription>
+        <value>Could not read file</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_error_access_denied</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error access denied</shortDescription>
+        <value>Access is denied!</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_error_position_unavailable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error position unavailable</shortDescription>
+        <value>Position is unavailable!</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_error_question_empty</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error question empty</shortDescription>
+        <value>Question string can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_error_question_length</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error question length</shortDescription>
+        <value>Question string must be at most NNN characters long</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_geolocation_not_supported</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS geolocation not supported</shortDescription>
+        <value>Geolocation is not supported by this browser.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_issues_uploading_file</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS issues uploading  File</shortDescription>
+        <value>There had been some issues uploading the file, please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_only_n_files_supported</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS only NNN  files</shortDescription>
+        <value>Only NNN will be uploaded</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_search_string_empty</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS search string empty</shortDescription>
+        <value>Search string can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_search_string_length</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS search string length</shortDescription>
+        <value>Search string must be at least NNN characters long</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_select_file</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS select File</shortDescription>
+        <value>Please select a file!</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_js_topic_empty</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS topic empty</shortDescription>
+        <value>Topic cannot be empty</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_april</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month April</shortDescription>
+        <value>Apr</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_august</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month August</shortDescription>
+        <value>Aug</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_december</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month December</shortDescription>
+        <value>Dec</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_february</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month February</shortDescription>
+        <value>Feb</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_january</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month January</shortDescription>
+        <value>Jan</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_july</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month July</shortDescription>
+        <value>Jul</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_june</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month June</shortDescription>
+        <value>Jun</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_march</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month March</shortDescription>
+        <value>Mar</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_may</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month May</shortDescription>
+        <value>May</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_november</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month November</shortDescription>
+        <value>Nov</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_october</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month October</shortDescription>
+        <value>Oct</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_month_september</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month September</shortDescription>
+        <value>Sep</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_no_availanble_liveAgent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2 : no live agents available</shortDescription>
+        <value>There are no agents available, we will get back at you soon.&lt;br/&gt;click here to close</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_search_to_long</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2_search_to_long</shortDescription>
+        <value>Search string is too long.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_send_mail</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Contact Us Send Email</shortDescription>
+        <value>Send Email</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_sugFour</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_sugFour</shortDescription>
+        <value>Try fewer keywords</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_sugOne</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_sugOne</shortDescription>
+        <value>Make sure that your filter are set correctly</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_sugThree</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_sugThree</shortDescription>
+        <value>Try more general keywords</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_sugTwo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_sugTwo</shortDescription>
+        <value>Try different Keywords</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_suggestions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_suggestions</shortDescription>
+        <value>Suggestions:</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_tellitlikeitis</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Tell it like it is.</shortDescription>
+        <value>Tell it like it is.</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_today</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Today</shortDescription>
+        <value>today</value>
+    </labels>
+    <labels>
+        <fullName>PKB2_yesterday</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Yesterday</shortDescription>
+        <value>yesterday</value>
+    </labels>
+    <labels>
+        <fullName>QAAgentAnswerUser</fullName>
+        <categories>Onboarding-QA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QAAgentAnswerUser</shortDescription>
+        <value>00528000005eOzRAAU</value>
+    </labels>
+    <labels>
+        <fullName>RecID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecID_Digital</shortDescription>
+        <value>012N00000001BjwIAE</value>
+    </labels>
+    <labels>
+        <fullName>RecID_MrktPlc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecID_MrktPlc</shortDescription>
+        <value>012N00000001BjvIAE</value>
+    </labels>
+    <labels>
+        <fullName>RecID_NoInv</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecID_NoInv</shortDescription>
+        <value>012N00000001BuFIAU</value>
+    </labels>
+    <labels>
+        <fullName>RecID_Train</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecID_Train</shortDescription>
+        <value>012N00000001BjxIAE</value>
+    </labels>
+    <labels>
+        <fullName>Recordtype_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recordtype ID</shortDescription>
+        <value>01228000000TCf0AAG</value>
+    </labels>
+    <labels>
+        <fullName>Signature</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signature</shortDescription>
+        <value>&lt;p style=&quot;color: rgb(43, 46, 47); font-size: 14px;&quot;&gt;Salam,&lt;br&gt;Customer Care&lt;br&gt;&lt;span class=&quot;Object&quot;&gt;&lt;a href=&quot;http://www.tokopedia.com&quot; target=&quot;_blank&quot;&gt;www.tokopedia.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Status_Agent_Reply_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status Agent Reply &gt; 2</shortDescription>
+        <value>Response Received</value>
+    </labels>
+    <labels>
+        <fullName>Survey_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Survey ID</shortDescription>
+        <value>a07N000000Efcel</value>
+    </labels>
+    <labels>
+        <fullName>Survey_Question_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Survey Question ID</shortDescription>
+        <value>a06N000000C76Po</value>
+    </labels>
+    <labels>
+        <fullName>URL_READ</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URL READ</shortDescription>
+        <value>https://www.tokopedia.com/contact-us/api/sf/ticket/read</value>
+    </labels>
+    <labels>
+        <fullName>URL_SF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URL_SF</shortDescription>
+        <value>https://cs6.salesforce.com/</value>
+    </labels>
+    <labels>
+        <fullName>URL_Sorry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URL Sorry</shortDescription>
+        <value>https://c.cs6.content.force.com/servlet/servlet.ImageServer?id=015N0000000byIP&amp;oid=00DN0000000B0GM&amp;lastMod=1487910570000</value>
+    </labels>
+    <labels>
+        <fullName>URL_Thanks</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URL Thanks</shortDescription>
+        <value>https://c.cs6.content.force.com/servlet/servlet.ImageServer?id=015N0000000byIo&amp;oid=00DN0000000B0GM&amp;lastMod=1487910740000</value>
+    </labels>
+    <labels>
+        <fullName>URL_UNREAD</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URL UNREAD</shortDescription>
+        <value>https://www.tokopedia.com/contact-us/api/sf/ticket/unread</value>
+    </labels>
+    <labels>
+        <fullName>WP_HC_Client_Id</fullName>
+        <categories>Help Center, Wordpress, OAuth</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WP HC Client Id</shortDescription>
+        <value>YhJWGhUgg6DkUtWGQbFrDf6LqtubvCGuTqqAIkRY</value>
+    </labels>
+    <labels>
+        <fullName>WP_HC_Client_Secret</fullName>
+        <categories>Help Center, Wordpress, OAuth</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WP HC Client Secret</shortDescription>
+        <value>ruimYe3PqIh4YnPoQjAlWhQPHgpqBgo2LHpKWszm</value>
+    </labels>
+    <labels>
+        <fullName>WP_HC_Endpoint</fullName>
+        <categories>Help Center, Wordpress, OAuth</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WP HC Endpoint</shortDescription>
+        <value>https://helpcenter.stg.host/wp-json/wp/v2/posts</value>
+    </labels>
+    <labels>
+        <fullName>WP_HC_Get_By_SF_Id</fullName>
+        <categories>Help Center, Wordpress, OAuth</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WP HC Get By SF Id</shortDescription>
+        <value>https://helpcenter.stg.host/wp-json/sf/v1/id?filter=</value>
+    </labels>
+    <labels>
+        <fullName>WP_HC_Grant_Type</fullName>
+        <categories>Help Center, Wordpress, OAuth</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WP HC Grant Type</shortDescription>
+        <value>password</value>
+    </labels>
+    <labels>
+        <fullName>WP_HC_Password</fullName>
+        <categories>Help Center, Wordpress, OAuth</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WP HC Password</shortDescription>
+        <value>Password123</value>
+    </labels>
+    <labels>
+        <fullName>WP_HC_Token_URL</fullName>
+        <categories>Help Center, Wordpress, OAuth</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WP HC Token URL</shortDescription>
+        <value>https://helpcenter.stg.host/oauth/token</value>
+    </labels>
+    <labels>
+        <fullName>WP_HC_Username</fullName>
+        <categories>Help Center, Wordpress, OAuth</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WP HC Username</shortDescription>
+        <value>mohamad.suheri</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_bs</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Bosnian</shortDescription>
+        <value>босански</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_cy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welsh</shortDescription>
+        <value>Cymraeg</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_da</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Danish</shortDescription>
+        <value>Dansk</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_de</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>German</shortDescription>
+        <value>Deutsch</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_en_US</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>English</shortDescription>
+        <value>English</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_es</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Español</shortDescription>
+        <value>Español</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_et</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Estonian</shortDescription>
+        <value>Eesti Keel</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_eu</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Basque</shortDescription>
+        <value>Euskara</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_fi</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Finnish</shortDescription>
+        <value>Suomalainen</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_fr</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Francais</shortDescription>
+        <value>Francais</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_ga</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Irish (Gaelic)</shortDescription>
+        <value>Gaeilge</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_hi</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hindi</shortDescription>
+        <value>हिन्दी</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_hr</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Croatian</shortDescription>
+        <value>Hrvatski</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_hy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Armenian</shortDescription>
+        <value>Հայերէն</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_is</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Icelandic</shortDescription>
+        <value>Íslenska</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_it</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Italian</shortDescription>
+        <value>Italiano</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_ja</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Japanese</shortDescription>
+        <value>日本の</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_ka</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Georgian</shortDescription>
+        <value>ქართული</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_ko</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Korean</shortDescription>
+        <value>한국의</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_lb</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Luxembourgish</shortDescription>
+        <value>Lëtzebuergesch</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_lt</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Lithuanian</shortDescription>
+        <value>Lietuvių Kalba</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_lv</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Latvian</shortDescription>
+        <value>Latviešu Valoda</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_mk</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Macedonian</shortDescription>
+        <value>македонски</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_mt</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Maltese</shortDescription>
+        <value>Malti</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_nl_NL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Dutch</shortDescription>
+        <value>Nederlands</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_pt_BR</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Portuguese (Brazilian)</shortDescription>
+        <value>Português</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_pt_PT</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Portuguese</shortDescription>
+        <value>Português</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_ro_MD</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Moldovan</shortDescription>
+        <value>лимба молдовеняскэ</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_ru</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Russian</shortDescription>
+        <value>русский</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_sh</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Serbian latin</shortDescription>
+        <value>Srpski</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_sk</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Slovak</shortDescription>
+        <value>Slovenčina</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_sl</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Slovenian</shortDescription>
+        <value>Slovenščina</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_sq</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Albanian</shortDescription>
+        <value>Shqiptar</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_sr</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Serbian Cyrillic</shortDescription>
+        <value>српски</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_sv</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Swedish</shortDescription>
+        <value>Svenska</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_th</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Thai</shortDescription>
+        <value>ภาษาไทย</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_tl</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Tagalog</shortDescription>
+        <value>Tagalog</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_ur</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Urdu</shortDescription>
+        <value>اردو</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_zh_CN</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chinese (Simplified)</shortDescription>
+        <value>中国的</value>
+    </labels>
+    <labels>
+        <fullName>pkb2_lang_zh_TW</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chinese (Traditional)</shortDescription>
+        <value>中國的</value>
+    </labels>
+</CustomLabels>

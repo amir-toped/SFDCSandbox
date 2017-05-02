@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Break_Shift_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Break_Shift__c == &apos;2&apos;,&apos;13.30 - 14.30&apos;,
+IF (Break_Shift__c == &apos;3.1&apos;,&apos;17.30 - 18.30&apos;,
+IF (Break_Shift__c == &apos;3.2&apos;,&apos;18.30 - 19.30&apos;,
+IF (Break_Shift__c == &apos;4.1&apos;,&apos;01.30 - 02.30&apos;,
+IF (Break_Shift__c == &apos;4.2&apos;,&apos;02.30 - 03.30&apos;,&apos;Not Available&apos;)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Break Shift Time</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Break_Shift__c</fullName>
+        <externalId>false</externalId>
+        <label>Break Shift</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Call_Duration_Tech__c</fullName>
+        <description>Shows Call Duration</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Call Duration</inlineHelpText>
+        <label>Call Duration</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Call_Source_Tech__c</fullName>
+        <description>Call log Source Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Call log Source Name</inlineHelpText>
+        <label>Call Source</label>
+        <length>30</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Case__r.Category__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Category</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Activities Call</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Destination_Number__c</fullName>
+        <description>Call Destination Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Call Destination Number</inlineHelpText>
+        <label>Destination Number</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>(End_Call__c - Start_Call__c) * 1440</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Call__c</fullName>
+        <externalId>false</externalId>
+        <label>End Call</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Hourly__c</fullName>
+        <description>LEFT(TEXT(( Start_Call__c + ((7*60))/1440)),LEN(TEXT(Start_Call__c))-7) &amp;&apos;:00&apos;</description>
+        <externalId>false</externalId>
+        <formula>IF ((VALUE (RIGHT(LEFT(TEXT(Start_Call__c),LEN(TEXT(Start_Call__c))-7),2)) + 7) &gt; 24, 
+(VALUE (RIGHT(LEFT(TEXT(Start_Call__c),LEN(TEXT(Start_Call__c))-7),2)) + 7 - 24), 
+(VALUE (RIGHT(LEFT(TEXT(Start_Call__c),LEN(TEXT(Start_Call__c))-7),2)) + 7)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hourly</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Periode__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( MONTH(ActivityDate) == 1, &apos;January&apos;,
+IF ( MONTH(ActivityDate) == 2, &apos;February&apos;,
+IF ( MONTH(ActivityDate) == 3, &apos;March&apos;,
+IF ( MONTH(ActivityDate) == 4, &apos;April&apos;,
+IF ( MONTH(ActivityDate) == 5, &apos;May&apos;,
+IF ( MONTH(ActivityDate) == 6, &apos;June&apos;,
+IF ( MONTH(ActivityDate) == 7, &apos;July&apos;,
+IF ( MONTH(ActivityDate) == 8, &apos;August&apos;,
+IF ( MONTH(ActivityDate) == 9, &apos;September&apos;,
+IF ( MONTH(ActivityDate) == 10, &apos;October&apos;,
+IF ( MONTH(ActivityDate) == 11, &apos;November&apos;,
+IF ( MONTH(ActivityDate) == 12, &apos;December&apos;,&apos;&apos;))))))))))))
+&amp;&apos; &apos;&amp;TEXT(Year(ActivityDate))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Periode</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Record_Link__c</fullName>
+        <description>Call Record Link</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Call Record Link</inlineHelpText>
+        <label>Record Link</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Source_Number_Tech__c</fullName>
+        <description>Call Source Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Call Source Number</inlineHelpText>
+        <label>Source Number</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Call__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Call</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Sub_Category_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Case__r.Case_SubCategory_1__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sub Category 1</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Category_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Case__r.Sub_Category2__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sub Category 2</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Category_3__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Case__r.Sub_Category_3__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sub Category 3</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Week__c</fullName>
+        <externalId>false</externalId>
+        <formula>(ActivityDate - 
+   (
+   DATE(year(ActivityDate),month(ActivityDate),1) - 
+CASE( MOD( DATE(year(ActivityDate),month(ActivityDate),1) - DATE(1900, 1, 7), 7), 
+0, 3, 
+1, 4, 
+2, 5, 
+3, 6, 
+4, 0, 
+5, 1, 
+6, 2
+,0)
+)) / 7</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Week ?</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+    </listViews>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

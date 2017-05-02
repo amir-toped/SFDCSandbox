@@ -1,0 +1,102 @@
+<apex:page id="chat" standardController="Case" extensions="CaseChat" sidebar="false" showHeader="false">
+
+<style>
+div.scroll {
+    //background-color: #00FFFF;
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+}
+
+table#tablechatdetail tr:nth-child(even){
+        background-color: #f2f2f2
+}  
+
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+}
+</style>
+
+<script src="/soap/ajax/34.0/connection.js"></script>
+    <script src="/soap/ajax/24.0/apex.js"></script>
+ <apex:includescript value="{!URLFOR($Resource.CkEditor2, 'ckeditor/ckeditor.js')}" /> 
+    <script language="javascript">
+    function myFunction() {
+        //document.getElementById("messages").value=null;
+        var element = CKEDITOR.instances['messages'].getData();
+        alert(element);
+
+    }
+    /*
+    function ReloadCKEditor() {
+       for(name in CKEDITOR.instances)
+       {
+           delete CKEDITOR.instances[name];
+       }
+       CKEDITOR.replaceAll();
+    }
+    */
+    </script>
+<div style="width: 100%;height: 900px;overflow: scroll;">
+<apex:form id="idform">
+      <apex:pageBlock id="formchat" title="Form Chat" >
+      <apex:pageMessages id="errors"/>
+          <table width="100%" id="form">
+              <tr><td>Messages : </td><td> <!-- <apex:inputTextarea id="messages" richtext="true" rows="10" cols="70" value="{!msg}"/> -->
+               <apex:inputtextarea styleClass="ckeditor" richtext="false" id="messages" value="{!msg}" /> </td></tr>
+              <!--<tr><td>Images URL 1 : </td><td><apex:inputtext id="img1" value="{!img1}"/>&nbsp;</td></tr>
+              <tr><td>Images URL 2 : </td><td><apex:inputtext id="img2" value="{!img2}"/>&nbsp;</td></tr>
+              <tr><td>Images URL 3 : </td><td><apex:inputtext id="img3" value="{!img3}"/>&nbsp;</td></tr>
+              <tr><td>Images URL 4 : </td><td><apex:inputtext id="img4" value="{!img4}"/>&nbsp;</td></tr>
+              <tr><td>Images URL 5 : </td><td><apex:inputtext id="img5" value="{!img5}"/>&nbsp;</td></tr>
+              <tr><td>Images URL 6 : </td><td><apex:inputtext id="img6" value="{!img6}"/>&nbsp;</td></tr>-->
+              <tr><td></td><td><apex:commandButton id="post"  value="Post" action="{!Post}" onclick="myFunction()"/><!-- <apex:actionSupport rerender="formchat" oncomplete="ReloadCkEditor();"/>--></td></tr>
+          </table>
+      </apex:pageBlock>
+      <apex:pageBlock id="tablechat" title="Chat Reply">
+          <apex:pageBlockButtons >
+                <apex:commandButton value="<<" rerender="tablechat" action="{!beginning}" disabled="{!prev}"/>
+                <apex:commandButton value="<" rerender="tablechat" action="{!previous}" disabled="{!prev}"/>
+                <apex:commandButton value=">" rerender="tablechat" action="{!next}" disabled="{!nxt}"/>
+                <apex:commandButton value=">>" rerender="tablechat" action="{!end}" disabled="{!nxt}"/> 
+                
+            </apex:pageBlockButtons>
+          <table width="100%" id="tablechatdetail">
+            <apex:repeat var="o" value="{!Chating}">
+            <tr>
+                <td>
+                    <strong>{!if(o.user__c!='', o.Agent_Name__c , '') }</strong><br/>
+                    <apex:outputText value="{!if(o.user__c!='', o.CreateddateTZ__C , '') }" ></apex:outputText>
+                    <apex:outputText value="{!if(o.user__c!='', o.Messages2__c , '') }" escape="false"></apex:outputText><br/>
+                    <a href="{!if(o.user__c!='', o.Image_1__c , '') }" target="_blank">{!if(o.user__c!='', o.Image_1__c , '') }</a> <br/>
+                    <a href="{!if(o.user__c!='', o.Image_2__c , '') }" target="_blank">{!if(o.user__c!='', o.Image_2__c , '') }</a> <br/>
+                    <a href="{!if(o.user__c!='', o.Image_3__c , '') }" target="_blank">{!if(o.user__c!='', o.Image_3__c , '') }</a> <br/>
+                    <a href="{!if(o.user__c!='', o.Image_4__c , '') }" target="_blank">{!if(o.user__c!='', o.Image_4__c , '') }</a> <br/>
+                    <a href="{!if(o.user__c!='', o.Image_5__c , '') }" target="_blank">{!if(o.user__c!='', o.Image_5__c , '') }</a> <br/>
+                    <a href="{!if(o.user__c!='', o.Image_6__c , '') }" target="_blank">{!if(o.user__c!='', o.Image_6__c , '') }</a> 
+                </td>
+                <td align="right">
+                    <strong>{!if(o.account__c!='', o.Account_Name__c , if(o.contact__c!='', o.Contact_Name__c , '')) }</strong><br/>
+                    <apex:outputText value="{!if(o.account__c!='', o.CreateddateTZ__C , '') }" ></apex:outputText><br/>
+                    <apex:outputText value="{!if(o.account__c!='', o.Messages2__c , if(o.contact__c!='', o.Messages2__c , '')) }" escape="false"></apex:outputText>
+                    <br/>
+                    <a href="{!if(o.account__c!='', o.Image_1__c , if(o.contact__c!='', o.Image_1__c , '')) }" target="_blank">{!if(o.account__c!='', o.Image_1__c , if(o.contact__c!='', o.Image_1__c , '')) }</a> <br/>
+                    <a href="{!if(o.account__c!='', o.Image_2__c , if(o.contact__c!='', o.Image_2__c , '')) }" target="_blank">{!if(o.account__c!='', o.Image_2__c , if(o.contact__c!='', o.Image_2__c , '')) }</a> <br/>
+                    <a href="{!if(o.account__c!='', o.Image_3__c , if(o.contact__c!='', o.Image_3__c , '')) }" target="_blank">{!if(o.account__c!='', o.Image_3__c , if(o.contact__c!='', o.Image_3__c , '')) }</a> <br/>
+                    <a href="{!if(o.account__c!='', o.Image_4__c , if(o.contact__c!='', o.Image_4__c , '')) }" target="_blank">{!if(o.account__c!='', o.Image_4__c , if(o.contact__c!='', o.Image_4__c , '')) }</a> <br/>
+                    <a href="{!if(o.account__c!='', o.Image_5__c , if(o.contact__c!='', o.Image_5__c , '')) }" target="_blank">{!if(o.account__c!='', o.Image_5__c , if(o.contact__c!='', o.Image_5__c , '')) }</a> <br/>
+                    <a href="{!if(o.account__c!='', o.Image_6__c , if(o.contact__c!='', o.Image_6__c , '')) }" target="_blank">{!if(o.account__c!='', o.Image_6__c , if(o.contact__c!='', o.Image_6__c , '')) }</a> <br/>
+                </td>
+            </tr>
+            </apex:repeat>
+            </table>
+            
+      </apex:pageBlock>
+      
+  </apex:form>
+  </div>
+</apex:page>

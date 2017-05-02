@@ -1,0 +1,12 @@
+<div style="padding: 10px; line-height: 18px; font-family: &quot;lucida grande&quot;, verdana, arial, sans-serif; font-size: 12px; color: rgb(68, 68, 68);">
+    <div style="color: rgb(181, 181, 181);">##- Tolong balas pesan diatas baris ini -##</div>
+    <p></p>
+<table width="100%">
+<tbody>
+<tr><td><table width="600" align="center">
+<tbody><tr><td><img alt="Tokopedia" dfsrc="https://ecs1.tokopedia.net/img/microsite/logo-microsite.png" src="https://ecs1.tokopedia.net/img/microsite/logo-microsite.png" saveddisplaymode=""></td></tr>
+<tr><td><p style="font-size: 14px; line-height: 22px;">Hi, {!Case.Account}</p></td></tr><tr>
+<td><p style="font-size: 14px; line-height: 22px;">Terima kasih sudah menghubungi Layanan Pengguna Tokopedia.<br>Customer Care kami akan segera membantu menjawab pesan Anda.</p></td></tr></tbody></table></td></tr>
+</tbody>
+</table>
+  </div>

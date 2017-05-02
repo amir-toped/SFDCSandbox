@@ -1,0 +1,35 @@
+<apex:page id="AgentShiftVFId" standardController="Agent_Shift__c" extensions="AgentShiftController" docType="html-5.0" showHeader="true">
+    
+    <apex:form id="mainFormId">
+        <apex:pageBlock id="pgBDataId" title="Agent Shift" mode="edit">
+            <apex:pageMessages id="errors"/>
+            
+            <apex:pageBlockButtons id="pbButtonId">
+                <apex:commandButton value="Save" action="{!save}" reRender="errors,pgBDataId" />
+                <apex:commandButton value="Cancel" action="{!cancel}" reRender="errors,pgBDataId" html-formnovalidate="formnovalidate"/>
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockSection id="pgShiftInformationId" columns="1" title="Agent Shift Configuration" showHeader="true" >
+                <apex:inputField value="{!Agent_Shift__c.Name}" />
+                <apex:inputField value="{!Agent_Shift__c.Type_Shift__c}" />
+                <apex:inputField value="{!Agent_Shift__c.Description__c}" style="width:40%" />
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection columns="1" id="pgTimeInformationId" title="Time Information" showHeader="true">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Start Time" for="lblStartTime" />
+                    <apex:panelGrid columns="2">
+                        <apex:input id="tmStartTime" type="time" value="{!startTime}"/>
+                    </apex:panelGrid>
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="End Time" for="lblEndTime" />
+                    <apex:panelGrid columns="2">
+                        <apex:input id="tmEndTime" type="time" value="{!endTime}"/>
+                    </apex:panelGrid>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>      
+    </apex:form>
+</apex:page>

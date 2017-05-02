@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Payment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Payment</value>
+    </caseValues>
+    <fields>
+        <label><!-- Admin Extra Fee --></label>
+        <name>Admin_Extra_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount Per Installment --></label>
+        <name>Amount_Per_Installment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank --></label>
+        <name>Bank__c</name>
+        <picklistValues>
+            <masterLabel>BCA</masterLabel>
+            <translation><!-- BCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BNI</masterLabel>
+            <translation><!-- BNI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mandiri</masterLabel>
+            <translation><!-- Mandiri --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deposit Amount --></label>
+        <name>Deposit_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installment Detail --></label>
+        <name>Installment_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Amount --></label>
+        <name>Invoice_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Timestamp --></label>
+        <name>Latest_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Method --></label>
+        <name>Method__c</name>
+        <picklistValues>
+            <masterLabel>Bank</masterLabel>
+            <translation><!-- Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installment</masterLabel>
+            <translation><!-- Installment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Date --></label>
+        <name>Payment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Real --></label>
+        <name>Payment_Real__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promo Amount --></label>
+        <name>Promo_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promo Period --></label>
+        <name>Promo_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promo Rule --></label>
+        <name>Promo_Rule__c</name>
+        <picklistValues>
+            <masterLabel>Calculation</masterLabel>
+            <translation><!-- Calculation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limitation</masterLabel>
+            <translation><!-- Limitation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation</masterLabel>
+            <translation><!-- Validation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Promo Voucher --></label>
+        <name>Promo_Voucher__c</name>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unique</masterLabel>
+            <translation><!-- Unique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ref Number --></label>
+        <name>Ref_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Amount --></label>
+        <name>Shipping_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Top Point Amount --></label>
+        <name>Top_Point_Amount__c</name>
+    </fields>
+    <layouts>
+        <layout>Payment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Amount --></label>
+            <section>Payment Amount</section>
+        </sections>
+        <sections>
+            <label><!-- Promo Details --></label>
+            <section>Promo Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

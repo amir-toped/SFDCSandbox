@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Custom setting to allow renaming of custom related list columns, and visibility of these custom columns, plus some default Wootric NPS columns.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Custom_Property_10_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 10 label</description>
+        <externalId>false</externalId>
+        <label>Property 10 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_1_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 1 label</description>
+        <externalId>false</externalId>
+        <label>Property 1 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_2_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 2 label</description>
+        <externalId>false</externalId>
+        <label>Property 2 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_3_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 3 label</description>
+        <externalId>false</externalId>
+        <label>Property 3 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_4_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 4 label</description>
+        <externalId>false</externalId>
+        <label>Property 4 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_5_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 5 label</description>
+        <externalId>false</externalId>
+        <label>Property 5 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_6_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 6 label</description>
+        <externalId>false</externalId>
+        <label>Property 6 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_7_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 7 label</description>
+        <externalId>false</externalId>
+        <label>Property 7 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_8_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 8 label</description>
+        <externalId>false</externalId>
+        <label>Property 8 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_9_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 9 label</description>
+        <externalId>false</externalId>
+        <label>Property 9 Label</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsColumn_Channel_Visible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS Chanel</description>
+        <externalId>false</externalId>
+        <label>Column Channel Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsColumn_Date_Visible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Is Date visable</description>
+        <externalId>false</externalId>
+        <label>Column Date Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsColumn_Feedback_Visible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS Feedback</description>
+        <externalId>false</externalId>
+        <label>Column Feedback Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsColumn_Type_Visible__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS Type</description>
+        <externalId>false</externalId>
+        <label>Column Type Visible</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_10_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 10 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 10 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_1_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 1 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 1 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_2_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 2 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 2 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_3_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 3 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 3 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_4_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 4 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 4 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_5_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 5 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 5 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_6_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 6 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 6 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_7_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 7 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 7 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_8_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 8 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 8 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsCustom_Property_9_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>NPS custom property 9 Visiblity</description>
+        <externalId>false</externalId>
+        <label>Property 9 Visiblity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Custom Grid Columns</label>
+    <visibility>Public</visibility>
+</CustomObject>

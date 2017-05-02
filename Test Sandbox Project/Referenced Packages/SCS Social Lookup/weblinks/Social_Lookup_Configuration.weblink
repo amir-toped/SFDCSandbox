@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Acces to Social Lookup console component configuration, Conversation processing management.</description>
+    <displayType>link</displayType>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>page</linkType>
+    <masterLabel>Social Lookup Configuration</masterLabel>
+    <openType>newWindow</openType>
+    <page>SocialLookUpSetup</page>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+</CustomPageWebLink>

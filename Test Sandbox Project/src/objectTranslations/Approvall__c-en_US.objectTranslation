@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Approval</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Approval</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Request --></label>
+        <name>Approval_Request__c</name>
+        <picklistValues>
+            <masterLabel>Refund Saldo</masterLabel>
+            <translation><!-- Refund Saldo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer Dana</masterLabel>
+            <translation><!-- Transfer Dana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ubah Moderasi</masterLabel>
+            <translation><!-- Ubah Moderasi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Approval --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Remarks --></label>
+        <name>Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation><!-- Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Manager Approval</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <fields>
+        <label><!-- Another --></label>
+        <name>Another__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detail --></label>
+        <name>Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Description --></label>
+        <name>Other_Description__c</name>
+    </fields>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Another --></label>
+            <section>Another</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

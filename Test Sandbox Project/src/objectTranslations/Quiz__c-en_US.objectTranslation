@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quiz</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quizzes</value>
+    </caseValues>
+    <fields>
+        <help><!-- Delete quiz response records after quiz submission --></help>
+        <label><!-- Delete Responses on Submission --></label>
+        <name>Delete_Responses_On_Submission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Learning --></label>
+        <name>Learning__c</name>
+        <relationshipLabel><!-- Quizzes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Maximum number of attempts to reach the passing score --></help>
+        <label><!-- Max Attempts --></label>
+        <name>Max_Attempts__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number between 0 and 100 that will determine the minimum percentage of correct answers to get a passing score --></help>
+        <label><!-- Passing Score --></label>
+        <name>Passing_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Questions --></label>
+        <name>Total_Questions__c</name>
+    </fields>
+    <layouts>
+        <layout>Quiz Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Optional Information --></label>
+            <section>Optional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Score Information --></label>
+            <section>Score Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

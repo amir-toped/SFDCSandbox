@@ -1,0 +1,6 @@
+Dear Agent {!Agent_Attendance__c.OwnerFullName} <br><br>
+
+Your Late to Attendance <br>
+please check <br><br>
+
+{!Agent_Attendance__c.Link}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Resolution</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Resolution</value>
+    </caseValues>
+    <fields>
+        <label><!-- Alasan perubahan --></label>
+        <name>Alasan_perubahan__c</name>
+    </fields>
+    <fields>
+        <label><!-- History Action --></label>
+        <name>History_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice --></label>
+        <name>Invoice__c</name>
+        <relationshipLabel><!-- Resolution --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+        <relationshipLabel><!-- Resolution --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product in Resolution --></label>
+        <name>Product_In_Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remarks --></label>
+        <name>Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reso Topic --></label>
+        <name>Reso_Topic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Created Date --></label>
+        <name>Resolution_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Topic --></label>
+        <name>Resolution_Topic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solusi --></label>
+        <name>Solusi__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution --></label>
+        <name>Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Resolution Layout</layout>
+        <sections>
+            <label><!-- Agent Info --></label>
+            <section>Agent Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Info --></label>
+            <section>Customer Info</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

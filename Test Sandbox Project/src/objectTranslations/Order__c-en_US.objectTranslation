@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Orders</value>
+    </caseValues>
+    <fields>
+        <label><!-- Arrival --></label>
+        <name>Arrival__c</name>
+    </fields>
+    <fields>
+        <label><!-- Book Code --></label>
+        <name>Book_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buyer --></label>
+        <name>Buyer__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Class --></label>
+        <name>Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure --></label>
+        <name>Departure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Amount --></label>
+        <name>Invoice_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number --></label>
+        <name>Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Age --></label>
+        <name>Order_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order History --></label>
+        <name>Order_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partial Processing --></label>
+        <name>Partial_Processing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passanger Name --></label>
+        <name>Passanger_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment --></label>
+        <name>Payment__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Seller --></label>
+        <name>Seller__c</name>
+        <relationshipLabel><!-- Orders (Seller) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Train Name --></label>
+        <name>Train_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Order Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

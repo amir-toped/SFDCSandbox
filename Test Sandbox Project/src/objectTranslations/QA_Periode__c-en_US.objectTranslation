@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>QA Periode</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>QA Periode</value>
+    </caseValues>
+    <fields>
+        <label><!-- Count Sample --></label>
+        <name>Count_Sample__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- (Week) --></help>
+        <label><!-- Count Week --></label>
+        <name>Count_Week__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Document Date --></label>
+        <name>Document_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Periode --></label>
+        <name>Periode__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Question --></label>
+        <name>QA_Question__c</name>
+        <relationshipLabel><!-- QA Periode --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Refresh QA Agent --></label>
+        <name>Refresh_QA_Agent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Agent --></label>
+        <name>Type_Agent__c</name>
+    </fields>
+    <layouts>
+        <layout>QA Periode Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- QA Question must Active --></errorMessage>
+        <name>Question_must_Active</name>
+    </validationRules>
+</CustomObjectTranslation>

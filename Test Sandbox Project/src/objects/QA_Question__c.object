@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Bobot_Desc__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;Bobot : FE &quot;&amp; TEXT( FLOOR(Bobot_FE__c * 100))&amp; &quot;% (&quot; &amp;
+TEXT(IF(ISBLANK(S_FE_01__c), 0, 1)+
+IF(ISBLANK(S_FE_02__c), 0, 1)+
+IF(ISBLANK(S_FE_03__c), 0, 1)+
+IF(ISBLANK(S_FE_04__c), 0, 1)+
+IF(ISBLANK(S_FE_05__c), 0, 1)+
+IF(ISBLANK(S_FE_06__c), 0, 1)+
+IF(ISBLANK(S_FE_07__c), 0, 1)+
+IF(ISBLANK(S_FE_08__c), 0, 1)+
+IF(ISBLANK(S_FE_09__c), 0, 1)+
+IF(ISBLANK(S_FE_10__c), 0, 1)
+)&amp;&quot; attribute), NFE &quot;&amp; TEXT(FLOOR(Bobot_NFE__c*100)) &amp;&quot;% (&quot;&amp;
+
+TEXT(
+IF(ISBLANK(S_NFE_01__c), 0, 1)+
+IF(ISBLANK(S_NFE_02__c), 0, 1)+
+IF(ISBLANK(S_NFE_03__c), 0, 1)+
+IF(ISBLANK(S_NFE_04__c), 0, 1)+
+IF(ISBLANK(S_NFE_05__c), 0, 1)+
+IF(ISBLANK(S_NFE_06__c), 0, 1)+
+IF(ISBLANK(S_NFE_07__c), 0, 1)+
+IF(ISBLANK(S_NFE_08__c), 0, 1)+
+IF(ISBLANK(S_NFE_09__c), 0, 1)+
+IF(ISBLANK(S_NFE_10__c), 0, 1)+
+IF(ISBLANK(S_NFE_11__c), 0, 1)+
+IF(ISBLANK(S_NFE_12__c), 0, 1)+
+IF(ISBLANK(S_NFE_13__c), 0, 1)+
+IF(ISBLANK(S_NFE_14__c), 0, 1)+
+IF(ISBLANK(S_NFE_15__c), 0, 1)
+) &amp; &quot; attribute)&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Bobot Desc</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_01__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_01</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_02__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_02</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_03__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_03</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_04__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_04</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_05__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_05</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_06__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_06</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_07__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_07</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_08__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_08</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_09__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_09</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE_10__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_FE_10</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_FE__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Fatal Error</inlineHelpText>
+        <label>Bobot FE (%)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_01__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_01</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_02__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_02</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_03__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_03</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_04__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_04</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_05__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_05</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_06__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_06</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_07__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_07</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_08__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_08</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_09__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_09</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_10__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_10</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_11__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_11</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_12__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_12</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_13__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_13</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_14__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_14</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE_15__c</fullName>
+        <externalId>false</externalId>
+        <label>Bobot_NFE_15</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bobot_NFE__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Non Fatal Error</inlineHelpText>
+        <label>Bobot NFE (%)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Create_QA_Agent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Create QA Agent</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Document_Date__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <externalId>false</externalId>
+        <label>Document Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FE_Attribute__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(S_FE_01__c), 0, 1)+
+IF(ISBLANK(S_FE_02__c), 0, 1)+
+IF(ISBLANK(S_FE_03__c), 0, 1)+
+IF(ISBLANK(S_FE_04__c), 0, 1)+
+IF(ISBLANK(S_FE_05__c), 0, 1)+
+IF(ISBLANK(S_FE_06__c), 0, 1)+
+IF(ISBLANK(S_FE_07__c), 0, 1)+
+IF(ISBLANK(S_FE_08__c), 0, 1)+
+IF(ISBLANK(S_FE_09__c), 0, 1)+
+IF(ISBLANK(S_FE_10__c), 0, 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FE Attribute</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NFE_Attribute__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(S_NFE_01__c), 0, 1)+
+IF(ISBLANK(S_NFE_02__c), 0, 1)+
+IF(ISBLANK(S_NFE_03__c), 0, 1)+
+IF(ISBLANK(S_NFE_04__c), 0, 1)+
+IF(ISBLANK(S_NFE_05__c), 0, 1)+
+IF(ISBLANK(S_NFE_06__c), 0, 1)+
+IF(ISBLANK(S_NFE_07__c), 0, 1)+
+IF(ISBLANK(S_NFE_08__c), 0, 1)+
+IF(ISBLANK(S_NFE_09__c), 0, 1)+
+IF(ISBLANK(S_NFE_10__c), 0, 1)+
+IF(ISBLANK(S_NFE_11__c), 0, 1)+
+IF(ISBLANK(S_NFE_12__c), 0, 1)+
+IF(ISBLANK(S_NFE_13__c), 0, 1)+
+IF(ISBLANK(S_NFE_14__c), 0, 1)+
+IF(ISBLANK(S_NFE_15__c), 0, 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>NFE Attribute</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Q_FE_01__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_01</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_FE_02__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_02</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_FE_03__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_03</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_FE_04__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_04</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_FE_05__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_05</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_FE_06__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_06</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_FE_07__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_07</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_FE_08__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_08</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_FE_09__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_09</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_FE_10__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_FE_10</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_01__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_01</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_02__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_02</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_03__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_03</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_04__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_04</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_05__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_05</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_06__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_06</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_07__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_07</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_08__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_08</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_09__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_09</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_10__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_10</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_11__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_11</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_12__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_12</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_13__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_13</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_14__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_14</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Q_NFE_15__c</fullName>
+        <externalId>false</externalId>
+        <label>Description_NFE_15</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>S_FE_01__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_01</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_FE_02__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_02</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_FE_03__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_03</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_FE_04__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_04</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_FE_05__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_05</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_FE_06__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_06</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_FE_07__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_07</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_FE_08__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_08</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_FE_09__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_09</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_FE_10__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_FE_10</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_01__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_01</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_02__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_02</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_03__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_03</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_04__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_04</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_05__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_05</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_06__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_06</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_07__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_07</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_08__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_08</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_09__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_09</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_10__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_10</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_11__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_11</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_12__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_12</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_13__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_13</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_14__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_14</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_NFE_15__c</fullName>
+        <externalId>false</externalId>
+        <label>Parameter_NFE_15</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Bobot_FE__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(S_FE_01__c), 0, Bobot_FE_01__c)+
+IF(ISBLANK(S_FE_02__c), 0, Bobot_FE_02__c)+
+IF(ISBLANK(S_FE_03__c), 0, Bobot_FE_03__c)+
+IF(ISBLANK(S_FE_04__c), 0, Bobot_FE_04__c)+
+IF(ISBLANK(S_FE_05__c), 0, Bobot_FE_05__c)+
+IF(ISBLANK(S_FE_06__c), 0, Bobot_FE_06__c)+
+IF(ISBLANK(S_FE_07__c), 0, Bobot_FE_07__c)+
+IF(ISBLANK(S_FE_08__c), 0, Bobot_FE_08__c)+
+IF(ISBLANK(S_FE_09__c), 0, Bobot_FE_09__c)+
+IF(ISBLANK(S_FE_10__c), 0, Bobot_FE_10__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Bobot FE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Bobot_NFE__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(S_NFE_01__c), 0, Bobot_NFE_01__c)+
+IF(ISBLANK(S_NFE_02__c), 0, Bobot_NFE_02__c)+
+IF(ISBLANK(S_NFE_03__c), 0, Bobot_NFE_03__c)+
+IF(ISBLANK(S_NFE_04__c), 0, Bobot_NFE_04__c)+
+IF(ISBLANK(S_NFE_05__c), 0, Bobot_NFE_05__c)+
+IF(ISBLANK(S_NFE_06__c), 0, Bobot_NFE_06__c)+
+IF(ISBLANK(S_NFE_07__c), 0, Bobot_NFE_07__c)+
+IF(ISBLANK(S_NFE_08__c), 0, Bobot_NFE_08__c)+
+IF(ISBLANK(S_NFE_09__c), 0, Bobot_NFE_09__c)+
+IF(ISBLANK(S_NFE_10__c), 0, Bobot_NFE_10__c)+
+IF(ISBLANK(S_NFE_11__c), 0, Bobot_NFE_11__c)+
+IF(ISBLANK(S_NFE_12__c), 0, Bobot_NFE_12__c)+
+IF(ISBLANK(S_NFE_13__c), 0, Bobot_NFE_13__c)+
+IF(ISBLANK(S_NFE_14__c), 0, Bobot_NFE_14__c)+
+IF(ISBLANK(S_NFE_15__c), 0, Bobot_NFE_15__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Bobot NFE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_Agent__c</fullName>
+        <externalId>false</externalId>
+        <label>Type Agent</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Call Center</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Social Media</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Resolution Center</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Master Outbound</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Customer Care</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Master Outbound 2</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>QA Question</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Active__c</columns>
+        <columns>Bobot_FE__c</columns>
+        <columns>Bobot_NFE__c</columns>
+        <columns>Document_Date__c</columns>
+        <columns>Type_Agent__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>QA-{000000000}</displayFormat>
+        <label>Question No</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>QA Question</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Bobot_must_Blank</fullName>
+        <active>true</active>
+        <errorConditionFormula>( ISBLANK(S_FE_01__c) &amp;&amp; (Bobot_FE_01__c &gt; 0) ) ||
+( ISBLANK(S_FE_02__c) &amp;&amp; (Bobot_FE_02__c &gt; 0) ) ||
+( ISBLANK(S_FE_03__c) &amp;&amp; (Bobot_FE_03__c &gt; 0) ) ||
+( ISBLANK(S_FE_04__c) &amp;&amp; (Bobot_FE_04__c &gt; 0) ) ||
+( ISBLANK(S_FE_05__c) &amp;&amp; (Bobot_FE_05__c &gt; 0) ) ||
+( ISBLANK(S_FE_06__c) &amp;&amp; (Bobot_FE_06__c &gt; 0) ) ||
+( ISBLANK(S_FE_07__c) &amp;&amp; (Bobot_FE_07__c &gt; 0) ) ||
+( ISBLANK(S_FE_08__c) &amp;&amp; (Bobot_FE_08__c &gt; 0) ) ||
+( ISBLANK(S_FE_09__c) &amp;&amp; (Bobot_FE_09__c &gt; 0) ) ||
+( ISBLANK(S_FE_10__c) &amp;&amp; (Bobot_FE_10__c &gt; 0) ) ||
+
+( ISBLANK(S_NFE_01__c) &amp;&amp; (Bobot_NFE_01__c &gt; 0) ) ||
+( ISBLANK(S_NFE_02__c) &amp;&amp; (Bobot_NFE_02__c &gt; 0) ) ||
+( ISBLANK(S_NFE_03__c) &amp;&amp; (Bobot_NFE_03__c &gt; 0) ) ||
+( ISBLANK(S_NFE_04__c) &amp;&amp; (Bobot_NFE_04__c &gt; 0) ) ||
+( ISBLANK(S_NFE_05__c) &amp;&amp; (Bobot_NFE_05__c &gt; 0) ) ||
+( ISBLANK(S_NFE_06__c) &amp;&amp; (Bobot_NFE_06__c &gt; 0) ) ||
+( ISBLANK(S_NFE_07__c) &amp;&amp; (Bobot_NFE_07__c &gt; 0) ) ||
+( ISBLANK(S_NFE_08__c) &amp;&amp; (Bobot_NFE_08__c &gt; 0) ) ||
+( ISBLANK(S_NFE_09__c) &amp;&amp; (Bobot_NFE_09__c &gt; 0) ) ||
+( ISBLANK(S_NFE_10__c) &amp;&amp; (Bobot_NFE_10__c &gt; 0) ) ||
+( ISBLANK(S_NFE_11__c) &amp;&amp; (Bobot_NFE_11__c &gt; 0) ) ||
+( ISBLANK(S_NFE_12__c) &amp;&amp; (Bobot_NFE_12__c &gt; 0) ) ||
+( ISBLANK(S_NFE_13__c) &amp;&amp; (Bobot_NFE_13__c &gt; 0) ) ||
+( ISBLANK(S_NFE_14__c) &amp;&amp; (Bobot_NFE_14__c &gt; 0) ) ||
+( ISBLANK(S_NFE_15__c) &amp;&amp; (Bobot_NFE_15__c &gt; 0) )</errorConditionFormula>
+        <errorMessage>Bobot must Blank</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Bobot_must_filled</fullName>
+        <active>true</active>
+        <errorConditionFormula>( !ISBLANK(S_FE_01__c) &amp;&amp; (ISBLANK(Bobot_FE_01__c) || Bobot_FE_01__c &lt; 1) ) ||
+( !ISBLANK(S_FE_02__c) &amp;&amp; (ISBLANK(Bobot_FE_02__c) || Bobot_FE_02__c &lt; 1) ) ||
+( !ISBLANK(S_FE_03__c) &amp;&amp; (ISBLANK(Bobot_FE_03__c) || Bobot_FE_03__c &lt; 1) ) ||
+( !ISBLANK(S_FE_04__c) &amp;&amp; (ISBLANK(Bobot_FE_04__c) || Bobot_FE_04__c &lt; 1) ) ||
+( !ISBLANK(S_FE_05__c) &amp;&amp; (ISBLANK(Bobot_FE_05__c) || Bobot_FE_05__c &lt; 1) ) ||
+( !ISBLANK(S_FE_06__c) &amp;&amp; (ISBLANK(Bobot_FE_06__c) || Bobot_FE_06__c &lt; 1) ) ||
+( !ISBLANK(S_FE_07__c) &amp;&amp; (ISBLANK(Bobot_FE_07__c) || Bobot_FE_07__c &lt; 1) ) ||
+( !ISBLANK(S_FE_08__c) &amp;&amp; (ISBLANK(Bobot_FE_08__c) || Bobot_FE_08__c &lt; 1) ) ||
+( !ISBLANK(S_FE_09__c) &amp;&amp; (ISBLANK(Bobot_FE_09__c) || Bobot_FE_09__c &lt; 1) ) ||
+( !ISBLANK(S_FE_10__c) &amp;&amp; (ISBLANK(Bobot_FE_10__c) || Bobot_FE_10__c &lt; 1) ) ||
+
+( !ISBLANK(S_NFE_01__c) &amp;&amp; (ISBLANK(Bobot_NFE_01__c) || Bobot_NFE_01__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_02__c) &amp;&amp; (ISBLANK(Bobot_NFE_02__c) || Bobot_NFE_02__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_03__c) &amp;&amp; (ISBLANK(Bobot_NFE_03__c) || Bobot_NFE_03__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_04__c) &amp;&amp; (ISBLANK(Bobot_NFE_04__c) || Bobot_NFE_04__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_05__c) &amp;&amp; (ISBLANK(Bobot_NFE_05__c) || Bobot_NFE_05__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_06__c) &amp;&amp; (ISBLANK(Bobot_NFE_06__c) || Bobot_NFE_06__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_07__c) &amp;&amp; (ISBLANK(Bobot_NFE_07__c) || Bobot_NFE_07__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_08__c) &amp;&amp; (ISBLANK(Bobot_NFE_08__c) || Bobot_NFE_08__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_09__c) &amp;&amp; (ISBLANK(Bobot_NFE_09__c) || Bobot_NFE_09__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_10__c) &amp;&amp; (ISBLANK(Bobot_NFE_10__c) || Bobot_NFE_10__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_11__c) &amp;&amp; (ISBLANK(Bobot_NFE_11__c) || Bobot_NFE_11__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_12__c) &amp;&amp; (ISBLANK(Bobot_NFE_12__c) || Bobot_NFE_12__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_13__c) &amp;&amp; (ISBLANK(Bobot_NFE_13__c) || Bobot_NFE_13__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_14__c) &amp;&amp; (ISBLANK(Bobot_NFE_14__c) || Bobot_NFE_14__c &lt; 1) ) ||
+( !ISBLANK(S_NFE_15__c) &amp;&amp; (ISBLANK(Bobot_NFE_15__c) || Bobot_NFE_15__c &lt; 1) )</errorConditionFormula>
+        <errorMessage>Bobot must Filled</errorMessage>
+    </validationRules>
+</CustomObject>

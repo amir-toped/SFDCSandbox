@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Spike Ticket Counter</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Spike Ticket Counters</value>
+    </caseValues>
+    <fields>
+        <label><!-- Category 1 --></label>
+        <name>Category_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category 2 --></label>
+        <name>Category_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category 3 --></label>
+        <name>Category_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Composite Category --></label>
+        <name>Composite_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Notified: Last Hour Same Day --></label>
+        <name>Is_Notified_Last_Hour_Same_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Notified: Same Hour Previous Day --></label>
+        <name>Is_Notified_Same_Hour_Previous_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Hour Count --></label>
+        <name>Last_Hour_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Hour Same Day Threshold Crossed --></label>
+        <name>Last_Hour_Same_Day_Threshold_Crossed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Same Hour Previous Day Count --></label>
+        <name>Same_Hour_Previous_Day_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Same Hour Previous Day Growth --></label>
+        <name>Same_Hour_Previous_Day_Growth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Same Hour Previous Day Threshold Crossed --></label>
+        <name>Same_Hour_Previous_Day_Threshold_Crossed__c</name>
+    </fields>
+    <fields>
+        <label><!-- This Hour Count --></label>
+        <name>This_Hour_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- This Hour Growth --></label>
+        <name>This_Hour_Growth__c</name>
+    </fields>
+    <layouts>
+        <layout>Spike Ticket Counter Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

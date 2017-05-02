@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Case__c</fullName>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Agent Response Case</relationshipLabel>
+        <relationshipName>Agent_Response_Case</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Date_Survey_Taken__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Survey Taken</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Periode__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( MONTH(Date_Survey_Taken__c) == 1, &apos;January&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 2, &apos;February&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 3, &apos;March&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 4, &apos;April&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 5, &apos;May&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 6, &apos;June&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 7, &apos;July&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 8, &apos;August&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 9, &apos;September&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 10, &apos;October&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 11, &apos;November&apos;, 
+IF ( MONTH(Date_Survey_Taken__c) == 12, &apos;December&apos;,&apos;&apos;)))))))))))) 
+&amp;&apos; &apos;&amp;TEXT(Year(Date_Survey_Taken__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Periode</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response__c</fullName>
+        <externalId>false</externalId>
+        <label>Response</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Survey_Taken__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Survey Taken</label>
+        <referenceTo>SurveyTaker__c</referenceTo>
+        <relationshipLabel>Agent Response Case</relationshipLabel>
+        <relationshipName>Agent_Response_Case</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>User_Agent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User Agent</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Agent_Response_Case</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Week__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Date_Survey_Taken__c -
+(
+DATE(year(Date_Survey_Taken__c),month(Date_Survey_Taken__c),1) -
+CASE( MOD( DATE(year(Date_Survey_Taken__c),month(Date_Survey_Taken__c),1) - DATE(1900, 1, 7), 7),
+0, 3,
+1, 4,
+2, 5,
+3, 6,
+4, 0,
+5, 1,
+6, 2
+,0)
+)) / 7</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Week ?</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Agent Response Case</label>
+    <nameField>
+        <displayFormat>ARC-{0000000000}</displayFormat>
+        <label>No.</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Agent Response Case</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

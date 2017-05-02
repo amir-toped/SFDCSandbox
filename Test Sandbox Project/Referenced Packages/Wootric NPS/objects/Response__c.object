@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Wootric NPC Contact responses</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Channel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric NPS Channel value</description>
+        <externalId>false</externalId>
+        <label>Channel</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Master detail relationship for a Contact and Wootric NPC Responses</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Master detail relationship for a Contact and Wootric NPC Responses</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Responses</relationshipLabel>
+        <relationshipName>Responses</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Created_At__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Created At Date and Time</description>
+        <externalId>false</externalId>
+        <label>Created At</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_10__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Customer Property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 10</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric customer property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Customer Property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Customer Property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_4__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Customer Property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_5__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Customer Property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 5</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_6__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Customer Property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 6</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_7__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Customer Property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 7</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_8__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Customer Property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 8</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Property_9__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Customer Property</description>
+        <externalId>false</externalId>
+        <label>Custom Property 9</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>Wootric Response external ID</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Wootric Response external ID</inlineHelpText>
+        <label>External Id</label>
+        <length>16</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Feedback__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric short feedback text</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Wootric short feedback text</inlineHelpText>
+        <label>Summary Feedback</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Promoter_Level_PickList__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric NPS Promoter Level from current score.</description>
+        <externalId>false</externalId>
+        <label>Promoter Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Detractor</fullName>
+                    <color>#FF6666</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Passive</fullName>
+                    <color>#33CCFF</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Promoter</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Survey response score</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Wootric Survey response score</inlineHelpText>
+        <label>Score</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Survey_Feedback__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wootric Response User Survey Feedback</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Wootric Response User Survey Feedback</inlineHelpText>
+        <label>Survey Feedback</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Response</label>
+    <nameField>
+        <displayFormat>{YYYY}{MM}-{0}</displayFormat>
+        <label>Response Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Responses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

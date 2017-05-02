@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>QA Question</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>QA Question</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot Desc --></label>
+        <name>Bobot_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_01 --></label>
+        <name>Bobot_FE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_02 --></label>
+        <name>Bobot_FE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_03 --></label>
+        <name>Bobot_FE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_04 --></label>
+        <name>Bobot_FE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_05 --></label>
+        <name>Bobot_FE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_06 --></label>
+        <name>Bobot_FE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_07 --></label>
+        <name>Bobot_FE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_08 --></label>
+        <name>Bobot_FE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_09 --></label>
+        <name>Bobot_FE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_10 --></label>
+        <name>Bobot_FE_10__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fatal Error --></help>
+        <label><!-- Bobot FE (%) --></label>
+        <name>Bobot_FE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_01 --></label>
+        <name>Bobot_NFE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_02 --></label>
+        <name>Bobot_NFE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_03 --></label>
+        <name>Bobot_NFE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_04 --></label>
+        <name>Bobot_NFE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_05 --></label>
+        <name>Bobot_NFE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_06 --></label>
+        <name>Bobot_NFE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_07 --></label>
+        <name>Bobot_NFE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_08 --></label>
+        <name>Bobot_NFE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_09 --></label>
+        <name>Bobot_NFE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_10 --></label>
+        <name>Bobot_NFE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_11 --></label>
+        <name>Bobot_NFE_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_12 --></label>
+        <name>Bobot_NFE_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_13 --></label>
+        <name>Bobot_NFE_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_14 --></label>
+        <name>Bobot_NFE_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_15 --></label>
+        <name>Bobot_NFE_15__c</name>
+    </fields>
+    <fields>
+        <help><!-- Non Fatal Error --></help>
+        <label><!-- Bobot NFE (%) --></label>
+        <name>Bobot_NFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create QA Agent --></label>
+        <name>Create_QA_Agent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Date --></label>
+        <name>Document_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- FE Attribute --></label>
+        <name>FE_Attribute__c</name>
+    </fields>
+    <fields>
+        <label><!-- NFE Attribute --></label>
+        <name>NFE_Attribute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_01 --></label>
+        <name>Q_FE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_02 --></label>
+        <name>Q_FE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_03 --></label>
+        <name>Q_FE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_04 --></label>
+        <name>Q_FE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_05 --></label>
+        <name>Q_FE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_06 --></label>
+        <name>Q_FE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_07 --></label>
+        <name>Q_FE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_08 --></label>
+        <name>Q_FE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_09 --></label>
+        <name>Q_FE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_FE_10 --></label>
+        <name>Q_FE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_01 --></label>
+        <name>Q_NFE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_02 --></label>
+        <name>Q_NFE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_03 --></label>
+        <name>Q_NFE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_04 --></label>
+        <name>Q_NFE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_05 --></label>
+        <name>Q_NFE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_06 --></label>
+        <name>Q_NFE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_07 --></label>
+        <name>Q_NFE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_08 --></label>
+        <name>Q_NFE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_09 --></label>
+        <name>Q_NFE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_10 --></label>
+        <name>Q_NFE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_11 --></label>
+        <name>Q_NFE_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_12 --></label>
+        <name>Q_NFE_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_13 --></label>
+        <name>Q_NFE_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_14 --></label>
+        <name>Q_NFE_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description_NFE_15 --></label>
+        <name>Q_NFE_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_01 --></label>
+        <name>S_FE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_02 --></label>
+        <name>S_FE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_03 --></label>
+        <name>S_FE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_04 --></label>
+        <name>S_FE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_05 --></label>
+        <name>S_FE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_06 --></label>
+        <name>S_FE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_07 --></label>
+        <name>S_FE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_08 --></label>
+        <name>S_FE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_09 --></label>
+        <name>S_FE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_FE_10 --></label>
+        <name>S_FE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_01 --></label>
+        <name>S_NFE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_02 --></label>
+        <name>S_NFE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_03 --></label>
+        <name>S_NFE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_04 --></label>
+        <name>S_NFE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_05 --></label>
+        <name>S_NFE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_06 --></label>
+        <name>S_NFE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_07 --></label>
+        <name>S_NFE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_08 --></label>
+        <name>S_NFE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_09 --></label>
+        <name>S_NFE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_10 --></label>
+        <name>S_NFE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_11 --></label>
+        <name>S_NFE_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_12 --></label>
+        <name>S_NFE_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_13 --></label>
+        <name>S_NFE_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_14 --></label>
+        <name>S_NFE_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter_NFE_15 --></label>
+        <name>S_NFE_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Bobot FE --></label>
+        <name>Total_Bobot_FE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Bobot NFE --></label>
+        <name>Total_Bobot_NFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Agent --></label>
+        <name>Type_Agent__c</name>
+        <picklistValues>
+            <masterLabel>Call Center</masterLabel>
+            <translation><!-- Call Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Care</masterLabel>
+            <translation><!-- Customer Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Outbound</masterLabel>
+            <translation><!-- Master Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Outbound 2</masterLabel>
+            <translation><!-- Master Outbound 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Center</masterLabel>
+            <translation><!-- Resolution Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation><!-- Social Media --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>QA Question Layout</layout>
+        <sections>
+            <label><!-- Bobot --></label>
+            <section>Bobot</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fatal Error (FE) --></label>
+            <section>Fatal Error (FE)</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Non Fatal Error (NFE) --></label>
+            <section>Non Fatal Error (NFE)</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Bobot must Blank --></errorMessage>
+        <name>Bobot_must_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bobot must Filled --></errorMessage>
+        <name>Bobot_must_filled</name>
+    </validationRules>
+</CustomObjectTranslation>

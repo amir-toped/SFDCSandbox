@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.PersonContact.FirstName &amp; &quot; &quot; &amp; Account__r.PersonContact.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Case Chat</relationshipLabel>
+        <relationshipName>Case_Chat</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Agent_Alias__c</fullName>
+        <externalId>false</externalId>
+        <formula>User__r.Alias</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Agent Alias</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Agent_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Agent Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Agent_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>User__r.FirstName &amp; &quot; &quot; &amp; User__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Agent Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case__c</fullName>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Case Chat</relationshipLabel>
+        <relationshipName>Case_Chat</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Comment_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>Comment ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact__r.FirstName &amp; &quot; &quot; &amp; Contact__r.LastName</formula>
+        <label>Contact Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Case Chat</relationshipLabel>
+        <relationshipName>Case_Chat</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CreateddateTZ__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( CreatedDate - ((7 * 60)/1440))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CreateddateTZ</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Document_Date__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <externalId>false</externalId>
+        <label>Document Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Duplicate_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>Duplicate Key</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>NOW() - CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Image_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Image 1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Image_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Image 2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Image_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Image 3</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Image_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Image 4</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Image_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Image 5</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Image_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Image 6</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Is_Merged_Ticket__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Merged Ticket</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Agent_Reply__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Last Agent Reply</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Messages2__c</fullName>
+        <externalId>false</externalId>
+        <label>Messages</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Messages_Plaintext__c</fullName>
+        <externalId>false</externalId>
+        <label>Messages (Plaintext)</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Migration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Migration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Need_Reply__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Need_Reply__c</formula>
+        <label>Need Reply</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Periode__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( MONTH(DATEVALUE(CreatedDate)) == 1, &apos;January&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 2, &apos;February&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 3, &apos;March&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 4, &apos;April&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 5, &apos;May&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 6, &apos;June&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 7, &apos;July&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 8, &apos;August&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 9, &apos;September&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 10, &apos;October&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 11, &apos;November&apos;,
+IF ( MONTH(DATEVALUE(CreatedDate)) == 12, &apos;December&apos;,&apos;&apos;))))))))))))
+&amp;&apos; &apos;&amp;TEXT(Year(DATEVALUE(CreatedDate)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Periode</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Previous_Message2__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous Message2</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Previous_Message3__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous Message3</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Previous_Message__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous Message</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reply_From__c</fullName>
+        <externalId>false</externalId>
+        <label>Reply From</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Salesforce</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Website</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reply_Hourly__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ((VALUE (RIGHT(LEFT(TEXT(CreatedDate),LEN(TEXT(CreatedDate))-7),2)) + 7) &gt; 24,
+(VALUE (RIGHT(LEFT(TEXT(CreatedDate),LEN(TEXT(CreatedDate))-7),2)) + 7 - 24),
+(VALUE (RIGHT(LEFT(TEXT(CreatedDate),LEN(TEXT(CreatedDate))-7),2)) + 7)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reply_Hourly</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Signature__c</fullName>
+        <externalId>false</externalId>
+        <formula>User__r.Signature_Copy__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Signature</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Case__r.Status)</formula>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Subject</formula>
+        <label>Subject</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tiket_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Tiket ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>agent</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>end-user</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>URL_Image_Agent__c</fullName>
+        <externalId>false</externalId>
+        <formula>User__r.Image__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL Image Agent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agent</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Case_Chat</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Week__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Document_Date__c -
+(
+DATE(year(Document_Date__c),month(Document_Date__c),1) -
+CASE( MOD( DATE(year(Document_Date__c),month(Document_Date__c),1) - DATE(1900, 1, 7), 7),
+0, 3,
+1, 4,
+2, 5,
+3, 6,
+4, 0,
+5, 1,
+6, 2
+,0)
+)) / 7</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Week ?</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>is_Inbound__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (ISBLANK(User__c), 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>is Inbound</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>is_Outbound__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (!ISBLANK(User__c), 1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>is Outbound</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Case Chat</label>
+    <nameField>
+        <label>Case Chat Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Case Chat</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <webLinks>
+        <fullName>Create_New</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create New</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>window.open(&quot;/a1G/e?CF00NN0000002FCXZ={!Case.CaseNumber}&amp;CF00NN0000002FCXZ_lkid={!Case.Id}&amp;Name=&lt;New&gt;&amp;retURL=%2F{!Case.Id}&quot;,&quot;_top&quot;)</url>
+    </webLinks>
+</CustomObject>

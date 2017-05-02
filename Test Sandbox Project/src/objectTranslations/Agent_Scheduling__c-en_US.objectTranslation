@@ -1,0 +1,3309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agent Scheduling</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agent Schedulings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Attendance Status --></help>
+        <label><!-- AS_01 --></label>
+        <name>AS_01__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_02 --></label>
+        <name>AS_02__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_03 --></label>
+        <name>AS_03__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_04 --></label>
+        <name>AS_04__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_05 --></label>
+        <name>AS_05__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_06 --></label>
+        <name>AS_06__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_07 --></label>
+        <name>AS_07__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_08 --></label>
+        <name>AS_08__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_09 --></label>
+        <name>AS_09__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_10 --></label>
+        <name>AS_10__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_11 --></label>
+        <name>AS_11__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_12 --></label>
+        <name>AS_12__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_13 --></label>
+        <name>AS_13__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_14 --></label>
+        <name>AS_14__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_15 --></label>
+        <name>AS_15__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_16 --></label>
+        <name>AS_16__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_17 --></label>
+        <name>AS_17__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_18 --></label>
+        <name>AS_18__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_19 --></label>
+        <name>AS_19__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_20 --></label>
+        <name>AS_20__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_21 --></label>
+        <name>AS_21__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_22 --></label>
+        <name>AS_22__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_23 --></label>
+        <name>AS_23__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_24 --></label>
+        <name>AS_24__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_25 --></label>
+        <name>AS_25__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_26 --></label>
+        <name>AS_26__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_27 --></label>
+        <name>AS_27__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_28 --></label>
+        <name>AS_28__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_29 --></label>
+        <name>AS_29__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_30 --></label>
+        <name>AS_30__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AS_31 --></label>
+        <name>AS_31__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late</masterLabel>
+            <translation><!-- Late --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Time</masterLabel>
+            <translation><!-- On Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Agent Department --></label>
+        <name>Agent_Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent Name --></label>
+        <name>Agent_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent Shift 1 --></label>
+        <name>Agent_Shift_1__c</name>
+        <relationshipLabel><!-- Agent Schedulings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agent Shift 2 --></label>
+        <name>Agent_Shift_2__c</name>
+        <relationshipLabel><!-- Agent Schedulings (Agent Shift 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agent Shift 3 --></label>
+        <name>Agent_Shift_3__c</name>
+        <relationshipLabel><!-- Agent Schedulings (Agent Shift 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agent Shift 4 --></label>
+        <name>Agent_Shift_4__c</name>
+        <relationshipLabel><!-- Agent Schedulings (Agent Shift 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agent Shift OH --></label>
+        <name>Agent_Shift_OH__c</name>
+        <relationshipLabel><!-- Agent Schedulings (Agent Shift OH) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agent --></label>
+        <name>Agent__c</name>
+        <relationshipLabel><!-- Agent Schedulings --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- - Break Shift 2 : 13.30 - 14.30
+- Break Shift 3.1 : 17.30 - 18.30
+- Break Shift 3.2 : 18.30 - 19.30
+- Break Shift 4.1 : 01.30 - 02.30
+- Break Shift 4.2 : 02.30 - 03.30 --></help>
+        <label><!-- Break_Shift_01 --></label>
+        <name>Break_Shift_01__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_02 --></label>
+        <name>Break_Shift_02__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_03 --></label>
+        <name>Break_Shift_03__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_04 --></label>
+        <name>Break_Shift_04__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_05 --></label>
+        <name>Break_Shift_05__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_06 --></label>
+        <name>Break_Shift_06__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_07 --></label>
+        <name>Break_Shift_07__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_08 --></label>
+        <name>Break_Shift_08__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_09 --></label>
+        <name>Break_Shift_09__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_10 --></label>
+        <name>Break_Shift_10__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_11 --></label>
+        <name>Break_Shift_11__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_12 --></label>
+        <name>Break_Shift_12__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_13 --></label>
+        <name>Break_Shift_13__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_14 --></label>
+        <name>Break_Shift_14__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_15 --></label>
+        <name>Break_Shift_15__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_16 --></label>
+        <name>Break_Shift_16__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_17 --></label>
+        <name>Break_Shift_17__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_18 --></label>
+        <name>Break_Shift_18__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_19 --></label>
+        <name>Break_Shift_19__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_20 --></label>
+        <name>Break_Shift_20__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_21 --></label>
+        <name>Break_Shift_21__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_22 --></label>
+        <name>Break_Shift_22__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_23 --></label>
+        <name>Break_Shift_23__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_24 --></label>
+        <name>Break_Shift_24__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_25 --></label>
+        <name>Break_Shift_25__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_26 --></label>
+        <name>Break_Shift_26__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_27 --></label>
+        <name>Break_Shift_27__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_28 --></label>
+        <name>Break_Shift_28__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_29 --></label>
+        <name>Break_Shift_29__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_30 --></label>
+        <name>Break_Shift_30__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Break_Shift_31 --></label>
+        <name>Break_Shift_31__c</name>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Day_01 --></label>
+        <name>Day_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_02 --></label>
+        <name>Day_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_03 --></label>
+        <name>Day_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_04 --></label>
+        <name>Day_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_05 --></label>
+        <name>Day_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_06 --></label>
+        <name>Day_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_07 --></label>
+        <name>Day_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_08 --></label>
+        <name>Day_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_09 --></label>
+        <name>Day_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_10 --></label>
+        <name>Day_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_11 --></label>
+        <name>Day_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_12 --></label>
+        <name>Day_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_13 --></label>
+        <name>Day_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_14 --></label>
+        <name>Day_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_15 --></label>
+        <name>Day_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_16 --></label>
+        <name>Day_16__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_17 --></label>
+        <name>Day_17__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_18 --></label>
+        <name>Day_18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_19 --></label>
+        <name>Day_19__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_20 --></label>
+        <name>Day_20__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_21 --></label>
+        <name>Day_21__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_22 --></label>
+        <name>Day_22__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_23 --></label>
+        <name>Day_23__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_24 --></label>
+        <name>Day_24__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_25 --></label>
+        <name>Day_25__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_26 --></label>
+        <name>Day_26__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_27 --></label>
+        <name>Day_27__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_28 --></label>
+        <name>Day_28__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_29 --></label>
+        <name>Day_29__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_30 --></label>
+        <name>Day_30__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day_31 --></label>
+        <name>Day_31__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day Name --></label>
+        <name>Day_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Date --></label>
+        <name>Document_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ext_ID --></label>
+        <name>Ext_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Day --></label>
+        <name>Last_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Late --></label>
+        <name>Late__c</name>
+    </fields>
+    <fields>
+        <label><!-- On Time --></label>
+        <name>On_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Periode Quarter --></label>
+        <name>Periode_Quarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Periode --></label>
+        <name>Periode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Type --></label>
+        <name>Reason_Type__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_01 --></label>
+        <name>SS_01__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_02 --></label>
+        <name>SS_02__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_03 --></label>
+        <name>SS_03__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_04 --></label>
+        <name>SS_04__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_05 --></label>
+        <name>SS_05__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_06 --></label>
+        <name>SS_06__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_07 --></label>
+        <name>SS_07__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_08 --></label>
+        <name>SS_08__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_09 --></label>
+        <name>SS_09__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_10 --></label>
+        <name>SS_10__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_11 --></label>
+        <name>SS_11__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_12 --></label>
+        <name>SS_12__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_13 --></label>
+        <name>SS_13__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_14 --></label>
+        <name>SS_14__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_15 --></label>
+        <name>SS_15__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_16 --></label>
+        <name>SS_16__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_17 --></label>
+        <name>SS_17__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_18 --></label>
+        <name>SS_18__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_19 --></label>
+        <name>SS_19__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_20 --></label>
+        <name>SS_20__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_21 --></label>
+        <name>SS_21__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_22 --></label>
+        <name>SS_22__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_23 --></label>
+        <name>SS_23__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_24 --></label>
+        <name>SS_24__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_25 --></label>
+        <name>SS_25__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_26 --></label>
+        <name>SS_26__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_27 --></label>
+        <name>SS_27__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_28 --></label>
+        <name>SS_28__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_29 --></label>
+        <name>SS_29__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_30 --></label>
+        <name>SS_30__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS_31 --></label>
+        <name>SS_31__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UL</masterLabel>
+            <translation><!-- UL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Schedule Shift --></label>
+        <name>Schedule_Shift__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shift 1 --></label>
+        <name>Shift_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shift 2 --></label>
+        <name>Shift_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shift 3 --></label>
+        <name>Shift_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shift 4 --></label>
+        <name>Shift_4__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cuti --></help>
+        <label><!-- Shift C --></label>
+        <name>Shift_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shift OH --></label>
+        <name>Shift_OH__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sick --></help>
+        <label><!-- Shift S --></label>
+        <name>Shift_S__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shift UL --></label>
+        <name>Shift_UL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shift X --></label>
+        <name>Shift_X__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week ? --></label>
+        <name>Week__c</name>
+    </fields>
+    <layouts>
+        <layout>Agent Scheduling Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Schedule Agent --></label>
+            <section>Schedule Agent</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Must Blank --></errorMessage>
+        <name>Validation_Day_29</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Must Blank --></errorMessage>
+        <name>Validation_Day_30</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Must Blank --></errorMessage>
+        <name>Validation_Day_31</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Almond Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Almond Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Must be a relative url path (e.g. /home/home.jsp) --></help>
+        <label><!-- Back to SF URL --></label>
+        <name>Back_to_SF_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL for your company logo --></help>
+        <label><!-- Company Logo --></label>
+        <name>Company_Logo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of a custom section displayed in the header --></help>
+        <label><!-- Custom Section Name --></label>
+        <name>Custom_Section_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL for your custom page (e.g. https://instance.salesforce.com/apex/myhomepage) --></help>
+        <label><!-- Custom Section URL --></label>
+        <name>Custom_Section_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this option if you&apos;d like to disable setting the correct response checkbox on every response --></help>
+        <label><!-- Disable Correct Response Checkbox --></label>
+        <name>Disable_Correct_Response_Checkbox__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this option if you&apos;d like to disable setting the created by id for achievement feed items --></help>
+        <label><!-- Disable Audit Fields for Feed Items --></label>
+        <name>Disable_Feed_Item_Audit_Fields__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this option to force training plan progress calculation in a single transaction --></help>
+        <label><!-- Disable Future Progress Calculation --></label>
+        <name>Disable_Future_Progress_Calculation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this option to prevent automatic achievement assignment for track achievements --></help>
+        <label><!-- Disable Track Achievements --></label>
+        <name>Disable_Track_Achievements__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this option if you&apos;re experiencing issues with taps in Salesforce1 + iOS8 --></help>
+        <label><!-- Enable iOS Tap Fix --></label>
+        <name>Enable_iOS_Tap_Fix__c</name>
+    </fields>
+    <fields>
+        <help><!-- HEX value for the header background color. (e.g. #EEEEEE) --></help>
+        <label><!-- Header Background Color --></label>
+        <name>Header_Background_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- HEX value for the header text color. (e.g. #EEEEEE) --></help>
+        <label><!-- Header Text Color --></label>
+        <name>Header_Text_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- HEX value for the header text hover color. (e.g. #EEEEEE) --></help>
+        <label><!-- Header Text Hover Color --></label>
+        <name>Header_Text_Hover_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this option if you&apos;d like to hide back to SF button when the SF header is disabled --></help>
+        <label><!-- Hide Back to SF Button --></label>
+        <name>Hide_Back_to_SF_Button__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this option to show the Salesforce header for the end-user training pages --></help>
+        <label><!-- Show Salesforce Header --></label>
+        <name>Show_Salesforce_Header__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

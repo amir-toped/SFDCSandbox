@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agen Pulsa --></label>
+        <name>Agen_Pulsa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion</masterLabel>
+            <translation><!-- Fashion --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condition --></label>
+        <name>Condition__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old</masterLabel>
+            <translation><!-- Old --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description (ATC) --></label>
+        <name>Description_ATC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description (PDP) --></label>
+        <name>Description_PDP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Cashback --></label>
+        <name>Is_Cashback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Free Return --></label>
+        <name>Is_Free_Return__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pre Order --></label>
+        <name>Is_Pre_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Wholesale --></label>
+        <name>Is_Wholesale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nominal --></label>
+        <name>Nominal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Detail --></label>
+        <name>Product_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation><!-- Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unavailable</masterLabel>
+            <translation><!-- Unavailable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wholesale price --></label>
+        <name>Wholesale_price__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

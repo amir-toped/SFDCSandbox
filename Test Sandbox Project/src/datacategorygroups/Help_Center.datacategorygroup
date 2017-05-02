@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Pengguna Baru</label>
+                <name>Pengguna_Baru</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pemesanan</label>
+                <name>Pemesanan</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pembayaran</label>
+                <name>Pembayaran</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pengiriman</label>
+                <name>Pengiriman</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pengembalian Dana, Retur dan Penggantian</label>
+                <name>Pengembalian_Dana_Retur_dan_Penggantian</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fitur Belanja</label>
+                <name>Fitur_Belanja</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Akun &amp; Pelaporan</label>
+                <name>Akun_Pelaporan</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Tentang Kami</label>
+                <name>Tentang_Kami</name>
+            </dataCategory>
+            <label>Pembeli</label>
+            <name>Pembeli</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Pengguna Baru</label>
+                <name>Pengguna_Baru_Penjual</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cara Promosi</label>
+                <name>Cara_Promosi</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pengiriman</label>
+                <name>Pengiriman_Penjual</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pusat Resolusi</label>
+                <name>Pusat_Resolusi</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fitur Jualan</label>
+                <name>Fitur_Jualan</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pelaporan Hak Merk</label>
+                <name>Pelaporan_Hak_Merk</name>
+            </dataCategory>
+            <label>Penjual</label>
+            <name>Penjual</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Pulsa</label>
+                <name>Pulsa</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Seluler Pascabayar</label>
+                <name>Seluler_Pascabayar</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Tiket Kereta Api</label>
+                <name>Tiket_Kereta_Api</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Listrik PLN</label>
+                <name>Listrik_PLN</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BPJS</label>
+                <name>BPJS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mitra Toppers</label>
+                <name>Mitra_Toppers</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Air PDAM</label>
+                <name>Air_PDAM</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Voucher Game</label>
+                <name>Voucher_Game</name>
+            </dataCategory>
+            <dataCategory>
+                <label>TopDonasi</label>
+                <name>TopDonasi</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Gift Card</label>
+                <name>Gift_Card</name>
+            </dataCategory>
+            <dataCategory>
+                <label>TV Kabel</label>
+                <name>TV_Kabel</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Telepon</label>
+                <name>Telepon</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Angsuran Kredit</label>
+                <name>Angsuran_Kredit</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pengajuan Kartu Kredit</label>
+                <name>Pengajuan_Kartu_Kredit</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fitur Langganan</label>
+                <name>Fitur_Langganan</name>
+            </dataCategory>
+            <label>Produk Digital</label>
+            <name>Produk_Digital</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Help Center</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

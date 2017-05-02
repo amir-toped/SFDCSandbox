@@ -1,0 +1,217 @@
+<apex:page id="pageId" controller="AgentScheduling">  
+    <style>    
+    #map {
+        font-family: Arial;
+        font-size:12px;
+        line-height:normal !important;
+        height:200px;        
+        padding: 20px;
+    }       
+    .roundCornerCss{ 
+        /* outer shadows  (note the rgba is red, green, blue, alpha) */
+        -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+        -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+        
+        /* rounded corners */
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 7px; 
+        border-radius: 7px;
+        
+        /* gradients */
+        background: -webkit-gradient(linear, left top, left bottom, 
+        color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+        background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%); 
+    }   
+    .requiredLoaderBG{
+        background-color: rgb(71,71,71);
+        opacity:0.7;
+        filter:alpha(opacity=70);
+        background-image:url('{!$Resource.ajaxLoadGif}');
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100%;
+        left: 0;
+        position: fixed;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    </style> 
+    <script> 
+    var newWin=null;
+    function openLookupPopup(object,cId,cName,fCol,fId){ 
+       var objectName = object;
+       var filterId;
+       
+       if(fCol== 'undefined' || fCol== '' || fCol== null) fCol="";
+       if(fId== 'undefined' || fId== '' || fId== null){ 
+           filterId ="";
+       }else{
+           filterId = document.getElementById('pageId:mainFormId:pgBId:' + fId).value;
+       }
+       
+       try{            
+            if(objectName == 'undefined' || objectName == '' || objectName == null){
+                alert('Error: Please select the Object name!');
+            }else{
+               var url="/apex/Lookup?oN="+objectName+"&cId="+cId+"&cName="+cName+"&fCol="+fCol+"&fId="+filterId+"&passId=&passName=";
+               newWin=window.open(url, 'Popup','height=400,width=650,left=100,top=100,resizable=no,scrollbars=yes,toolbar=no,status=no');
+               if (window.focus){
+                    newWin.focus();
+               }
+            }
+        }catch(e){
+                alert('Server Error: '+e);
+        }                   
+        return false;
+    }                  
+    function closeLookupPopup(){
+       if (null!=newWin)
+       {
+          newWin.close();
+       }  
+    }
+    
+    function setLookup(Name, id, cId, cName){
+        var elem = document.getElementById('pageId:mainFormId:pgBId:' + cName);           
+        var elemName = document.getElementById('pageId:mainFormId:pgBId:' + cId);  
+        elem.value = Name;
+        elemName.value = id; 
+    }
+    
+    function clearLookup(name,id){
+        document.getElementById(name).value ="";
+        document.getElementById(id).value =""; 
+    }
+    
+    function doSearch() {
+        var e = document.getElementById("pageId:mainFormId:pgBId:FieldDocument");
+        searchServer(
+              e.options[e.selectedIndex].value,
+              document.getElementById("pageId:mainFormId:pgBId:FieldBrandId").value,
+              document.getElementById("pageId:mainFormId:pgBId:FieldMatGroupId").value,
+              document.getElementById("pageId:mainFormId:pgBId:FieldModelId").value,
+              document.getElementById("pageId:mainFormId:pgBId:FieldMaterialId").value,
+              document.getElementById("pageId:mainFormId:pgBId:FieldBCId").value,
+              document.getElementById("pageId:mainFormId:pgBId:FieldAreaId").value,
+              document.getElementById("pageId:mainFormId:pgBId:FieldCabangId").value
+              );
+      }    
+    </script> 
+    <apex:form id="mainFormId">
+        <apex:pageBlock id="pgBDataId">
+            <apex:pageMessages id="errors"/>
+            <apex:pageBlockButtons >
+                <!-- apex:commandButton value="Lock" action="{!Lock}" reRender="errors,pgSalesPlanId" status="ajaxStatus"/ -->
+                <apex:commandButton value="Get Data" action="{!GetData}" reRender="mainFormId,errors,pgSalesPlanId" status="ajaxStatus"/>
+                <apex:commandButton value="Save" action="{!Save}" reRender="errors,pgSalesPlanId" status="ajaxStatus"/>
+
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="1" id="pgSalesPlanId" title="Sales Plan" showHeader="false">
+                <apex:outputText value="Periode : {!sPeriode}" style="font-weight: bold;" />
+                <apex:outputText value="Profile : {!$Profile.Name}" style="font-weight: bold;" /> 
+                <!--apex:outputText value="Entity : {!sPosisi}" style="font-weight: bold;" / --> 
+                <apex:outputPanel >
+                    <apex:outputText value="Entity : " style="font-weight: bold;"/>
+                    <apex:selectList size="1" id="sPosisi" value="{!valueEntity}"  >
+                        <apex:selectOptions value="{!sPosisi}" />
+                    </apex:selectList>
+                    <!-- apex:outputText value="{!descperiod}" style="font-weight: bold;"/ --> 
+                </apex:outputPanel>
+
+                <apex:outputText value="Status : {!sStatus}" style="font-weight: bold;" /> 
+                <apex:outputPanel >
+                    <apex:outputText value="Document Period : " style="font-weight: bold;"/>
+                    <apex:selectList size="1" id="dperiod" value="{!valueperiod}">
+                        <apex:selectOptions value="{!dperiod}" />
+                    </apex:selectList>
+                    <!-- apex:outputText value="{!descperiod}" style="font-weight: bold;"/ --> 
+                </apex:outputPanel>
+                
+                <apex:pageBlockTable value="{!datalist_DataPlan}" var="a" id="SalesPlanTable">
+                    <apex:column headerValue="Agent Name" width="5%" >
+                        <apex:Outputfield value="{!a.Agent_Name__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day01}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_01__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day02}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_02__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day03}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_03__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day04}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_04__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day05}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_05__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day06}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_06__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day07}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_07__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day08}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_08__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day09}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_09__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day10}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_10__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day11}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_11__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day12}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_12__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day13}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_13__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day14}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_14__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day15}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_15__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day16}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_16__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day17}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_17__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day18}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_18__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day19}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_19__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day20}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_20__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day21}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_21__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day22}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_22__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day23}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_23__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day24}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_24__c}"/>
+                    </apex:column>
+                    <apex:column headerValue="{!Day25}" width="10%" >
+                        <apex:Inputfield value="{!a.SS_25__c}"/>
+                    </apex:column>
+
+                </apex:pageBlockTable>  
+            </apex:pageBlockSection>
+        </apex:pageBlock> 
+        <apex:actionstatus startStyleClass="requiredLoaderBG" id="ajaxStatus" />  
+    </apex:form>
+</apex:page>

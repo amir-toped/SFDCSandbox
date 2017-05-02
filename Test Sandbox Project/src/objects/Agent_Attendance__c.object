@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Agent_Scheduling__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agent Scheduling</label>
+        <referenceTo>Agent_Scheduling__c</referenceTo>
+        <relationshipLabel>Agent Attendance</relationshipLabel>
+        <relationshipName>Agent_Attendance</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Attendance_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Attendance Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Away_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Away End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Away_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Away Start Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>End_Logout__c</fullName>
+        <externalId>false</externalId>
+        <label>End Logout</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>End_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>End Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_Login__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Login</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Late__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Login_Date__c &gt; Last_Login__c, 1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Late</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Login_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Login Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Login_Periode__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( MONTH(Attendance_Date__c) == 1, &apos;January&apos;,
+IF ( MONTH(Attendance_Date__c) == 2, &apos;February&apos;,
+IF ( MONTH(Attendance_Date__c) == 3, &apos;March&apos;,
+IF ( MONTH(Attendance_Date__c) == 4, &apos;April&apos;,
+IF ( MONTH(Attendance_Date__c) == 5, &apos;May&apos;,
+IF ( MONTH(Attendance_Date__c) == 6, &apos;June&apos;,
+IF ( MONTH(Attendance_Date__c) == 7, &apos;July&apos;,
+IF ( MONTH(Attendance_Date__c) == 8, &apos;August&apos;,
+IF ( MONTH(Attendance_Date__c) == 9, &apos;September&apos;,
+IF ( MONTH(Attendance_Date__c) == 10, &apos;October&apos;,
+IF ( MONTH(Attendance_Date__c) == 11, &apos;November&apos;,
+IF ( MONTH(Attendance_Date__c) == 12, &apos;December&apos;,&apos;&apos;))))))))))))
+&amp;&apos; &apos;&amp;TEXT(Year(Attendance_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Login Periode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Login_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Login_Date__c &gt; Last_Login__c, &apos;Late&apos;,&apos;On Time&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Login Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Logout_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Logout Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Lunch_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Lunch End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Lunch_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Lunch Start Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Manager_Email_F__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.Manager.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Manager Email F</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manager_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Manager Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>On_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Login_Date__c &gt; Last_Login__c, 0,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>On Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shift__c</fullName>
+        <externalId>false</externalId>
+        <label>Shift</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>OH</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Start_Login__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Login</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <label>Agent Attendance</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>OWNER.ALIAS</columns>
+        <columns>NAME</columns>
+        <columns>Agent_Scheduling__c</columns>
+        <columns>Attendance_Date__c</columns>
+        <columns>Login_Date__c</columns>
+        <columns>Logout_Date__c</columns>
+        <columns>Shift__c</columns>
+        <columns>Login_Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Agent Attendance Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Agent Attendance</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

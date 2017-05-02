@@ -1,0 +1,29 @@
+<!--<apex:page id="page" standardController="SurveyTaker__c" extensions="ResponseQuestionFromEmail" action="{!response}">-->
+<apex:page id="page" Controller="ResponseQuestionFromEmail" action="{!response}">
+    <apex:form id="form">
+        <apex:pageBlock id="pageblock" title="Send SMS" mode="inlineEdit">
+            <apex:pageMessages id="error"/>
+            <center><apex:image id="theImage" value="{!url}" /></center>
+            <!--
+            <apex:pageBlockTable id="tableDetail1" value="{!SuveyTaker}" var="o"> -->
+                <!-- case__r.casenumber, owner.name, contact__r.name, survey__r.name -->
+                <!-- <apex:column headerValue="Case"  value="{!o.case__r.casenumber}" style="text-align:left; "/> -->
+                <!--<apex:column headerValue="Owner"  value="{!o.owner.name}"/>-->
+                <!--<apex:column headerValue="contact"  value="{!o.contact__r.name}"/>-->
+               <!--
+                <apex:column headerValue="Account"  value="{!o.account__r.name} " style="text-align:left;"/>
+                <apex:column style="text-align:left; " headerValue="Survey"  value="{!o.survey__r.name}"/>
+            </apex:pageBlockTable>
+            -->
+            <!--
+            <apex:pageBlockTable id="tableDetail2" value="{!Respondse}" var="o">-->
+                <!-- response__r.name, survey_question__r.name, surveytaker__r.name -->
+                <!--
+                <apex:column style="text-align:left; " headerValue="response"  value="{!o.Response__c}"/>
+                <apex:column style="text-align:left; " headerValue="Survey Question" value="{!o.survey_question__r.name}"/>
+                <apex:column style="text-align:left; " headerValue="Survey Taker"  value="{!o.surveytaker__r.name}"/>
+            </apex:pageBlockTable>
+            -->
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

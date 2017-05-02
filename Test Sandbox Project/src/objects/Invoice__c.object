@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Invoices</relationshipLabel>
+        <relationshipName>Invoices</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_No__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Invoice No</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Invoice_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Konfirmasi Pembayaran</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Verifikasi Pembayaran</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Dalam Proses</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Dalam Pengiriman</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Transaksi Terkirim</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Transaksi Selesai</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Transaksi Dibatalkan</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Payment_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Payment ID</label>
+        <referenceTo>Payment__c</referenceTo>
+        <relationshipLabel>Invoices</relationshipLabel>
+        <relationshipName>Invoices</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Progress__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;/servlet/servlet.FileDownload?file=&quot;&amp;CASE( Invoice_Status__c , 
+&quot;Konfirmasi Pembayaran&quot;, &quot;01528000003OA0a&quot;, 
+&quot;Verifikasi Pembayaran&quot;,&quot;01528000003OA22&quot;,
+&quot;Dalam Proses&quot;, &quot;01528000003OA19&quot;,
+&quot;Dalam Pengiriman&quot;,&quot;01528000003OA0u&quot;,
+&quot;Transaksi Terkirim&quot;, &quot;01528000003OA1s&quot;, 
+&quot;Transaksi Selesai&quot;,&quot;01528000003OA1T&quot;,
+&quot;Transaksi Dibatalkan&quot;,&quot;01528000003OA1i&quot;,
+&quot;01528000003OA1i&quot;),&quot;Status&quot;,56,130)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Progress</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Order</label>
+        <summaryForeignKey>Customer_Order__c.Invoice__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Invoice</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Invoice_Date__c</columns>
+        <columns>Invoice_No__c</columns>
+        <columns>Invoice_Status__c</columns>
+        <columns>Payment_ID__c</columns>
+        <columns>Progress__c</columns>
+        <columns>Total_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>INV{00}</displayFormat>
+        <label>Invoice Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Invoices</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Invoice_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Invoice_No__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Invoice_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Payment_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Progress__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Order__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Invoice_No__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Invoice_No__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

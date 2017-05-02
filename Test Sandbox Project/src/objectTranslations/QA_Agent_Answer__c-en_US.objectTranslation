@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>QA Agent Answer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>QA Agent Answer</value>
+    </caseValues>
+    <fields>
+        <label><!-- A_FE_01 --></label>
+        <name>A_FE_01__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_02 --></label>
+        <name>A_FE_02__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_03 --></label>
+        <name>A_FE_03__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_04 --></label>
+        <name>A_FE_04__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_05 --></label>
+        <name>A_FE_05__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_06 --></label>
+        <name>A_FE_06__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_07 --></label>
+        <name>A_FE_07__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_08 --></label>
+        <name>A_FE_08__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_09 --></label>
+        <name>A_FE_09__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_10 --></label>
+        <name>A_FE_10__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_FE_Total2 --></label>
+        <name>A_FE_Total2__c</name>
+    </fields>
+    <fields>
+        <label><!-- A_FE_Total (TT) --></label>
+        <name>A_FE_Total_TT__c</name>
+    </fields>
+    <fields>
+        <label><!-- A_FE_Total --></label>
+        <name>A_FE_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_01 --></label>
+        <name>A_NFE_01__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_02 --></label>
+        <name>A_NFE_02__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_03 --></label>
+        <name>A_NFE_03__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_04 --></label>
+        <name>A_NFE_04__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_05 --></label>
+        <name>A_NFE_05__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_06 --></label>
+        <name>A_NFE_06__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_07 --></label>
+        <name>A_NFE_07__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_08 --></label>
+        <name>A_NFE_08__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_09 --></label>
+        <name>A_NFE_09__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_10 --></label>
+        <name>A_NFE_10__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_11 --></label>
+        <name>A_NFE_11__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_12 --></label>
+        <name>A_NFE_12__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_13 --></label>
+        <name>A_NFE_13__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_14 --></label>
+        <name>A_NFE_14__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_15 --></label>
+        <name>A_NFE_15__c</name>
+        <picklistValues>
+            <masterLabel>0 - Tidak Terjadi</masterLabel>
+            <translation><!-- 0 - Tidak Terjadi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - Terjadi</masterLabel>
+            <translation><!-- 1 - Terjadi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_Total2 --></label>
+        <name>A_NFE_Total2__c</name>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_Total (TT) --></label>
+        <name>A_NFE_Total_TT__c</name>
+    </fields>
+    <fields>
+        <label><!-- A_NFE_Total --></label>
+        <name>A_NFE_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- QA Agent Answer --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active? --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_1_Dewa --></label>
+        <name>BS_QA_1_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_2_Keren --></label>
+        <name>BS_QA_2_Keren__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_3_Oleh --></label>
+        <name>BS_QA_3_Oleh__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_4_Mayan --></label>
+        <name>BS_QA_4_Mayan__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_5_Cupu --></label>
+        <name>BS_QA_5_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_01 --></label>
+        <name>Bobot_FE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_02 --></label>
+        <name>Bobot_FE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_03 --></label>
+        <name>Bobot_FE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_04 --></label>
+        <name>Bobot_FE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_05 --></label>
+        <name>Bobot_FE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_06 --></label>
+        <name>Bobot_FE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_07 --></label>
+        <name>Bobot_FE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_08 --></label>
+        <name>Bobot_FE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_09 --></label>
+        <name>Bobot_FE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_FE_10 --></label>
+        <name>Bobot_FE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_01 --></label>
+        <name>Bobot_NFE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_02 --></label>
+        <name>Bobot_NFE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_03 --></label>
+        <name>Bobot_NFE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_04 --></label>
+        <name>Bobot_NFE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_05 --></label>
+        <name>Bobot_NFE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_06 --></label>
+        <name>Bobot_NFE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_07 --></label>
+        <name>Bobot_NFE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_08 --></label>
+        <name>Bobot_NFE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_09 --></label>
+        <name>Bobot_NFE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_10 --></label>
+        <name>Bobot_NFE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_11 --></label>
+        <name>Bobot_NFE_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_12 --></label>
+        <name>Bobot_NFE_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_13 --></label>
+        <name>Bobot_NFE_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_14 --></label>
+        <name>Bobot_NFE_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bobot_NFE_15 --></label>
+        <name>Bobot_NFE_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- QA Agent Answer --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer&apos;s Name --></label>
+        <name>Customer_s_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Date --></label>
+        <name>Document_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- User + Month + Year + Week --></help>
+        <label><!-- Ext ID --></label>
+        <name>Ext_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FE Attribute --></label>
+        <name>FE_Attribute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time --></label>
+        <name>Hold_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice --></label>
+        <name>Invoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capt Agent ID --></label>
+        <name>Manager_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capt Agent --></label>
+        <name>Manager__c</name>
+        <relationshipLabel><!-- QA Agent Answer (Capt Agent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NFE Attribute --></label>
+        <name>NFE_Attribute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nomor Telepon --></label>
+        <name>Nomor_Telepon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observer User --></label>
+        <name>Observer_User__c</name>
+        <relationshipLabel><!-- QA Agent Answer (Observer User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Observer --></label>
+        <name>Observer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perihal --></label>
+        <name>Perihal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Periode --></label>
+        <name>Periode__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_01 --></label>
+        <name>QA_FE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_02 --></label>
+        <name>QA_FE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_03 --></label>
+        <name>QA_FE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_04 --></label>
+        <name>QA_FE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_05 --></label>
+        <name>QA_FE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_06 --></label>
+        <name>QA_FE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_07 --></label>
+        <name>QA_FE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_08 --></label>
+        <name>QA_FE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_09 --></label>
+        <name>QA_FE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_FE_10 --></label>
+        <name>QA_FE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_01 --></label>
+        <name>QA_NFE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_02 --></label>
+        <name>QA_NFE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_03 --></label>
+        <name>QA_NFE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_04 --></label>
+        <name>QA_NFE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_05 --></label>
+        <name>QA_NFE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_06 --></label>
+        <name>QA_NFE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_07 --></label>
+        <name>QA_NFE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_08 --></label>
+        <name>QA_NFE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_09 --></label>
+        <name>QA_NFE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_10 --></label>
+        <name>QA_NFE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_11 --></label>
+        <name>QA_NFE_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_12 --></label>
+        <name>QA_NFE_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_13 --></label>
+        <name>QA_NFE_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_14 --></label>
+        <name>QA_NFE_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_NFE_15 --></label>
+        <name>QA_NFE_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Periode --></label>
+        <name>QA_Periode__c</name>
+        <relationshipLabel><!-- QA Agent Answer --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- QA Question --></label>
+        <name>QA_Question__c</name>
+        <relationshipLabel><!-- QA Agent Answer --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_01 --></label>
+        <name>Q_FE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_02 --></label>
+        <name>Q_FE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_03 --></label>
+        <name>Q_FE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_04 --></label>
+        <name>Q_FE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_05 --></label>
+        <name>Q_FE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_06 --></label>
+        <name>Q_FE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_07 --></label>
+        <name>Q_FE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_08 --></label>
+        <name>Q_FE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_09 --></label>
+        <name>Q_FE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_FE_10 --></label>
+        <name>Q_FE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_01 --></label>
+        <name>Q_NFE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_02 --></label>
+        <name>Q_NFE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_03 --></label>
+        <name>Q_NFE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_04 --></label>
+        <name>Q_NFE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_05 --></label>
+        <name>Q_NFE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_06 --></label>
+        <name>Q_NFE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_07 --></label>
+        <name>Q_NFE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_08 --></label>
+        <name>Q_NFE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_09 --></label>
+        <name>Q_NFE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_10 --></label>
+        <name>Q_NFE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_11 --></label>
+        <name>Q_NFE_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_12 --></label>
+        <name>Q_NFE_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_13 --></label>
+        <name>Q_NFE_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_14 --></label>
+        <name>Q_NFE_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_NFE_15 --></label>
+        <name>Q_NFE_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_Total_Bobot_FE --></label>
+        <name>Q_Total_Bobot_FE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q_Total_Bobot_NFE --></label>
+        <name>Q_Total_Bobot_NFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_01 --></label>
+        <name>S_FE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_02 --></label>
+        <name>S_FE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_03 --></label>
+        <name>S_FE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_04 --></label>
+        <name>S_FE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_05 --></label>
+        <name>S_FE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_06 --></label>
+        <name>S_FE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_07 --></label>
+        <name>S_FE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_08 --></label>
+        <name>S_FE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_09 --></label>
+        <name>S_FE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_FE_10 --></label>
+        <name>S_FE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_01 --></label>
+        <name>S_NFE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_02 --></label>
+        <name>S_NFE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_03 --></label>
+        <name>S_NFE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_04 --></label>
+        <name>S_NFE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_05 --></label>
+        <name>S_NFE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_06 --></label>
+        <name>S_NFE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_07 --></label>
+        <name>S_NFE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_08 --></label>
+        <name>S_NFE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_09 --></label>
+        <name>S_NFE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_10 --></label>
+        <name>S_NFE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_11 --></label>
+        <name>S_NFE_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_12 --></label>
+        <name>S_NFE_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_13 --></label>
+        <name>S_NFE_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_14 --></label>
+        <name>S_NFE_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- S_NFE_15 --></label>
+        <name>S_NFE_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample No --></label>
+        <name>Sample_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score Submit 1 --></label>
+        <name>Score_Submit_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score Submit 2 --></label>
+        <name>Score_Submit_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score Submit 3 --></label>
+        <name>Score_Submit_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score --></label>
+        <name>Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Share to Capt --></label>
+        <name>Share_to_Capt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Share to User Agent --></label>
+        <name>Share_to_User_Agent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skala Penilaian --></label>
+        <name>Skala_Penilaian__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting Approval</masterLabel>
+            <translation><!-- Waiting Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submit Date --></label>
+        <name>Submit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_01 --></label>
+        <name>TL_FE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_02 --></label>
+        <name>TL_FE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_03 --></label>
+        <name>TL_FE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_04 --></label>
+        <name>TL_FE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_05 --></label>
+        <name>TL_FE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_06 --></label>
+        <name>TL_FE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_07 --></label>
+        <name>TL_FE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_08 --></label>
+        <name>TL_FE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_09 --></label>
+        <name>TL_FE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_FE_10 --></label>
+        <name>TL_FE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_01 --></label>
+        <name>TL_NFE_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_02 --></label>
+        <name>TL_NFE_02__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_03 --></label>
+        <name>TL_NFE_03__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_04 --></label>
+        <name>TL_NFE_04__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_05 --></label>
+        <name>TL_NFE_05__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_06 --></label>
+        <name>TL_NFE_06__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_07 --></label>
+        <name>TL_NFE_07__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_08 --></label>
+        <name>TL_NFE_08__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_09 --></label>
+        <name>TL_NFE_09__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_10 --></label>
+        <name>TL_NFE_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_11 --></label>
+        <name>TL_NFE_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_12 --></label>
+        <name>TL_NFE_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_13 --></label>
+        <name>TL_NFE_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_14 --></label>
+        <name>TL_NFE_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL_NFE_15 --></label>
+        <name>TL_NFE_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Observasi --></label>
+        <name>Time_Observasi__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total_Bobot_FE2 --></label>
+        <name>Total_Bobot_FE2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Bobot FE --></label>
+        <name>Total_Bobot_FE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total_Bobot_NFE2 --></label>
+        <name>Total_Bobot_NFE2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Bobot NFE --></label>
+        <name>Total_Bobot_NFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Agent --></label>
+        <name>Type_Agent__c</name>
+        <picklistValues>
+            <masterLabel>Call Center</masterLabel>
+            <translation><!-- Call Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Care</masterLabel>
+            <translation><!-- Customer Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Outbound</masterLabel>
+            <translation><!-- Master Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Outbound 2</masterLabel>
+            <translation><!-- Master Outbound 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution Center</masterLabel>
+            <translation><!-- Resolution Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation><!-- Social Media --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type Probation ? --></label>
+        <name>Type_Probation__c</name>
+        <picklistValues>
+            <masterLabel>Karyawan</masterLabel>
+            <translation><!-- Karyawan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Probation</masterLabel>
+            <translation><!-- Probation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Agent --></label>
+        <name>User_Agent__c</name>
+        <relationshipLabel><!-- QA Agent Answer (User Agent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Week --></label>
+        <name>Week__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>QA Agent Answer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fatal Error (FE) --></label>
+            <section>Fatal Error (FE)</section>
+        </sections>
+        <sections>
+            <label><!-- Information Agent --></label>
+            <section>Information Agent</section>
+        </sections>
+        <sections>
+            <label><!-- Non Fatal Error (NFE) --></label>
+            <section>Non Fatal Error (NFE)</section>
+        </sections>
+        <sections>
+            <label><!-- Scoring --></label>
+            <section>Scoring</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>QA Leader Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fatal Error (FE) --></label>
+            <section>Fatal Error (FE)</section>
+        </sections>
+        <sections>
+            <label><!-- Information Agent --></label>
+            <section>Information Agent</section>
+        </sections>
+        <sections>
+            <label><!-- Non Fatal Error (NFE) --></label>
+            <section>Non Fatal Error (NFE)</section>
+        </sections>
+        <sections>
+            <label><!-- Scoring --></label>
+            <section>Scoring</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot Edit After 7th Next Month --></errorMessage>
+        <name>Kary_cannot_edit_next_month_on_7th</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Edit After 30Days of Submitted --></errorMessage>
+        <name>Probation_cannot_edit_After_30days</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Edit if not User Observer or Capt --></errorMessage>
+        <name>Record_user_assignment</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,2560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Attendance_Badge__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Attendance_Score__c &gt;= Value($Label.BS_Att_1_Dewa), &quot;Dewa&quot;,
+IF (Attendance_Score__c &gt;= Value($Label.BS_Att_2_Keren), &quot;Keren Abiz&quot;,
+IF (Attendance_Score__c &gt;= Value($Label.BS_Att_3_Oleh), &quot;Oleh Uga&quot;,
+IF (Attendance_Score__c &gt;= Value($Label.BS_Att_4_Mayan), &quot;Mayanlah&quot;,
+IF (Attendance_Score__c &gt;= Value($Label.BS_Att_5_Cupu), &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Attendance Badge</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attendance_Late__c</fullName>
+        <externalId>false</externalId>
+        <label>Attendance Late</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attendance_Refresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>untuk hitung ulang</description>
+        <externalId>false</externalId>
+        <label>Attendance Refresh</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Attendance_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Attendance Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attendance_UL__c</fullName>
+        <externalId>false</externalId>
+        <label>Attendance UL</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Activity_1_Dewa__c</fullName>
+        <defaultValue>VALUE($Label.BS_Activity_1_Dewa)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Activity_1_Dewa</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Activity_2_Keren__c</fullName>
+        <defaultValue>VALUE($Label.BS_Activity_2_Keren)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Activity_2_Keren</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Activity_3_Oleh__c</fullName>
+        <defaultValue>VALUE($Label.BS_Activity_3_Oleh)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Activity_3_Oleh</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Activity_4_Mayan__c</fullName>
+        <defaultValue>VALUE($Label.BS_Activity_4_Mayan)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Activity_4_Mayan</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Activity_5_Cupu__c</fullName>
+        <defaultValue>VALUE($Label.BS_Activity_5_Cupu)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Activity_5_Cupu</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Att_1_Dewa__c</fullName>
+        <defaultValue>VALUE($Label.BS_Att_1_Dewa)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Att_1_Dewa</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Att_2_Keren__c</fullName>
+        <defaultValue>VALUE($Label.BS_Att_2_Keren)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Att_2_Keren</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Att_3_Oleh__c</fullName>
+        <defaultValue>VALUE($Label.BS_Att_3_Oleh)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Att_3_Oleh</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Att_4_Mayan__c</fullName>
+        <defaultValue>VALUE($Label.BS_Att_4_Mayan)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Att_4_Mayan</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Att_5_Cupu__c</fullName>
+        <defaultValue>VALUE($Label.BS_Att_5_Cupu)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Att_5_Cupu</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Att_UL_Cupu__c</fullName>
+        <defaultValue>VALUE($Label.BS_Att_UL_Cupu)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Att_UL_Cupu</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Att_UL_Dewa__c</fullName>
+        <defaultValue>VALUE($Label.BS_Att_UL_Dewa)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Att_UL_Dewa</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_CSAT_1_Dewa__c</fullName>
+        <defaultValue>VALUE($Label.BS_CSAT_1_Dewa)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_CSAT_1_Dewa</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_CSAT_2_Keren__c</fullName>
+        <defaultValue>VALUE($Label.BS_CSAT_2_Keren)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_CSAT_2_Keren</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_CSAT_3_Oleh__c</fullName>
+        <defaultValue>VALUE($Label.BS_CSAT_3_Oleh)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_CSAT_3_Oleh</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_CSAT_4_Mayan__c</fullName>
+        <defaultValue>VALUE($Label.BS_CSAT_4_Mayan)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_CSAT_4_Mayan</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_CSAT_5_Cupu__c</fullName>
+        <defaultValue>VALUE($Label.BS_CSAT_5_Cupu)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_CSAT_5_Cupu</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_HoldTime_1_Dewa__c</fullName>
+        <defaultValue>VALUE($Label.BS_HoldTime_1_Dewa)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_HoldTime_1_Dewa</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_HoldTime_2_Keren__c</fullName>
+        <defaultValue>VALUE($Label.BS_HoldTime_2_Keren)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_HoldTime_2_Keren</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_HoldTime_3_Oleh__c</fullName>
+        <defaultValue>VALUE($Label.BS_HoldTime_3_Oleh)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_HoldTime_3_Oleh</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_HoldTime_4_Mayan__c</fullName>
+        <defaultValue>VALUE($Label.BS_HoldTime_4_Mayan)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_HoldTime_4_Mayan</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_HoldTime_5_Cupu__c</fullName>
+        <defaultValue>VALUE($Label.BS_HoldTime_5_Cupu)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_HoldTime_5_Cupu</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_QA_1_Dewa__c</fullName>
+        <defaultValue>VALUE($Label.BS_QA_1_Dewa)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_QA_1_Dewa</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_QA_2_Keren__c</fullName>
+        <defaultValue>VALUE($Label.BS_QA_2_Keren)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_QA_2_Keren</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_QA_3_Oleh__c</fullName>
+        <defaultValue>VALUE($Label.BS_QA_3_Oleh)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_QA_3_Oleh</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_QA_4_Mayan__c</fullName>
+        <defaultValue>VALUE($Label.BS_QA_4_Mayan)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_QA_4_Mayan</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_QA_5_Cupu__c</fullName>
+        <defaultValue>VALUE($Label.BS_QA_5_Cupu)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_QA_5_Cupu</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Resolved_1_Dewa__c</fullName>
+        <defaultValue>VALUE($Label.BS_Resolved_1_Dewa)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Resolved_1_Dewa</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Resolved_2_Keren__c</fullName>
+        <defaultValue>VALUE($Label.BS_Resolved_2_Keren)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Resolved_2_Keren</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Resolved_3_Oleh__c</fullName>
+        <defaultValue>VALUE($Label.BS_Resolved_3_Oleh)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Resolved_3_Oleh</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Resolved_4_Mayan__c</fullName>
+        <defaultValue>VALUE($Label.BS_Resolved_4_Mayan)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Resolved_4_Mayan</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Resolved_5_Cupu__c</fullName>
+        <defaultValue>VALUE($Label.BS_Resolved_5_Cupu)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Resolved_5_Cupu</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Response_1_Dewa__c</fullName>
+        <defaultValue>VALUE($Label.BS_Response_1_Dewa)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Response_1_Dewa</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Response_2_Keren__c</fullName>
+        <defaultValue>VALUE($Label.BS_Response_2_Keren)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Response_2_Keren</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Response_3_Oleh__c</fullName>
+        <defaultValue>VALUE($Label.BS_Response_3_Oleh)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Response_3_Oleh</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Response_4_Mayan__c</fullName>
+        <defaultValue>VALUE($Label.BS_Response_4_Mayan)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Response_4_Mayan</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Response_5_Cupu__c</fullName>
+        <defaultValue>VALUE($Label.BS_Response_5_Cupu)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Response_5_Cupu</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Train_1_Dewa__c</fullName>
+        <defaultValue>VALUE($Label.BS_Train_1_Dewa)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Train_1_Dewa</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Train_2_Keren__c</fullName>
+        <defaultValue>VALUE($Label.BS_Train_2_Keren)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Train_2_Keren</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Train_3_Oleh__c</fullName>
+        <defaultValue>VALUE($Label.BS_Train_3_Oleh)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Train_3_Oleh</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Train_4_Mayan__c</fullName>
+        <defaultValue>VALUE($Label.BS_Train_4_Mayan)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Train_4_Mayan</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BS_Train_5_Cupu__c</fullName>
+        <defaultValue>VALUE($Label.BS_Train_5_Cupu)</defaultValue>
+        <externalId>false</externalId>
+        <label>BS_Train_5_Cupu</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge2_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score_W1__c &gt;= BS_CSAT_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (CSAT_Score_W1__c &gt;= BS_CSAT_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (CSAT_Score_W1__c &gt;= BS_CSAT_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (CSAT_Score_W1__c &gt;= BS_CSAT_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (CSAT_Score_W1__c &gt;= BS_CSAT_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Badge2 (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge2_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score_W2__c &gt;= BS_CSAT_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (CSAT_Score_W2__c &gt;= BS_CSAT_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (CSAT_Score_W2__c &gt;= BS_CSAT_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (CSAT_Score_W2__c &gt;= BS_CSAT_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (CSAT_Score_W2__c &gt;= BS_CSAT_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Badge2 (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge2_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score_W3__c &gt;= BS_CSAT_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (CSAT_Score_W3__c &gt;= BS_CSAT_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (CSAT_Score_W3__c &gt;= BS_CSAT_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (CSAT_Score_W3__c &gt;= BS_CSAT_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (CSAT_Score_W3__c &gt;= BS_CSAT_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Badge2 (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge2_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score_W4__c &gt;= BS_CSAT_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (CSAT_Score_W4__c &gt;= BS_CSAT_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (CSAT_Score_W4__c &gt;= BS_CSAT_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (CSAT_Score_W4__c &gt;= BS_CSAT_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (CSAT_Score_W4__c &gt;= BS_CSAT_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Badge2 (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score__c &gt;= BS_CSAT_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (CSAT_Score__c &gt;= BS_CSAT_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (CSAT_Score__c &gt;= BS_CSAT_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (CSAT_Score__c &gt;= BS_CSAT_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (CSAT_Score__c &gt;= BS_CSAT_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Badge2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score_W1__c &gt;= BS_CSAT_1_Dewa__c, &quot;Dewa&quot;,
+IF (CSAT_Score_W1__c &gt;= BS_CSAT_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (CSAT_Score_W1__c &gt;= BS_CSAT_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (CSAT_Score_W1__c &gt;= BS_CSAT_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (CSAT_Score_W1__c &gt;= BS_CSAT_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Badge (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score_W2__c &gt;= BS_CSAT_1_Dewa__c, &quot;Dewa&quot;,
+IF (CSAT_Score_W2__c &gt;= BS_CSAT_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (CSAT_Score_W2__c &gt;= BS_CSAT_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (CSAT_Score_W2__c &gt;= BS_CSAT_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (CSAT_Score_W2__c &gt;= BS_CSAT_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Badge (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score_W3__c &gt;= BS_CSAT_1_Dewa__c, &quot;Dewa&quot;,
+IF (CSAT_Score_W3__c &gt;= BS_CSAT_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (CSAT_Score_W3__c &gt;= BS_CSAT_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (CSAT_Score_W3__c &gt;= BS_CSAT_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (CSAT_Score_W3__c &gt;= BS_CSAT_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Badge (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score_W4__c &gt;= BS_CSAT_1_Dewa__c, &quot;Dewa&quot;,
+IF (CSAT_Score_W4__c &gt;= BS_CSAT_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (CSAT_Score_W4__c &gt;= BS_CSAT_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (CSAT_Score_W4__c &gt;= BS_CSAT_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (CSAT_Score_W4__c &gt;= BS_CSAT_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Badge (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Badge__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (CSAT_Score__c &gt;= BS_CSAT_1_Dewa__c, &quot;Dewa&quot;,
+IF (CSAT_Score__c &gt;= BS_CSAT_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (CSAT_Score__c &gt;= BS_CSAT_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (CSAT_Score__c &gt;= BS_CSAT_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (CSAT_Score__c &gt;= BS_CSAT_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT_Badge</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Count_W1__c</fullName>
+        <externalId>false</externalId>
+        <label>CSAT Count W1</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Count_W2__c</fullName>
+        <externalId>false</externalId>
+        <label>CSAT Count W2</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Count_W3__c</fullName>
+        <externalId>false</externalId>
+        <label>CSAT Count W3</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Count_W4__c</fullName>
+        <externalId>false</externalId>
+        <label>CSAT Count W4</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Refresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CSAT Refresh</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CSAT_Score_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Score (W1)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Score_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Score (W2)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Score_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Score (W3)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Score_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Score (W4)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>(CSAT_Score_W1__c +
+CSAT_Score_W2__c +
+CSAT_Score_W3__c +
+CSAT_Score_W4__c
+) /
+(
+IF (CSAT_Score_W1__c &gt; 0,1,0) +
+IF (CSAT_Score_W2__c &gt; 0,1,0) +
+IF (CSAT_Score_W3__c &gt; 0,1,0) +
+IF (CSAT_Score_W4__c &gt; 0,1,0)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSAT Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_W1__c</fullName>
+        <externalId>false</externalId>
+        <label>CSAT W1</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_W2__c</fullName>
+        <externalId>false</externalId>
+        <label>CSAT W2</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_W3__c</fullName>
+        <externalId>false</externalId>
+        <label>CSAT W3</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSAT_W4__c</fullName>
+        <externalId>false</externalId>
+        <label>CSAT W4</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Document_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Document Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge2_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge2 (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge2_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge2 (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge2_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge2 (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge2_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge2 (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score__c &gt;= BS_HoldTime_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Hold_Time_Score__c &gt;= BS_HoldTime_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Hold_Time_Score__c &gt;= BS_HoldTime_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Hold_Time_Score__c &gt;= BS_HoldTime_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Hold_Time_Score__c &gt;= BS_HoldTime_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_1_Dewa__c, &quot;Dewa&quot;,
+IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Hold_Time_Score_W1__c &gt;= BS_HoldTime_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_1_Dewa__c, &quot;Dewa&quot;,
+IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Hold_Time_Score_W2__c &gt;= BS_HoldTime_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_1_Dewa__c, &quot;Dewa&quot;,
+IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Hold_Time_Score_W3__c &gt;= BS_HoldTime_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_1_Dewa__c, &quot;Dewa&quot;,
+IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Hold_Time_Score_W4__c &gt;= BS_HoldTime_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Badge__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Hold_Time_Score__c &gt;= BS_HoldTime_1_Dewa__c, &quot;Dewa&quot;,
+IF (Hold_Time_Score__c &gt;= BS_HoldTime_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Hold_Time_Score__c &gt;= BS_HoldTime_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Hold_Time_Score__c &gt;= BS_HoldTime_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Hold_Time_Score__c &gt;= BS_HoldTime_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Badge</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Refresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Hold Time Refresh</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Score_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>90</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Score (W1)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Score_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Score (W2)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Score_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Score (W3)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Score_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Score (W4)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Hold_Time_Score_W1__c +
+Hold_Time_Score_W2__c +
+Hold_Time_Score_W3__c +
+Hold_Time_Score_W4__c
+) /
+(
+IF (Hold_Time_Score_W1__c &gt; 0,1,0) +
+IF (Hold_Time_Score_W2__c &gt; 0,1,0) +
+IF (Hold_Time_Score_W3__c &gt; 0,1,0) +
+IF (Hold_Time_Score_W4__c &gt; 0,1,0)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hold Time Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_W1__c</fullName>
+        <externalId>false</externalId>
+        <label>Hold Time W1</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_W2__c</fullName>
+        <externalId>false</externalId>
+        <label>Hold Time W2</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_W3__c</fullName>
+        <externalId>false</externalId>
+        <label>Hold Time W3</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hold_Time_W4__c</fullName>
+        <externalId>false</externalId>
+        <label>Hold Time W4</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Periode_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Year(Document_Date__c))&amp;&apos;-&apos;&amp;
+IF ( MONTH(Document_Date__c) == 1, &apos;Q1&apos;,
+IF ( MONTH(Document_Date__c) == 2, &apos;Q1&apos;,
+IF ( MONTH(Document_Date__c) == 3, &apos;Q1&apos;,
+IF ( MONTH(Document_Date__c) == 4, &apos;Q2&apos;,
+IF ( MONTH(Document_Date__c) == 5, &apos;Q2&apos;,
+IF ( MONTH(Document_Date__c) == 6, &apos;Q2&apos;,
+IF ( MONTH(Document_Date__c) == 7, &apos;Q3&apos;,
+IF ( MONTH(Document_Date__c) == 8, &apos;Q3&apos;,
+IF ( MONTH(Document_Date__c) == 9, &apos;Q3&apos;,
+IF ( MONTH(Document_Date__c) == 10, &apos;Q4&apos;,
+IF ( MONTH(Document_Date__c) == 11, &apos;Q4&apos;,
+IF ( MONTH(Document_Date__c) == 12, &apos;Q4&apos;,&apos;&apos;))))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Periode Quarter</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Periode__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( MONTH(Document_Date__c) == 1, &apos;January&apos;,
+IF ( MONTH(Document_Date__c) == 2, &apos;February&apos;,
+IF ( MONTH(Document_Date__c) == 3, &apos;March&apos;,
+IF ( MONTH(Document_Date__c) == 4, &apos;April&apos;,
+IF ( MONTH(Document_Date__c) == 5, &apos;May&apos;,
+IF ( MONTH(Document_Date__c) == 6, &apos;June&apos;,
+IF ( MONTH(Document_Date__c) == 7, &apos;July&apos;,
+IF ( MONTH(Document_Date__c) == 8, &apos;August&apos;,
+IF ( MONTH(Document_Date__c) == 9, &apos;September&apos;,
+IF ( MONTH(Document_Date__c) == 10, &apos;October&apos;,
+IF ( MONTH(Document_Date__c) == 11, &apos;November&apos;,
+IF ( MONTH(Document_Date__c) == 12, &apos;December&apos;,&apos;&apos;))))))))))))
+&amp;&apos; &apos;&amp;TEXT(Year(Document_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Periode</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge2_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score_W1__c &gt;= BS_Activity_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Productivity_Score_W1__c &gt;= BS_Activity_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Productivity_Score_W1__c &gt;= BS_Activity_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100) ,
+IF (Productivity_Score_W1__c &gt;= BS_Activity_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Productivity_Score_W1__c &gt;= BS_Activity_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge2 (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge2_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score_W2__c &gt;= BS_Activity_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Productivity_Score_W2__c &gt;= BS_Activity_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Productivity_Score_W2__c &gt;= BS_Activity_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100) ,
+IF (Productivity_Score_W2__c &gt;= BS_Activity_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Productivity_Score_W2__c &gt;= BS_Activity_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge2 (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge2_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score_W3__c &gt;= BS_Activity_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Productivity_Score_W3__c &gt;= BS_Activity_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Productivity_Score_W3__c &gt;= BS_Activity_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100) ,
+IF (Productivity_Score_W3__c &gt;= BS_Activity_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Productivity_Score_W3__c &gt;= BS_Activity_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge2 (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge2_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score_W4__c &gt;= BS_Activity_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Productivity_Score_W4__c &gt;= BS_Activity_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Productivity_Score_W4__c &gt;= BS_Activity_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100) ,
+IF (Productivity_Score_W4__c &gt;= BS_Activity_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Productivity_Score_W4__c &gt;= BS_Activity_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge2 (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score__c &gt;= BS_Activity_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Productivity_Score__c &gt;= BS_Activity_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Productivity_Score__c &gt;= BS_Activity_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100) ,
+IF (Productivity_Score__c &gt;= BS_Activity_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Productivity_Score__c &gt;= BS_Activity_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score_W1__c &gt;= BS_Activity_1_Dewa__c, &quot;Dewa&quot;,
+IF (Productivity_Score_W1__c &gt;= BS_Activity_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Productivity_Score_W1__c &gt;= BS_Activity_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Productivity_Score_W1__c &gt;= BS_Activity_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Productivity_Score_W1__c &gt;= BS_Activity_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score_W2__c &gt;= BS_Activity_1_Dewa__c, &quot;Dewa&quot;,
+IF (Productivity_Score_W2__c &gt;= BS_Activity_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Productivity_Score_W2__c &gt;= BS_Activity_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Productivity_Score_W2__c &gt;= BS_Activity_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Productivity_Score_W2__c &gt;= BS_Activity_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score_W3__c &gt;= BS_Activity_1_Dewa__c, &quot;Dewa&quot;,
+IF (Productivity_Score_W3__c &gt;= BS_Activity_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Productivity_Score_W3__c &gt;= BS_Activity_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Productivity_Score_W3__c &gt;= BS_Activity_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Productivity_Score_W3__c &gt;= BS_Activity_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score_W4__c &gt;= BS_Activity_1_Dewa__c, &quot;Dewa&quot;,
+IF (Productivity_Score_W4__c &gt;= BS_Activity_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Productivity_Score_W4__c &gt;= BS_Activity_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Productivity_Score_W4__c &gt;= BS_Activity_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Productivity_Score_W4__c &gt;= BS_Activity_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Badge__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Productivity_Score__c &gt;= BS_Activity_1_Dewa__c, &quot;Dewa&quot;,
+IF (Productivity_Score__c &gt;= BS_Activity_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Productivity_Score__c &gt;= BS_Activity_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Productivity_Score__c &gt;= BS_Activity_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Productivity_Score__c &gt;= BS_Activity_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Badge</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Refresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Productivity Refresh</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Productivity_Score_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>700</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Score (W1)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Score_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>600</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Score (W2)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Score_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>510</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Score (W3)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Score_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>450</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Score (W4)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Productivity_Score_W1__c +
+ Productivity_Score_W2__c +
+ Productivity_Score_W3__c +
+ Productivity_Score_W4__c 
+) / 
+(
+IF (Productivity_Score_W1__c &gt; 0,1,0) +
+IF (Productivity_Score_W2__c &gt; 0,1,0) +
+IF (Productivity_Score_W3__c &gt; 0,1,0) +
+IF (Productivity_Score_W4__c &gt; 0,1,0)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_W1__c</fullName>
+        <externalId>false</externalId>
+        <label>Productivity W1</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_W2__c</fullName>
+        <externalId>false</externalId>
+        <label>Productivity W2</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_W3__c</fullName>
+        <externalId>false</externalId>
+        <label>Productivity W3</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Productivity_W4__c</fullName>
+        <externalId>false</externalId>
+        <label>Productivity W4</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge2_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score_W1__c &gt;= BS_QA_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (QA_Score_W1__c &gt;= BS_QA_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (QA_Score_W1__c &gt;= BS_QA_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (QA_Score_W1__c &gt;= BS_QA_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (QA_Score_W1__c &gt;= BS_QA_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Badge2 (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge2_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score_W2__c &gt;= BS_QA_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (QA_Score_W2__c &gt;= BS_QA_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (QA_Score_W2__c &gt;= BS_QA_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (QA_Score_W2__c &gt;= BS_QA_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (QA_Score_W2__c &gt;= BS_QA_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Badge2 (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge2_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score_W3__c &gt;= BS_QA_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (QA_Score_W3__c &gt;= BS_QA_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (QA_Score_W3__c &gt;= BS_QA_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (QA_Score_W3__c &gt;= BS_QA_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (QA_Score_W3__c &gt;= BS_QA_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Badge2 (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge2_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score_W4__c &gt;= BS_QA_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (QA_Score_W4__c &gt;= BS_QA_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (QA_Score_W4__c &gt;= BS_QA_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (QA_Score_W4__c &gt;= BS_QA_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (QA_Score_W4__c &gt;= BS_QA_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Badge2 (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score__c &gt;= BS_QA_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (QA_Score__c &gt;= BS_QA_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (QA_Score__c &gt;= BS_QA_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (QA_Score__c &gt;= BS_QA_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (QA_Score__c &gt;= BS_QA_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Badge2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score_W1__c &gt;= BS_QA_1_Dewa__c, &quot;Dewa&quot;,
+IF (QA_Score_W1__c &gt;= BS_QA_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (QA_Score_W1__c &gt;= BS_QA_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (QA_Score_W1__c &gt;= BS_QA_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (QA_Score_W1__c &gt;= BS_QA_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Badge (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score_W2__c &gt;= BS_QA_1_Dewa__c, &quot;Dewa&quot;,
+IF (QA_Score_W2__c &gt;= BS_QA_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (QA_Score_W2__c &gt;= BS_QA_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (QA_Score_W2__c &gt;= BS_QA_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (QA_Score_W2__c &gt;= BS_QA_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Badge (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score_W3__c &gt;= BS_QA_1_Dewa__c, &quot;Dewa&quot;,
+IF (QA_Score_W3__c &gt;= BS_QA_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (QA_Score_W3__c &gt;= BS_QA_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (QA_Score_W3__c &gt;= BS_QA_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (QA_Score_W3__c &gt;= BS_QA_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Badge (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score_W4__c &gt;= BS_QA_1_Dewa__c, &quot;Dewa&quot;,
+IF (QA_Score_W4__c &gt;= BS_QA_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (QA_Score_W4__c &gt;= BS_QA_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (QA_Score_W4__c &gt;= BS_QA_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (QA_Score_W4__c &gt;= BS_QA_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Badge (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Badge__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Score__c &gt;= BS_QA_1_Dewa__c, &quot;Dewa&quot;,
+IF (QA_Score__c &gt;= BS_QA_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (QA_Score__c &gt;= BS_QA_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (QA_Score__c &gt;= BS_QA_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (QA_Score__c &gt;= BS_QA_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA_Badge</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Count_W1__c</fullName>
+        <externalId>false</externalId>
+        <label>QA_Count_W1</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Count_W2__c</fullName>
+        <externalId>false</externalId>
+        <label>QA_Count_W2</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Count_W3__c</fullName>
+        <externalId>false</externalId>
+        <label>QA_Count_W3</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Count_W4__c</fullName>
+        <externalId>false</externalId>
+        <label>QA_Count_W4</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Refresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>QA Refresh</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QA_Score_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Count_W1__c &gt; 0, QA_W1__c / QA_Count_W1__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Score (W1)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Score_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Count_W2__c &gt; 0, QA_W2__c / QA_Count_W2__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Score (W2)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Score_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Count_W3__c &gt; 0, QA_W3__c / QA_Count_W3__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Score (W3)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Score_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (QA_Count_W4__c &gt; 0, QA_W4__c / QA_Count_W4__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Score (W4)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>(QA_Score_W1__c +
+QA_Score_W2__c +
+QA_Score_W3__c +
+QA_Score_W4__c
+) /
+(
+IF (QA_Count_W1__c &gt; 0,1,0) +
+IF (QA_Count_W2__c &gt; 0,1,0) +
+IF (QA_Count_W3__c &gt; 0,1,0) +
+IF (QA_Count_W4__c &gt; 0,1,0)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>QA Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_W1__c</fullName>
+        <externalId>false</externalId>
+        <label>QA_W1</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_W2__c</fullName>
+        <externalId>false</externalId>
+        <label>QA_W2</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_W3__c</fullName>
+        <externalId>false</externalId>
+        <label>QA_W3</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_W4__c</fullName>
+        <externalId>false</externalId>
+        <label>QA_W4</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge2_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score_W1__c &gt;= BS_Resolved_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Resolved_Score_W1__c &gt;= BS_Resolved_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Resolved_Score_W1__c &gt;= BS_Resolved_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Resolved_Score_W1__c &gt;= BS_Resolved_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Resolved_Score_W1__c &gt;= BS_Resolved_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge2 (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge2_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score_W2__c &gt;= BS_Resolved_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Resolved_Score_W2__c &gt;= BS_Resolved_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Resolved_Score_W2__c &gt;= BS_Resolved_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Resolved_Score_W2__c &gt;= BS_Resolved_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Resolved_Score_W2__c &gt;= BS_Resolved_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge2 (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge2_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score_W3__c &gt;= BS_Resolved_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Resolved_Score_W3__c &gt;= BS_Resolved_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Resolved_Score_W3__c &gt;= BS_Resolved_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Resolved_Score_W3__c &gt;= BS_Resolved_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Resolved_Score_W3__c &gt;= BS_Resolved_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge2 (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge2_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score_W4__c &gt;= BS_Resolved_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Resolved_Score_W4__c &gt;= BS_Resolved_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Resolved_Score_W4__c &gt;= BS_Resolved_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Resolved_Score_W4__c &gt;= BS_Resolved_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Resolved_Score_W4__c &gt;= BS_Resolved_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge2 (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score__c &gt;= BS_Resolved_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Resolved_Score__c &gt;= BS_Resolved_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Resolved_Score__c &gt;= BS_Resolved_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Resolved_Score__c &gt;= BS_Resolved_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Resolved_Score__c &gt;= BS_Resolved_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score_W1__c &gt;= BS_Resolved_1_Dewa__c, &quot;Dewa&quot;,
+IF (Resolved_Score_W1__c &gt;= BS_Resolved_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Resolved_Score_W1__c &gt;= BS_Resolved_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Resolved_Score_W1__c &gt;= BS_Resolved_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Resolved_Score_W1__c &gt;= BS_Resolved_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score_W2__c &gt;= BS_Resolved_1_Dewa__c, &quot;Dewa&quot;,
+IF (Resolved_Score_W2__c &gt;= BS_Resolved_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Resolved_Score_W2__c &gt;= BS_Resolved_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Resolved_Score_W2__c &gt;= BS_Resolved_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Resolved_Score_W2__c &gt;= BS_Resolved_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score_W3__c &gt;= BS_Resolved_1_Dewa__c, &quot;Dewa&quot;,
+IF (Resolved_Score_W3__c &gt;= BS_Resolved_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Resolved_Score_W3__c &gt;= BS_Resolved_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Resolved_Score_W3__c &gt;= BS_Resolved_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Resolved_Score_W3__c &gt;= BS_Resolved_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score_W4__c &gt;= BS_Resolved_1_Dewa__c, &quot;Dewa&quot;,
+IF (Resolved_Score_W4__c &gt;= BS_Resolved_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Resolved_Score_W4__c &gt;= BS_Resolved_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Resolved_Score_W4__c &gt;= BS_Resolved_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Resolved_Score_W4__c &gt;= BS_Resolved_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Badge__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Resolved_Score__c &gt;= BS_Resolved_1_Dewa__c, &quot;Dewa&quot;,
+IF (Resolved_Score__c &gt;= BS_Resolved_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Resolved_Score__c &gt;= BS_Resolved_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Resolved_Score__c &gt;= BS_Resolved_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Resolved_Score__c &gt;= BS_Resolved_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Badge</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Refresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Resolved Refresh</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Resolved_Score_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>15</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Score (W1)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Score_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>60</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Score (W2)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Score_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>60</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Score (W3)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Score_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>60</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Score (W4)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Resolved_Score_W1__c +
+Resolved_Score_W2__c +
+Resolved_Score_W3__c +
+Resolved_Score_W4__c
+) /
+(
+IF (Resolved_Score_W1__c &gt; 0,1,0) +
+IF (Resolved_Score_W2__c &gt; 0,1,0) +
+IF (Resolved_Score_W3__c &gt; 0,1,0) +
+IF (Resolved_Score_W4__c &gt; 0,1,0)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolved Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_W1__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolved W1</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_W2__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolved W2</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_W3__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolved W3</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_W4__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolved W4</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge2_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score_W1__c &gt;= BS_Response_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Response_Score_W1__c &gt;= BS_Response_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Response_Score_W1__c &gt;= BS_Response_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Response_Score_W1__c &gt;= BS_Response_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Response_Score_W1__c &gt;= BS_Response_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge2 (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge2_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score_W2__c &gt;= BS_Response_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Response_Score_W2__c &gt;= BS_Response_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Response_Score_W2__c &gt;= BS_Response_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Response_Score_W2__c &gt;= BS_Response_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Response_Score_W2__c &gt;= BS_Response_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge2 (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge2_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score_W3__c &gt;= BS_Response_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Response_Score_W3__c &gt;= BS_Response_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Response_Score_W3__c &gt;= BS_Response_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Response_Score_W3__c &gt;= BS_Response_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Response_Score_W3__c &gt;= BS_Response_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge2 (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge2_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score_W4__c &gt;= BS_Response_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Response_Score_W4__c &gt;= BS_Response_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Response_Score_W4__c &gt;= BS_Response_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Response_Score_W4__c &gt;= BS_Response_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Response_Score_W4__c &gt;= BS_Response_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge2 (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score__c &gt;= BS_Response_1_Dewa__c, IMAGE(&quot;/resource/BS_Dewa&quot;,&quot;Dewa&quot; , 100, 100),
+IF (Response_Score__c &gt;= BS_Response_2_Keren__c, IMAGE(&quot;/resource/BS_Keren&quot;,&quot;Keren Abiz&quot;, 100, 100),
+IF (Response_Score__c &gt;= BS_Response_3_Oleh__c, IMAGE(&quot;/resource/BS_Oleh&quot;,&quot;Oleh Uga&quot; , 100, 100),
+IF (Response_Score__c &gt;= BS_Response_4_Mayan__c, IMAGE(&quot;/resource/BS_Mayanlah&quot;,&quot;Mayanlah&quot; , 100, 100),
+IF (Response_Score__c &gt;= BS_Response_5_Cupu__c, IMAGE(&quot;/resource/BS_Cupu&quot;,&quot;Cupu&quot; , 100, 100),&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score_W1__c &gt;= BS_Response_1_Dewa__c, &quot;Dewa&quot;,
+IF (Response_Score_W1__c &gt;= BS_Response_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Response_Score_W1__c &gt;= BS_Response_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Response_Score_W1__c &gt;= BS_Response_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Response_Score_W1__c &gt;= BS_Response_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge (W1)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score_W2__c &gt;= BS_Response_1_Dewa__c, &quot;Dewa&quot;,
+IF (Response_Score_W2__c &gt;= BS_Response_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Response_Score_W2__c &gt;= BS_Response_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Response_Score_W2__c &gt;= BS_Response_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Response_Score_W2__c &gt;= BS_Response_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge (W2)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score_W3__c &gt;= BS_Response_1_Dewa__c, &quot;Dewa&quot;,
+IF (Response_Score_W3__c &gt;= BS_Response_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Response_Score_W3__c &gt;= BS_Response_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Response_Score_W3__c &gt;= BS_Response_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Response_Score_W3__c &gt;= BS_Response_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge (W3)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score_W4__c &gt;= BS_Response_1_Dewa__c, &quot;Dewa&quot;,
+IF (Response_Score_W4__c &gt;= BS_Response_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Response_Score_W4__c &gt;= BS_Response_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Response_Score_W4__c &gt;= BS_Response_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Response_Score_W4__c &gt;= BS_Response_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge (W4)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Badge__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Response_Score__c &gt;= BS_Response_1_Dewa__c, &quot;Dewa&quot;,
+IF (Response_Score__c &gt;= BS_Response_2_Keren__c, &quot;Keren Abiz&quot;,
+IF (Response_Score__c &gt;= BS_Response_3_Oleh__c, &quot;Oleh Uga&quot;,
+IF (Response_Score__c &gt;= BS_Response_4_Mayan__c, &quot;Mayanlah&quot;,
+IF (Response_Score__c &gt;= BS_Response_5_Cupu__c, &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Badge</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Refresh__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Response Refresh</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Response_Score_W1__c</fullName>
+        <externalId>false</externalId>
+        <formula>15</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Score (W1)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Score_W2__c</fullName>
+        <externalId>false</externalId>
+        <formula>15</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Score (W2)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Score_W3__c</fullName>
+        <externalId>false</externalId>
+        <formula>15</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Score (W3)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Score_W4__c</fullName>
+        <externalId>false</externalId>
+        <formula>15</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Score (W4)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Response_Score_W1__c +
+Response_Score_W2__c +
+Response_Score_W3__c +
+Response_Score_W4__c
+) /
+(
+IF (Response_Score_W1__c &gt; 0,1,0) +
+IF (Response_Score_W2__c &gt; 0,1,0) +
+IF (Response_Score_W3__c &gt; 0,1,0) +
+IF (Response_Score_W4__c &gt; 0,1,0)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_W1__c</fullName>
+        <externalId>false</externalId>
+        <label>Response W1</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_W2__c</fullName>
+        <externalId>false</externalId>
+        <label>Response W2</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_W3__c</fullName>
+        <externalId>false</externalId>
+        <label>Response W3</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_W4__c</fullName>
+        <externalId>false</externalId>
+        <label>Response W4</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Training_Badge__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Training_Score__c &gt;= Value($Label.BS_Train_1_Dewa), &quot;Dewa&quot;,
+IF (Training_Score__c &gt;= Value($Label.BS_Train_2_Keren), &quot;Keren Abiz&quot;,
+IF (Training_Score__c &gt;= Value($Label.BS_Train_3_Oleh), &quot;Oleh Uga&quot;,
+IF (Training_Score__c &gt;= Value($Label.BS_Train_4_Mayan), &quot;Mayanlah&quot;,
+IF (Training_Score__c &gt;= Value($Label.BS_Train_5_Cupu), &quot;Cupu&quot;,&quot;Welcome Badge&quot;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Training Badge</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Training_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Training Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Week__c</fullName>
+        <externalId>false</externalId>
+        <formula>(TODAY() -
+(
+DATE(year(TODAY()),month(TODAY()),1) -
+CASE( MOD( DATE(year(TODAY()),month(TODAY()),1) - DATE(1900, 1, 7), 7),
+0, 3,
+1, 4,
+2, 5,
+3, 6,
+4, 0,
+5, 1,
+6, 2
+,0)
+)) / 7</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Week ?</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Agent Achievement</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All_This_Month</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Document_Date__c</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <label>All - This Month</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Agent Achievement Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Agent Achievement</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

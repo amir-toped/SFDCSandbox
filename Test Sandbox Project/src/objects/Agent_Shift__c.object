@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Add_Day__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( End_Next_Day__c , 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Add Day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Document_Date__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <externalId>false</externalId>
+        <label>Document Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>End_Hour__c</fullName>
+        <externalId>false</externalId>
+        <label>End Hour</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Logout__c</fullName>
+        <externalId>false</externalId>
+        <label>End Logout</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>End_Minute__c</fullName>
+        <externalId>false</externalId>
+        <label>End Minute</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Next_Day__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>if Checked then H+1</inlineHelpText>
+        <label>End Next Day</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>End_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>End Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Ext_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Ext Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Login__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Login</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Start_Hour__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Hour</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Login__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Login</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Start_Minute__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Minute</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Type_Shift__c</fullName>
+        <externalId>false</externalId>
+        <label>Type Shift</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>OH</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Agent Shift</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Type_Shift__c</columns>
+        <columns>Document_Date__c</columns>
+        <columns>Start_Hour__c</columns>
+        <columns>Start_Minute__c</columns>
+        <columns>Start_Time__c</columns>
+        <columns>End_Hour__c</columns>
+        <columns>End_Minute__c</columns>
+        <columns>End_Time__c</columns>
+        <columns>End_Next_Day__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Shift Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Agent Shifts</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Read</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>End_Hour_Must_Greater_than_Start_Hour</fullName>
+        <active>true</active>
+        <errorConditionFormula>End_Hour__c &lt; Start_Hour__c &amp;&amp; !End_Next_Day__c</errorConditionFormula>
+        <errorDisplayField>End_Hour__c</errorDisplayField>
+        <errorMessage>&quot;End Hour&quot; Must Greater than &quot;Start Hour&quot;.
+or Check &quot;End Next Day&quot;</errorMessage>
+    </validationRules>
+</CustomObject>

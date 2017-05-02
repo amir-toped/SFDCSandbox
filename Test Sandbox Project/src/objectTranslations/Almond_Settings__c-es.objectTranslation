@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuración de Almond</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuraciones de Almond</value>
+    </caseValues>
+    <fields>
+        <help>Debe ser una URL relativa (e.g. /home/home.jsp)</help>
+        <label>URL de regreso a Salesforce</label>
+        <name>Back_to_SF_URL__c</name>
+    </fields>
+    <fields>
+        <help>Liga a imagen del logo de su Compañía</help>
+        <label>Logo de Compañía</label>
+        <name>Company_Logo__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de sección que sera desplegado en el encabezado</help>
+        <label>Nombre de Sección Personalizada</label>
+        <name>Custom_Section_Name__c</name>
+    </fields>
+    <fields>
+        <help>URL para su pagina personalizada (e.j. https://instance.salesforce.com/apex/myhomepage)</help>
+        <label>URL de Sección Personalizada</label>
+        <name>Custom_Section_URL__c</name>
+    </fields>
+    <fields>
+        <help>Habilitar esta opción para deshabilitar la casilla que indica si una respuesta es correcta</help>
+        <label>Deshabilitar la casilla de Respuesta Correcta</label>
+        <name>Disable_Correct_Response_Checkbox__c</name>
+    </fields>
+    <fields>
+        <help>Habilitar esta opción para deshabilitar asignar valores a campos de auditoria en objetos de Chatter</help>
+        <label>Deshabilitar campos de auditoria en Chatter</label>
+        <name>Disable_Feed_Item_Audit_Fields__c</name>
+    </fields>
+    <fields>
+        <help>Habilite esta opción para forzar que el calculo de progreso de Curso se realiza en una sola transacción</help>
+        <label>Deshabilitar calculo de progreso futuro</label>
+        <name>Disable_Future_Progress_Calculation__c</name>
+    </fields>
+    <fields>
+        <help>Deshabilitar esta opción para prevenir asignaciones de Logros para Trayectorias</help>
+        <label>Deshabilitar Logros de Trayectoria</label>
+        <name>Disable_Track_Achievements__c</name>
+    </fields>
+    <fields>
+        <help>Habilitar esta opción esta teniendo problemas de navegación con Salesforce1 + i08</help>
+        <label>Habilitar parche para iOS8</label>
+        <name>Enable_iOS_Tap_Fix__c</name>
+    </fields>
+    <fields>
+        <help>Valor hexadecimal para el color de fondo (ej. #EEEEEE)</help>
+        <label>Encabezado - Color de Fondo</label>
+        <name>Header_Background_Color__c</name>
+    </fields>
+    <fields>
+        <help>Valor hexadecimal para el color de texto (ej. #EEEEEE)</help>
+        <label>Encabezado - Color de Texto</label>
+        <name>Header_Text_Color__c</name>
+    </fields>
+    <fields>
+        <help>Valor hexadecimal para el color de texto (hover) (ej. #EEEEEE)</help>
+        <label>Encabezado - Color de Texto (Hover)</label>
+        <name>Header_Text_Hover_Color__c</name>
+    </fields>
+    <fields>
+        <help>Habilitar esta opción para esconder el botón de regreso a SF del encabezado</help>
+        <label>Esconder el botón para regresar a Salesforce</label>
+        <name>Hide_Back_to_SF_Button__c</name>
+    </fields>
+    <fields>
+        <help>Habilitar esta opción para mostrar el encabezado de Salesforce en las paginas</help>
+        <label>Mostrar encabezado de Salesforce</label>
+        <name>Show_Salesforce_Header__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

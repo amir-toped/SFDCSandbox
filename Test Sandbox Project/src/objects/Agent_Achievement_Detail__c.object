@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Agent_Achievement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agent Achievement</label>
+        <referenceTo>Agent_Achievement__c</referenceTo>
+        <relationshipLabel>Agent Achievement Detail</relationshipLabel>
+        <relationshipName>Agent_Achievement_Detail</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Agent_Scheduling__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agent Scheduling</label>
+        <referenceTo>Agent_Scheduling__c</referenceTo>
+        <relationshipLabel>Agent Achievement Detail</relationshipLabel>
+        <relationshipName>Agent_Achievement_Detail</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Attendance_Late__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agent_Scheduling__r.Late__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Attendance_Late</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attendance_UL__c</fullName>
+        <externalId>false</externalId>
+        <formula>Agent_Scheduling__r.Shift_UL__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Attendance UL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Chat__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case Chat</label>
+        <referenceTo>Case_Chat__c</referenceTo>
+        <relationshipLabel>Agent Achievement Detail</relationshipLabel>
+        <relationshipName>Agent_Achievement_Detail</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Productivity_Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( ISBLANK( Case_Chat__c  ) , 0,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Productivity_Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_Data__c</fullName>
+        <externalId>false</externalId>
+        <label>Type Data</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Training Score</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Attendance</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Productivity</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CSAT</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>QA Score</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Hold Time</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Response Time</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Resolved Time</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Agent Achievement Detail</label>
+    <nameField>
+        <displayFormat>AAD-{00000000}</displayFormat>
+        <label>Detail No</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Agent Achievement Detail</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Response</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Responses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent Name --></label>
+        <name>Agent_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Boolean Response --></label>
+        <name>Boolean_Response__c</name>
+        <picklistValues>
+            <masterLabel>false</masterLabel>
+            <translation><!-- false --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>true</masterLabel>
+            <translation><!-- true --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Correct Response --></label>
+        <name>Correct_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Feedback Response --></label>
+        <name>Is_Feedback_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Learning Assignment --></label>
+        <name>Learning_Assignment__c</name>
+        <relationshipLabel><!-- Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Learning Name --></label>
+        <name>Learning_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Response --></label>
+        <name>Number_Response__c</name>
+    </fields>
+    <fields>
+        <help><!-- Filled by Internal Tokopedia --></help>
+        <label><!-- Point --></label>
+        <name>Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Desc --></label>
+        <name>Question_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Line --></label>
+        <name>Question_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Type --></label>
+        <name>Question_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>Question__c</name>
+        <relationshipLabel><!-- Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Response Answer Sequence Label --></label>
+        <name>Response_Answer_Sequence_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Answer Sequence Long --></label>
+        <name>Response_Answer_Sequence_Long__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Answer Sequence --></label>
+        <name>Response_Answer_Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Text Long --></label>
+        <name>Response_Text_Long__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Text --></label>
+        <name>Response_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shared Learning Assignment --></label>
+        <name>Shared_Learning_Assignment__c</name>
+        <relationshipLabel><!-- Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Responses --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Response Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Score Information --></label>
+            <section>Score Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

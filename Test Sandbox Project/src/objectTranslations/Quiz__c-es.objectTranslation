@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Evaluación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Evaluaciones</value>
+    </caseValues>
+    <fields>
+        <help>Eliminar los registros de respuestas una vez que los usuarios terminen su evaluación</help>
+        <label>Eliminar respuestas al terminar evaluación</label>
+        <name>Delete_Responses_On_Submission__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>Aprendizaje</label>
+        <name>Learning__c</name>
+        <relationshipLabel>Evaluaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Máximo número de intentos para llegar a la calificación de pase</help>
+        <label>Máximo Número de Intentos</label>
+        <name>Max_Attempts__c</name>
+    </fields>
+    <fields>
+        <help>Número entre 0 y 100 que determinará el porcentaje mínimo de respuestas correctas para obtener una calificación de pase</help>
+        <label>Calificación de Pase</label>
+        <name>Passing_Score__c</name>
+    </fields>
+    <fields>
+        <label>Total de Preguntas</label>
+        <name>Total_Questions__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Quiz Layout</layout>
+        <sections>
+            <label>Enlaces Personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Información Opcional</label>
+            <section>Optional Information</section>
+        </sections>
+        <sections>
+            <label>Información de Calificación</label>
+            <section>Score Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de Evaluación</nameFieldLabel>
+</CustomObjectTranslation>

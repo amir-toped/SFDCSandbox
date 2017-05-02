@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Achievement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>The Achievement will determine the badge displayed in the training track box and header</inlineHelpText>
+        <label>Achievement</label>
+        <referenceTo>Achievement__c</referenceTo>
+        <relationshipLabel>Training Track</relationshipLabel>
+        <relationshipName>Training_Track</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Background_Color__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>HEX Color code for the header background color (e.g. #dcdcdc, more examples in : http://www.color-hex.com/)</inlineHelpText>
+        <label>Background Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Background_Image_URL__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>URL for the image displayed in the training track detail header</inlineHelpText>
+        <label>Background Image URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Enable_all_external_accounts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Enabling this checkbox will expose this training track to all external (Community/Portal) users</inlineHelpText>
+        <label>Enable for all external accounts</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>New_Until__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Display a New ribbon in the training track until the specified date</inlineHelpText>
+        <label>New Until</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Number that defines the position in which this track will appear in the tracks page</inlineHelpText>
+        <label>Order</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Training tracks are not available to end users until they are &quot;Active&quot;</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Text_Color__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>HEX Color code for the header text color (e.g. #333333, more examples in : http://www.color-hex.com/)</inlineHelpText>
+        <label>Text Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Training Track</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Achievement__c</columns>
+        <columns>Order__c</columns>
+        <columns>Description__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Training Track Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Training Tracks</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Achievement__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Order__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <webLinks>
+        <fullName>Export_Training_Track</fullName>
+        <availability>online</availability>
+        <description>Display VF page for exporting a training track</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Export</masterLabel>
+        <openType>noSidebar</openType>
+        <page>TrainingTrackExport</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

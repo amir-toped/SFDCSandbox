@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agent Achievement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agent Achievement</value>
+    </caseValues>
+    <fields>
+        <label><!-- Attendance Badge --></label>
+        <name>Attendance_Badge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attendance Late --></label>
+        <name>Attendance_Late__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attendance Refresh --></label>
+        <name>Attendance_Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attendance Score --></label>
+        <name>Attendance_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attendance UL --></label>
+        <name>Attendance_UL__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Activity_1_Dewa --></label>
+        <name>BS_Activity_1_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Activity_2_Keren --></label>
+        <name>BS_Activity_2_Keren__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Activity_3_Oleh --></label>
+        <name>BS_Activity_3_Oleh__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Activity_4_Mayan --></label>
+        <name>BS_Activity_4_Mayan__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Activity_5_Cupu --></label>
+        <name>BS_Activity_5_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Att_1_Dewa --></label>
+        <name>BS_Att_1_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Att_2_Keren --></label>
+        <name>BS_Att_2_Keren__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Att_3_Oleh --></label>
+        <name>BS_Att_3_Oleh__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Att_4_Mayan --></label>
+        <name>BS_Att_4_Mayan__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Att_5_Cupu --></label>
+        <name>BS_Att_5_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Att_UL_Cupu --></label>
+        <name>BS_Att_UL_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Att_UL_Dewa --></label>
+        <name>BS_Att_UL_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_CSAT_1_Dewa --></label>
+        <name>BS_CSAT_1_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_CSAT_2_Keren --></label>
+        <name>BS_CSAT_2_Keren__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_CSAT_3_Oleh --></label>
+        <name>BS_CSAT_3_Oleh__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_CSAT_4_Mayan --></label>
+        <name>BS_CSAT_4_Mayan__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_CSAT_5_Cupu --></label>
+        <name>BS_CSAT_5_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_HoldTime_1_Dewa --></label>
+        <name>BS_HoldTime_1_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_HoldTime_2_Keren --></label>
+        <name>BS_HoldTime_2_Keren__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_HoldTime_3_Oleh --></label>
+        <name>BS_HoldTime_3_Oleh__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_HoldTime_4_Mayan --></label>
+        <name>BS_HoldTime_4_Mayan__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_HoldTime_5_Cupu --></label>
+        <name>BS_HoldTime_5_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_1_Dewa --></label>
+        <name>BS_QA_1_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_2_Keren --></label>
+        <name>BS_QA_2_Keren__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_3_Oleh --></label>
+        <name>BS_QA_3_Oleh__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_4_Mayan --></label>
+        <name>BS_QA_4_Mayan__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_QA_5_Cupu --></label>
+        <name>BS_QA_5_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Resolved_1_Dewa --></label>
+        <name>BS_Resolved_1_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Resolved_2_Keren --></label>
+        <name>BS_Resolved_2_Keren__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Resolved_3_Oleh --></label>
+        <name>BS_Resolved_3_Oleh__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Resolved_4_Mayan --></label>
+        <name>BS_Resolved_4_Mayan__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Resolved_5_Cupu --></label>
+        <name>BS_Resolved_5_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Response_1_Dewa --></label>
+        <name>BS_Response_1_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Response_2_Keren --></label>
+        <name>BS_Response_2_Keren__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Response_3_Oleh --></label>
+        <name>BS_Response_3_Oleh__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Response_4_Mayan --></label>
+        <name>BS_Response_4_Mayan__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Response_5_Cupu --></label>
+        <name>BS_Response_5_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Train_1_Dewa --></label>
+        <name>BS_Train_1_Dewa__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Train_2_Keren --></label>
+        <name>BS_Train_2_Keren__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Train_3_Oleh --></label>
+        <name>BS_Train_3_Oleh__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Train_4_Mayan --></label>
+        <name>BS_Train_4_Mayan__c</name>
+    </fields>
+    <fields>
+        <label><!-- BS_Train_5_Cupu --></label>
+        <name>BS_Train_5_Cupu__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Badge2 (W1) --></label>
+        <name>CSAT_Badge2_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Badge2 (W2) --></label>
+        <name>CSAT_Badge2_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Badge2 (W3) --></label>
+        <name>CSAT_Badge2_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Badge2 (W4) --></label>
+        <name>CSAT_Badge2_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Badge2 --></label>
+        <name>CSAT_Badge2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Badge (W1) --></label>
+        <name>CSAT_Badge_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Badge (W2) --></label>
+        <name>CSAT_Badge_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Badge (W3) --></label>
+        <name>CSAT_Badge_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Badge (W4) --></label>
+        <name>CSAT_Badge_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT_Badge --></label>
+        <name>CSAT_Badge__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Count W1 --></label>
+        <name>CSAT_Count_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Count W2 --></label>
+        <name>CSAT_Count_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Count W3 --></label>
+        <name>CSAT_Count_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Count W4 --></label>
+        <name>CSAT_Count_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Refresh --></label>
+        <name>CSAT_Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Score (W1) --></label>
+        <name>CSAT_Score_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Score (W2) --></label>
+        <name>CSAT_Score_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Score (W3) --></label>
+        <name>CSAT_Score_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Score (W4) --></label>
+        <name>CSAT_Score_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT Score --></label>
+        <name>CSAT_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT W1 --></label>
+        <name>CSAT_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT W2 --></label>
+        <name>CSAT_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT W3 --></label>
+        <name>CSAT_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSAT W4 --></label>
+        <name>CSAT_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Date --></label>
+        <name>Document_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge2 (W1) --></label>
+        <name>Hold_Time_Badge2_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge2 (W2) --></label>
+        <name>Hold_Time_Badge2_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge2 (W3) --></label>
+        <name>Hold_Time_Badge2_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge2 (W4) --></label>
+        <name>Hold_Time_Badge2_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge2 --></label>
+        <name>Hold_Time_Badge2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge (W1) --></label>
+        <name>Hold_Time_Badge_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge (W2) --></label>
+        <name>Hold_Time_Badge_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge (W3) --></label>
+        <name>Hold_Time_Badge_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge (W4) --></label>
+        <name>Hold_Time_Badge_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Badge --></label>
+        <name>Hold_Time_Badge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Refresh --></label>
+        <name>Hold_Time_Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Score (W1) --></label>
+        <name>Hold_Time_Score_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Score (W2) --></label>
+        <name>Hold_Time_Score_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Score (W3) --></label>
+        <name>Hold_Time_Score_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Score (W4) --></label>
+        <name>Hold_Time_Score_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time Score --></label>
+        <name>Hold_Time_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time W1 --></label>
+        <name>Hold_Time_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time W2 --></label>
+        <name>Hold_Time_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time W3 --></label>
+        <name>Hold_Time_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Time W4 --></label>
+        <name>Hold_Time_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Periode Quarter --></label>
+        <name>Periode_Quarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Periode --></label>
+        <name>Periode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge2 (W1) --></label>
+        <name>Productivity_Badge2_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge2 (W2) --></label>
+        <name>Productivity_Badge2_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge2 (W3) --></label>
+        <name>Productivity_Badge2_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge2 (W4) --></label>
+        <name>Productivity_Badge2_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge2 --></label>
+        <name>Productivity_Badge2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge (W1) --></label>
+        <name>Productivity_Badge_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge (W2) --></label>
+        <name>Productivity_Badge_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge (W3) --></label>
+        <name>Productivity_Badge_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge (W4) --></label>
+        <name>Productivity_Badge_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Badge --></label>
+        <name>Productivity_Badge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Refresh --></label>
+        <name>Productivity_Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Score (W1) --></label>
+        <name>Productivity_Score_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Score (W2) --></label>
+        <name>Productivity_Score_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Score (W3) --></label>
+        <name>Productivity_Score_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Score (W4) --></label>
+        <name>Productivity_Score_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity Score --></label>
+        <name>Productivity_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity W1 --></label>
+        <name>Productivity_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity W2 --></label>
+        <name>Productivity_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity W3 --></label>
+        <name>Productivity_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Productivity W4 --></label>
+        <name>Productivity_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Badge2 (W1) --></label>
+        <name>QA_Badge2_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Badge2 (W2) --></label>
+        <name>QA_Badge2_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Badge2 (W3) --></label>
+        <name>QA_Badge2_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Badge2 (W4) --></label>
+        <name>QA_Badge2_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Badge2 --></label>
+        <name>QA_Badge2__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Badge (W1) --></label>
+        <name>QA_Badge_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Badge (W2) --></label>
+        <name>QA_Badge_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Badge (W3) --></label>
+        <name>QA_Badge_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Badge (W4) --></label>
+        <name>QA_Badge_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_Badge --></label>
+        <name>QA_Badge__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_Count_W1 --></label>
+        <name>QA_Count_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_Count_W2 --></label>
+        <name>QA_Count_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_Count_W3 --></label>
+        <name>QA_Count_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_Count_W4 --></label>
+        <name>QA_Count_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Refresh --></label>
+        <name>QA_Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Score (W1) --></label>
+        <name>QA_Score_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Score (W2) --></label>
+        <name>QA_Score_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Score (W3) --></label>
+        <name>QA_Score_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Score (W4) --></label>
+        <name>QA_Score_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA Score --></label>
+        <name>QA_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_W1 --></label>
+        <name>QA_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_W2 --></label>
+        <name>QA_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_W3 --></label>
+        <name>QA_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- QA_W4 --></label>
+        <name>QA_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge2 (W1) --></label>
+        <name>Resolved_Badge2_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge2 (W2) --></label>
+        <name>Resolved_Badge2_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge2 (W3) --></label>
+        <name>Resolved_Badge2_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge2 (W4) --></label>
+        <name>Resolved_Badge2_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge2 --></label>
+        <name>Resolved_Badge2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge (W1) --></label>
+        <name>Resolved_Badge_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge (W2) --></label>
+        <name>Resolved_Badge_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge (W3) --></label>
+        <name>Resolved_Badge_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge (W4) --></label>
+        <name>Resolved_Badge_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Badge --></label>
+        <name>Resolved_Badge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Refresh --></label>
+        <name>Resolved_Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Score (W1) --></label>
+        <name>Resolved_Score_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Score (W2) --></label>
+        <name>Resolved_Score_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Score (W3) --></label>
+        <name>Resolved_Score_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Score (W4) --></label>
+        <name>Resolved_Score_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved Score --></label>
+        <name>Resolved_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved W1 --></label>
+        <name>Resolved_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved W2 --></label>
+        <name>Resolved_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved W3 --></label>
+        <name>Resolved_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolved W4 --></label>
+        <name>Resolved_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge2 (W1) --></label>
+        <name>Response_Badge2_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge2 (W2) --></label>
+        <name>Response_Badge2_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge2 (W3) --></label>
+        <name>Response_Badge2_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge2 (W4) --></label>
+        <name>Response_Badge2_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge2 --></label>
+        <name>Response_Badge2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge (W1) --></label>
+        <name>Response_Badge_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge (W2) --></label>
+        <name>Response_Badge_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge (W3) --></label>
+        <name>Response_Badge_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge (W4) --></label>
+        <name>Response_Badge_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Badge --></label>
+        <name>Response_Badge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Refresh --></label>
+        <name>Response_Refresh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Score (W1) --></label>
+        <name>Response_Score_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Score (W2) --></label>
+        <name>Response_Score_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Score (W3) --></label>
+        <name>Response_Score_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Score (W4) --></label>
+        <name>Response_Score_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Score --></label>
+        <name>Response_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response W1 --></label>
+        <name>Response_W1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response W2 --></label>
+        <name>Response_W2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response W3 --></label>
+        <name>Response_W3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response W4 --></label>
+        <name>Response_W4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Badge --></label>
+        <name>Training_Badge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Score --></label>
+        <name>Training_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week ? --></label>
+        <name>Week__c</name>
+    </fields>
+    <layouts>
+        <layout>Agent Achievement Layout</layout>
+        <sections>
+            <label><!-- Attendance --></label>
+            <section>Attendance</section>
+        </sections>
+        <sections>
+            <label><!-- CSAT --></label>
+            <section>CSAT</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Hold Time --></label>
+            <section>Hold Time</section>
+        </sections>
+        <sections>
+            <label><!-- Productivity --></label>
+            <section>Productivity</section>
+        </sections>
+        <sections>
+            <label><!-- QA --></label>
+            <section>QA</section>
+        </sections>
+        <sections>
+            <label><!-- Resolved Time --></label>
+            <section>Resolved Time</section>
+        </sections>
+        <sections>
+            <label><!-- Response Time --></label>
+            <section>Response Time</section>
+        </sections>
+        <sections>
+            <label><!-- Training --></label>
+            <section>Training</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

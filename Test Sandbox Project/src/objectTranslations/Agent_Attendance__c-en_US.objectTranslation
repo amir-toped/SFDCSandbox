@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agent Attendance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agent Attendance</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent Scheduling --></label>
+        <name>Agent_Scheduling__c</name>
+        <relationshipLabel><!-- Agent Attendance --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attendance Date --></label>
+        <name>Attendance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Away End Date --></label>
+        <name>Away_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Away Start Date --></label>
+        <name>Away_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Logout --></label>
+        <name>End_Logout__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Login --></label>
+        <name>Last_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Late --></label>
+        <name>Late__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login Date --></label>
+        <name>Login_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login Periode --></label>
+        <name>Login_Periode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login Status --></label>
+        <name>Login_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logout Date --></label>
+        <name>Logout_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lunch End Date --></label>
+        <name>Lunch_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lunch Start Date --></label>
+        <name>Lunch_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Email F --></label>
+        <name>Manager_Email_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Email --></label>
+        <name>Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- On Time --></label>
+        <name>On_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shift --></label>
+        <name>Shift__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Login --></label>
+        <name>Start_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>Start_Time__c</name>
+    </fields>
+    <layouts>
+        <layout>Agent Attendance Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Login &amp; Logout --></label>
+            <section>Login &amp; Logout</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

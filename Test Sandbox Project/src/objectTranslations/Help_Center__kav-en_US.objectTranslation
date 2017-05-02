@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Help Center</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Help Center</value>
+    </caseValues>
+    <fields>
+        <label><!-- Body --></label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id WP --></label>
+        <name>Id_WP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Name --></label>
+        <name>Label_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Negative Feedback --></label>
+        <name>Negative_Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Feedback --></label>
+        <name>Positive_Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promoted --></label>
+        <name>Promoted__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

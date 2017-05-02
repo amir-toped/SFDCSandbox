@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Count_Sample__c</fullName>
+        <externalId>false</externalId>
+        <label>Count Sample</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>13</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>14</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>15</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>16</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>17</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>18</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>19</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>20</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Count_Week__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>(Week)</inlineHelpText>
+        <label>Count Week</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Document_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Document Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Periode__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( MONTH(Document_Date__c) == 1, &apos;January&apos;,
+IF ( MONTH(Document_Date__c) == 2, &apos;February&apos;,
+IF ( MONTH(Document_Date__c) == 3, &apos;March&apos;,
+IF ( MONTH(Document_Date__c) == 4, &apos;April&apos;,
+IF ( MONTH(Document_Date__c) == 5, &apos;May&apos;,
+IF ( MONTH(Document_Date__c) == 6, &apos;June&apos;,
+IF ( MONTH(Document_Date__c) == 7, &apos;July&apos;,
+IF ( MONTH(Document_Date__c) == 8, &apos;August&apos;,
+IF ( MONTH(Document_Date__c) == 9, &apos;September&apos;,
+IF ( MONTH(Document_Date__c) == 10, &apos;October&apos;,
+IF ( MONTH(Document_Date__c) == 11, &apos;November&apos;,
+IF ( MONTH(Document_Date__c) == 12, &apos;December&apos;,&apos;&apos;))))))))))))
+&amp;&apos; &apos;&amp;TEXT(Year(Document_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Periode</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QA_Question__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>QA Question</label>
+        <referenceTo>QA_Question__c</referenceTo>
+        <relationshipLabel>QA Periode</relationshipLabel>
+        <relationshipName>QA_Periode</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Refresh_QA_Agent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Refresh QA Agent</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Type_Agent__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(QA_Question__r.Type_Agent__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Type Agent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>QA Periode</label>
+    <nameField>
+        <displayFormat>{0000000}</displayFormat>
+        <label>QA Periode No</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>QA Periode</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Question_must_Active</fullName>
+        <active>true</active>
+        <errorConditionFormula>!QA_Question__r.Active__c</errorConditionFormula>
+        <errorMessage>QA Question must Active</errorMessage>
+    </validationRules>
+</CustomObject>

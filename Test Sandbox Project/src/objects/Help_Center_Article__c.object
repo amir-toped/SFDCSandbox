@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Monitor the help center&apos;s created &amp; updated article in wordpress</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Id_SF__c</fullName>
+        <description>KnowledgeArticleID in Help_Center__kav</description>
+        <externalId>false</externalId>
+        <inlineHelpText>KnowledgeArticleID in Help_Center__kav</inlineHelpText>
+        <label>Id_SF</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Id_WP__c</fullName>
+        <externalId>false</externalId>
+        <label>Id WP</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Knowledge_Status__c</fullName>
+        <description>Salesforce&apos;s Knowledge status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Salesforce&apos;s Knowledge status</inlineHelpText>
+        <label>Knowledge Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Slug__c</fullName>
+        <externalId>false</externalId>
+        <label>Slug</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Wordpress post status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Wordpress post status</inlineHelpText>
+        <label>Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sync_Status__c</fullName>
+        <description>Synchronization status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Synchronization status</inlineHelpText>
+        <label>Sync Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <description>Post Title</description>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Monitor Help Center Article</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>Type__c</columns>
+        <columns>Id_SF__c</columns>
+        <columns>Id_WP__c</columns>
+        <columns>Status__c</columns>
+        <columns>Sync_Status__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Help Center Article Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Monitor Help Center Articles</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Sync_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <listViewButtons>Sync_All_Today_Modified_to_Wordpress</listViewButtons>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Id_SF__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Id_WP__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>Sync_All_Today_Modified_to_Wordpress</fullName>
+        <availability>online</availability>
+        <description>Will sync all the article modified by today to Wordpress</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Sync All Today Modified to Wordpress</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)}
+
+sforce.apex.execute(&quot;SchedulePublicArticleManual&quot;,&quot;syncManual&quot;,{});
+alert(&apos;Sync Complete&apos;);</url>
+    </webLinks>
+</CustomObject>
